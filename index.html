@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta charset="utf-8">
+
+    <title>History of Amazon Web Services</title>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  
+
+  <style>
+        .unsortedicon {
+            opacity: 0.2;
+        }
+        #services th { 
+            padding-left: 0; 
+            vertical-align: middle;
+            font-size: medium;
+        }
+        #services td { 
+            padding: 0; 
+            vertical-align: middle;
+            border-bottom: 2px solid #fff;
+            font-size: medium;
+        }
+        .prefix { 
+            text-align: right;
+        }
+        #services a:link {
+            color: black;
+            font-weight: bold;
+            text-decoration: none;
+        }                   
+        #services a:visited {
+            color: black;
+            font-weight: bold;
+            text-decoration: none;
+        }                   
+        #services a:hover { 
+            color: #eee;
+        }
+
+  </style>
+</head>
+<body>
+    <div class="container">
+        <h2>A History of Amazon Web Services (AWS)</h2>
+        <p>A history of AWS service announcements (either pre-announced or in some form of limited preview, like beta) and releases (generally available in one or more AWS regions).</p>
+
+        <p>This information was obtained from public web pages, mainly <a href="https://aws.amazon.com/new/">What's New with AWS</a> and <a href="https://aws.amazon.com/blogs/aws/author/jbarr/">Jeff Barr's blog posts</a>.
+        </p>
+
+        <table id="services" class="table table-hover">
+            <thead>
+            <tr>
+                <th id="col-name" colspan=3>Service&nbsp;Name&nbsp;<span class="unsortedicon glyphicon glyphicon-sort" ></span></th>
+                <th id="col-category">Category&nbsp;<span class="unsortedicon glyphicon glyphicon-sort"></span></th>
+                <th id="col-announced">Announced&nbsp;<span class="unsortedicon glyphicon glyphicon-sort"></span></th>
+                <th id="col-released">Released&nbsp;<span class="unsortedicon glyphicon glyphicon-sort"></span></th>
+            </tr>
+            </thead>
+            <tbody>
+            </tbody>
+        </table>
+    </div>
+</body>
+<script>
+    colors = {
+        "Analytics": "#A166FF",
+        "Application Integration": "#FF4F8B",
+        "AR & VR": "#FF4F8B",
+        "AWS Cost Management": "#6CAE3E",
+        "Blockchain": "#FF9900",
+        "Business Applications": "#FF5252",
+        "Compute": "#FF9900",
+        "Default": "#FF0000",
+        "Customer Engagement": "#527FFF",
+        "Database": "#527FFF",
+        "Developer Tools": "#527FFF",
+        "End User Computing": "#56C0A7",
+        "Game Tech": "#A166FF",
+        "Internet of Things": "#6CAE3E",
+        "Machine Learning": "#56C0A7",
+        "Management & Governance": "#FF4F8B",
+        "Media Services": "#FF9900",
+        "Migration & Transfer": "#56C0A7",
+        "Mobile": "#FF5252",
+        "Networking & Content Delivery": "#A166FF",
+        "Robotics": "#FF5252",
+        "Satellite": "#527FFF",
+        "Security, Identity & Compliance": "#FF5252",
+        "Storage": "#6CAE3E"
+    }
+
+    var services = [];
+    $(document).ready(function() {
+        $.get( "services.json", function( data ) {
+            services = data.services;
+            services.forEach(function (service) {
+                
+                // Extract the prefix
+                match = service.name.match(/^AWS|^Amazon/)
+                service.prefix = match ? match[0] + "&nbsp;" : "";                
+
+                // Generate the name of the icon
+                icon = service.name.replace(/&/gi, "and");
+                icon = icon.replace(/\s+/g, "-");
+                service.icon = "icons/" + icon.replace(/[^a-zA-Z0-9-]/g, "") + ".svg";
+
+                // Clean up the name
+                service.name = service.name.replace(/^AWS|^Amazon/, "").trim();
+
+                service.announced = service.announced ? service.announced : service.released;
+
+            });
+            $( "#col-released" ).click();
+
+        }, "json" );
+    });
+
+    var order = -1;
+    function sortServices(name, func) {
+        $('#services thead th span').addClass("unsortedicon");
+        $(name + ' span').removeClass("unsortedicon");
+
+        order *= -1; // toggle order, ascending/descending
+        services.sort(func);
+
+        replaceTable();
+    }
+
+    $( "#col-name" ).click(function(event) {
+        sortServices("#col-name", function(a, b) {
+            return (a.name.toLowerCase() < b.name.toLowerCase() ? -1 : 1) * order;
+        });
+    });    
+
+    $( "#col-category" ).click(function(event) {
+        sortServices("#col-category", function(a, b) {
+            return (a.category.toLowerCase() < b.category.toLowerCase() ? -1 : 1) * order;
+        });
+    });    
+
+    $( "#col-announced" ).click(function(event) {
+        sortServices("#col-announced", function(a, b) {
+            return (Date.parse(a.announced.date) < Date.parse(b.announced.date) ? -1 : 1) * order;
+        });
+    });    
+
+    $( "#col-released" ).click(function(event) {
+        sortServices("#col-released", function(a, b) {
+            adate = a.released ? a.released.date : a.announced.date;
+            bdate = b.released ? b.released.date : b.announced.date;
+            return (Date.parse(adate) < Date.parse(bdate) ? -1 : 1) * order;
+        });
+    });    
+
+
+    function replaceTable() {
+        $( "#services tbody" ).empty();
+        services.forEach(function (service) {
+                
+            announced = service.announced ? service.announced : service.released;
+            $announced = $('<a>',{
+                target: "_blank",
+                text: announced.date,
+                href: announced.link
+            });            
+
+            released = service.released ? service.released : "";
+            $released = released ? $('<a>',{
+                target: "_blank",
+                text: released.date,
+                href: released.link
+            }) : "";
+
+            $productlink = $('<a>',{
+                target: "_blank",
+                text: service.name,
+                href: service.product
+            });
+
+            var $tr = $("<tr style='background-color: " + colors[service.category] + "aa'>").append(
+                $('<td class="icon">').prepend("<img src='" + service.icon + "' width='40' height='40' >"),
+                $('<td class="prefix">').html(service.prefix),
+                $('<td class="service">').html($productlink), 
+                $('<td class="category">').text(service.category), 
+                $('<td class="announced">').append($announced), 
+                $('<td class="released">').append($released), 
+                );
+            $( "#services tbody" ).append($tr);
+        });
+    }
+
+</script>
+</html>
