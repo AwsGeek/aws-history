@@ -1494,6 +1494,15 @@
             "date":"1/16/2019",
             "link":"https://aws.amazon.com/about-aws/whats-new/2019/01/introducing-aws-backup/"
          }
+      },
+      {
+         "name":"Amazon Event Bridge",
+         "category":"Application Integration",
+         "product":"https://aws.amazon.com/eventbridge/",
+         "released":{
+            "date":"7/11/2019",
+            "link":"https://aws.amazon.com/about-aws/whats-new/2019/07/introducing-amazon-eventbridge/"
+         }
       }
    ]
 }
