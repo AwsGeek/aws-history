@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
   
 
   <style>
@@ -156,6 +157,10 @@
     });    
 
 
+    function formatDate(date) {
+        return moment(new Date(date)).format('DD-MMM-YYYY');
+    }
+
     function replaceTable() {
         $( "#services tbody" ).empty();
         services.forEach(function (service) {
@@ -163,14 +168,14 @@
             announced = service.announced ? service.announced : service.released;
             $announced = $('<a>',{
                 target: "_blank",
-                text: announced.date,
+                text: formatDate(announced.date),
                 href: announced.link
             });            
 
             released = service.released ? service.released : "";
             $released = released ? $('<a>',{
                 target: "_blank",
-                text: released.date,
+                text: formatDate(released.date),
                 href: released.link
             }) : "";
 
