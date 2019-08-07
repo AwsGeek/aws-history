@@ -70,37 +70,13 @@
     </div>
 </body>
 <script>
-    colors = {
-        "Analytics": "#A166FF",
-        "Application Integration": "#FF4F8B",
-        "AR & VR": "#FF4F8B",
-        "AWS Cost Management": "#6CAE3E",
-        "Blockchain": "#FF9900",
-        "Business Applications": "#FF5252",
-        "Compute": "#FF9900",
-        "Default": "#FF0000",
-        "Customer Engagement": "#527FFF",
-        "Database": "#527FFF",
-        "Developer Tools": "#527FFF",
-        "End User Computing": "#56C0A7",
-        "Game Tech": "#A166FF",
-        "Internet of Things": "#6CAE3E",
-        "Machine Learning": "#56C0A7",
-        "Management & Governance": "#FF4F8B",
-        "Media Services": "#FF9900",
-        "Migration & Transfer": "#56C0A7",
-        "Mobile": "#FF5252",
-        "Networking & Content Delivery": "#A166FF",
-        "Robotics": "#FF5252",
-        "Satellite": "#527FFF",
-        "Security, Identity & Compliance": "#FF5252",
-        "Storage": "#6CAE3E"
-    }
 
     var services = [];
+    var categories = {};
     $(document).ready(function() {
         $.get( "services.json", function( data ) {
             services = data.services;
+            categories = data.categories;
             services.forEach(function (service) {
                 
                 // Extract the prefix
@@ -112,6 +88,9 @@
 
                 // If announced date is empty, copy from released date
                 service.announced = service.announced ? service.announced : service.released;
+
+                // Use the category icon if necessary
+                service.icon = service.icon ? service.icon : categories[service.category].icon;
 
             });
             $( "#col-released" ).click();
@@ -185,7 +164,7 @@
                 href: service.product
             });
 
-            var $tr = $("<tr style='background-color: " + colors[service.category] + "aa'>").append(
+            var $tr = $("<tr style='background-color: " + categories[service.category].color + "aa'>").append(
                 $('<td class="icon">').prepend("<img src='" + service.icon + "' width='40' height='40' >"),
                 $('<td class="prefix">').html(service.prefix),
                 $('<td class="service">').html($productlink), 

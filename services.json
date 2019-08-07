@@ -1,4 +1,98 @@
 {
+   "categories": {     
+         "Analytics":  { 
+            "color":"#A166FF", 
+            "icon":"icons/Analytics.svg"
+         },
+         "Application Integration":  {
+            "color":"#FF4F8B", 
+            "icon":"icons/Application-Integration.svg"
+         },
+         "AR & VR":  {
+            "color":"#FF4F8B", 
+            "icon":"icons/AR-VR.svg"
+         },
+         "AWS Cost Management":  {
+            "color":"#6CAE3E", 
+            "icon":"icons/AWS-Cost-Management.svg"
+         },
+         "Blockchain":  {
+            "color":"#FF9900", 
+            "icon":"icons/Blockchain.svg"
+         },
+         "Business Applications":  {
+            "color":"#FF5252", 
+            "icon":"icons/Business-Applications.svg"
+         },
+         "Compute":  {
+            "color":"#FF9900",
+            "icon":"icons/Compute.svg"
+         },
+         "Customer Engagement":  {
+            "color":"#527FFF", 
+            "icon":"icons/Customer-Engagement.svg"
+         },
+         "Database":  {
+            "color":"#527FFF", 
+            "icon":"icons/Database.svg"
+         },
+         "Developer Tools":  {
+            "color":"#527FFF", 
+            "icon":"icons/Developer-Tools.svg"
+         },
+         "End User Computing":  {
+            "color":"#56C0A7", 
+            "icon":"icons/End-User-Computing.svg"
+         },
+         "Game Tech":  {
+            "color":"#A166FF", 
+            "icon":"icons/Game-Tech.svg"
+         },
+         "Internet of Things":  {
+            "color":"#6CAE3E", 
+            "icon":"icons/Internet-of-Things.svg"
+         },
+         "Machine Learning":  {
+            "color":"#56C0A7", 
+            "icon":"icons/Machine-Learning.svg"
+         },
+         "Management & Governance":  {
+            "color":"#FF4F8B", 
+            "icon":"icons/Management-and-Governance.svg"
+         },
+         "Media Services":  {
+            "color":"#FF9900", 
+            "icon":"icons/Media-Services.svg"
+         },
+         "Migration & Transfer":  {
+            "color":"#56C0A7", 
+            "icon":"icons/Migration-and-Transfer.svg"
+         },
+         "Mobile":  {
+            "color":"#FF5252", 
+            "icon":"icons/Mobile.svg"
+         },
+         "Networking & Content Delivery":  {
+            "color":"#A166FF", 
+            "icon":"icons/Networking-and-Content-Delivery.svg"
+         },
+         "Robotics":  {
+            "color":"#FF5252", 
+            "icon":"icons/Robotics.svg"
+         },
+         "Satellite":  {
+            "color":"#527FFF", 
+            "icon":"icons/Satellite.svg"
+         },
+         "Security, Identity & Compliance":  {
+            "color":"#FF5252", 
+            "icon":"icons/Security-Identity-and-Compliance.svg"
+         },
+         "Storage":  {
+            "color":"#6CAE3E", 
+            "icon":"icons/Storage.svg"
+         }
+   },
    "services":[
       {
          "name":"Amazon Elastic Block Store (EBS)",
@@ -413,8 +507,7 @@
          "announced":{
             "date":"12/13/2007",
             "link":"https://aws.amazon.com/about-aws/whats-new/2007/12/13/announcing-amazon-simpledb-limited-beta/"
-         },
-         "icon":"icons/Amazon-SimpleDB.svg"
+         }
       },
       {
          "name":"Amazon ElastiCache",
@@ -593,8 +686,7 @@
          "released":{
             "date":"3/12/2014",
             "link":"https://aws.amazon.com/about-aws/whats-new/2014/03/12/amazon-appstream-released-to-all-customers/"
-         },
-         "icon":"icons/Amazon-Appstream.svg"
+         }
       },
       {
          "name":"Amazon WorkSpaces",
