@@ -1,7 +1,7 @@
 {
    "services":[
       {
-         "name":"Amazon EBS",
+         "name":"Amazon Elastic Block Store (EBS)",
          "category":"Storage",
          "product":"https://aws.amazon.com/ebs/",
          "released":{
