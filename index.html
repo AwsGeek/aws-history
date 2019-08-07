@@ -106,14 +106,10 @@
                 match = service.name.match(/^AWS|^Amazon/)
                 service.prefix = match ? match[0] + "&nbsp;" : "";                
 
-                // Generate the name of the icon
-                icon = service.name.replace(/&/gi, "and");
-                icon = icon.replace(/\s+/g, "-");
-                service.icon = "icons/" + icon.replace(/[^a-zA-Z0-9-]/g, "") + ".svg";
-
                 // Clean up the name
                 service.name = service.name.replace(/^AWS|^Amazon/, "").trim();
 
+                // If announced date is empty, copy from released date
                 service.announced = service.announced ? service.announced : service.released;
 
             });
