@@ -984,6 +984,10 @@
             "date":"11/28/2018",
             "link":"https://aws.amazon.com/about-aws/whats-new/2018/11/introducing-amazon-forecast-now-in-preview/"
          },
+         "released":{
+            "date":"08/22/2019",
+            "link":"https://aws.amazon.com/about-aws/whats-new/2019/08/amazon-forecast-now-generally-available/"
+         },
          "icon":"icons/Amazon-Forecast.svg"
       },
       {
