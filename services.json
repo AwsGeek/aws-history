@@ -580,8 +580,12 @@
          "category":"Database",
          "product":"https://aws.amazon.com/qldb/",
          "announced":{
-            "date":"11/28/2018",
+            "date":"9/10/2019",
             "link":"https://aws.amazon.com/about-aws/whats-new/2018/11/introducing-amazon-qldb/"
+         },
+         "released":{
+            "date":"5/30/2018",
+            "link":"https://aws.amazon.com/blogs/aws/now-available-amazon-quantum-ledger-database-qldb/"
          },
          "icon":"icons/Amazon-Quantum-Ledger-Database-QLDB.svg"
       },
