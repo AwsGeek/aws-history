@@ -144,7 +144,7 @@
          },
          "released":{
             "date":"12/16/2013",
-            "link":"https://aws.amazon.com/about-aws/whats-new/2013/12/16/amazon-kinesis-released-for-all-customers/"
+            "link":"https://aws.amazon.com/about-aws/whats-new/2013/12/16/amazon-kinesis-available-for-all-customers/"
          },
          "icon":"icons/Amazon-Kinesis.svg"
       },
@@ -168,7 +168,7 @@
          },
          "released":{
             "date":"11/15/2016",
-            "link":"https://aws.amazon.com/about-aws/whats-new/2016/11/amazon-quicksight-now-generally-released/"
+            "link":"https://aws.amazon.com/about-aws/whats-new/2016/11/amazon-quicksight-now-generally-available/"
          },
          "icon":"icons/Amazon-Quicksight.svg"
       },
@@ -220,7 +220,7 @@
          },
          "released":{
             "date":"5/30/2019",
-            "link":"https://aws.amazon.com/about-aws/whats-new/2019/05/amazon_managed_streaming_for_apache_kafka_amazon_msk_is_now_generally_released/"
+            "link":"https://aws.amazon.com/about-aws/whats-new/2019/05/amazon_managed_streaming_for_apache_kafka_amazon_msk_is_now_generally_available/"
          },
          "icon":"icons/Amazon-Managed-Streaming-for-Kafka.svg"
       },
@@ -234,7 +234,7 @@
          },
          "released":{
             "date":"7/11/2006",
-            "link":"https://aws.amazon.com/about-aws/whats-new/2006/07/11/amazon-simple-queue-service-amazon-sqs-now-generally-released/"
+            "link":"https://aws.amazon.com/about-aws/whats-new/2006/07/11/amazon-simple-queue-service-amazon-sqs-now-generally-available/"
          },
          "icon":"icons/Amazon-Simple-Queue-Service-SQS.svg"
       },
@@ -278,7 +278,7 @@
          },
          "released":{
             "date":"5/15/2018",
-            "link":"https://aws.amazon.com/about-aws/whats-new/2018/05/amazon-sumerian-is-generally-released/"
+            "link":"https://aws.amazon.com/about-aws/whats-new/2018/05/amazon-sumerian-is-generally-available/"
          },
          "icon":"icons/Amazon-Sumerian.svg"
       },
@@ -326,7 +326,7 @@
          },
          "released":{
             "date":"1/4/2016",
-            "link":"https://aws.amazon.com/about-aws/whats-new/2016/01/amazon-workmail-now-generally-released/"
+            "link":"https://aws.amazon.com/about-aws/whats-new/2016/01/amazon-workmail-now-generally-availab;e/"
          },
          "icon":"icons/Amazon-WorkMail.svg"
       },
@@ -384,7 +384,7 @@
          },
          "released":{
             "date":"4/9/2015",
-            "link":"https://aws.amazon.com/about-aws/whats-new/2015/04/amazon-ec2-container-service-is-now-generally-released/"
+            "link":"https://aws.amazon.com/about-aws/whats-new/2015/04/amazon-ec2-container-service-is-now-generally-available/"
          },
          "icon":"icons/Amazon-Elastic-Container-Service.svg"
       },
@@ -408,7 +408,7 @@
          "product":"https://aws.amazon.com/ecr/",
          "released":{
             "date":"12/21/2015",
-            "link":"https://aws.amazon.com/about-aws/whats-new/2015/12/amazon-ec2-container-registry-now-released/"
+            "link":"https://aws.amazon.com/about-aws/whats-new/2015/12/amazon-ec2-container-registry-now-available/"
          },
          "icon":"icons/Amazon-Elastic-Container-Registry.svg"
       },
@@ -432,7 +432,7 @@
          },
          "released":{
             "date":"1/5/2017",
-            "link":"https://aws.amazon.com/about-aws/whats-new/2017/01/aws-batch-now-generally-released/"
+            "link":"https://aws.amazon.com/about-aws/whats-new/2017/01/aws-batch-now-generally-available/"
          },
          "icon":"icons/AWS-Batch.svg"
       },
@@ -446,7 +446,7 @@
          },
          "released":{
             "date":"2/21/2018",
-            "link":"https://aws.amazon.com/about-aws/whats-new/2018/02/aws-serverless-application-repository-now-generally-released/"
+            "link":"https://aws.amazon.com/about-aws/whats-new/2018/02/aws-serverless-application-repository-now-generally-available/"
          },
          "icon":"icons/AWS-Serverless-Application-Repository.svg"
       },
@@ -543,7 +543,7 @@
          },
          "released":{
             "date":"2/14/2013",
-            "link":"https://aws.amazon.com/about-aws/whats-new/2013/02/14/amazon-redshift-released-to-all-customers/"
+            "link":"https://aws.amazon.com/about-aws/whats-new/2013/02/14/amazon-redshift-available-to-all-customers/"
          },
          "icon":"icons/Amazon-Redshift.svg"
       },
@@ -571,7 +571,7 @@
          },
          "released":{
             "date":"5/30/2018",
-            "link":"https://aws.amazon.com/about-aws/whats-new/2018/05/amazon-neptune-is-now-generally-released/"
+            "link":"https://aws.amazon.com/about-aws/whats-new/2018/05/amazon-neptune-is-now-generally-available/"
          },
          "icon":"icons/Amazon-Neptune.svg"
       },
@@ -625,7 +625,7 @@
          "product":"https://aws.amazon.com/codepipeline/",
          "released":{
             "date":"7/9/2015",
-            "link":"https://aws.amazon.com/about-aws/whats-new/2015/07/aws-codepipeline-now-released/"
+            "link":"https://aws.amazon.com/about-aws/whats-new/2015/07/aws-codepipeline-now-available/"
          },
          "icon":"icons/AWS-CodePipeline.svg"
       },
@@ -635,7 +635,7 @@
          "product":"https://aws.amazon.com/codecommit/",
          "released":{
             "date":"7/9/2015",
-            "link":"https://aws.amazon.com/about-aws/whats-new/2015/07/aws-codecommit-now-released/"
+            "link":"https://aws.amazon.com/about-aws/whats-new/2015/07/aws-codecommit-now-available/"
          },
          "icon":"icons/AWS-CodeCommit.svg"
       },
@@ -669,7 +669,7 @@
          },
          "released":{
             "date":"4/19/2017",
-            "link":"https://aws.amazon.com/about-aws/whats-new/2017/04/aws-x-ray-now-generally-released/"
+            "link":"https://aws.amazon.com/about-aws/whats-new/2017/04/aws-x-ray-now-generally-available/"
          },
          "icon":"icons/AWS-X-Ray.svg"
       },
@@ -693,7 +693,7 @@
          },
          "released":{
             "date":"3/12/2014",
-            "link":"https://aws.amazon.com/about-aws/whats-new/2014/03/12/amazon-appstream-released-to-all-customers/"
+            "link":"https://aws.amazon.com/about-aws/whats-new/2014/03/12/amazon-appstream-available-to-all-customers/"
          }
       },
       {
@@ -706,7 +706,7 @@
          },
          "released":{
             "date":"3/26/2014",
-            "link":"https://aws.amazon.com/about-aws/whats-new/2014/03/26/amazon-workspaces-released-for-all-customers/"
+            "link":"https://aws.amazon.com/about-aws/whats-new/2014/03/26/amazon-workspaces-available-for-all-customers/"
          },
          "icon":"icons/Amazon-WorkSpaces.svg"
       },
@@ -720,7 +720,7 @@
          },
          "released":{
             "date":"8/27/2014",
-            "link":"https://aws.amazon.com/about-aws/whats-new/2014/08/27/amazon-zocalo-is-now-released-to-all-aws-customers/"
+            "link":"https://aws.amazon.com/about-aws/whats-new/2014/08/27/amazon-zocalo-is-now-available-to-all-aws-customers/"
          },
          "icon":"icons/Amazon-WorkDocs.svg"
       },
@@ -764,7 +764,7 @@
          },
          "released":{
             "date":"12/18/2015",
-            "link":"https://aws.amazon.com/about-aws/whats-new/2015/12/aws-iot-now-generally-released/"
+            "link":"https://aws.amazon.com/about-aws/whats-new/2015/12/aws-iot-now-generally-available/"
          },
          "icon":"icons/AWS-IoT-Core.svg"
       },
@@ -778,7 +778,7 @@
          },
          "released":{
             "date":"6/7/2017",
-            "link":"https://aws.amazon.com/about-aws/whats-new/2017/06/aws-greengrass-is-now-generally-released/"
+            "link":"https://aws.amazon.com/about-aws/whats-new/2017/06/aws-greengrass-is-now-generally-available/"
          },
          "icon":"icons/AWS-Greengrass.svg"
       },
@@ -822,7 +822,7 @@
          },
          "released":{
             "date":"5/16/2018",
-            "link":"https://aws.amazon.com/about-aws/whats-new/2018/05/aws-iot-1-click-generally-released/"
+            "link":"https://aws.amazon.com/about-aws/whats-new/2018/05/aws-iot-1-click-generally-available/"
          },
          "icon":"icons/AWS-IoT-1-Click.svg"
       },
@@ -836,7 +836,7 @@
          },
          "released":{
             "date":"8/2/2018",
-            "link":"https://aws.amazon.com/about-aws/whats-new/2018/08/aws-iot-device-defender-now-generally-released/"
+            "link":"https://aws.amazon.com/about-aws/whats-new/2018/08/aws-iot-device-defender-now-generally-available/"
          },
          "icon":"icons/AWS-IoT-Device-Defender.svg"
       },
@@ -860,7 +860,7 @@
          },
          "released":{
             "date":"5/30/2019",
-            "link":"https://aws.amazon.com/about-aws/whats-new/2019/05/aws-iot-events-now-generally-released/"
+            "link":"https://aws.amazon.com/about-aws/whats-new/2019/05/aws-iot-events-now-generally-available/"
          },
          "icon":"icons/AWS-IoT-Events.svg"
       },
@@ -874,7 +874,7 @@
          },
          "released":{
             "date":"5/30/2019",
-            "link":"https://aws.amazon.com/about-aws/whats-new/2019/05/aws-iot-things-graph-now-generally-released/"
+            "link":"https://aws.amazon.com/about-aws/whats-new/2019/05/aws-iot-things-graph-now-generally-available/"
          },
          "icon":"icons/AWS-IoT-Things-Graph.svg"
       },
@@ -908,7 +908,7 @@
          },
          "released":{
             "date":"4/19/2017",
-            "link":"https://aws.amazon.com/about-aws/whats-new/2017/04/amazon-lex-now-generally-released/"
+            "link":"https://aws.amazon.com/about-aws/whats-new/2017/04/amazon-lex-now-generally-available/"
          },
          "icon":"icons/Amazon-Lex.svg"
       },
@@ -942,7 +942,7 @@
          },
          "released":{
             "date":"4/4/2018",
-            "link":"https://aws.amazon.com/about-aws/whats-new/2018/04/amazon-transcribe-is-now-generally-released/"
+            "link":"https://aws.amazon.com/about-aws/whats-new/2018/04/amazon-transcribe-is-now-generally-available/"
          },
          "icon":"icons/Amazon-Transcribe.svg"
       },
@@ -956,7 +956,7 @@
          },
          "released":{
             "date":"4/4/2018",
-            "link":"https://aws.amazon.com/about-aws/whats-new/2018/04/amazon-translate-is-now-generally-released/"
+            "link":"https://aws.amazon.com/about-aws/whats-new/2018/04/amazon-translate-is-now-generally-available/"
          },
          "icon":"icons/Amazon-Translate.svg"
       },
@@ -1024,7 +1024,7 @@
          },
          "released":{
             "date":"5/29/2019",
-            "link":"https://aws.amazon.com/about-aws/whats-new/2019/05/amazon-textract-now-generally-released/"
+            "link":"https://aws.amazon.com/about-aws/whats-new/2019/05/amazon-textract-now-generally-available/"
          },
          "icon":"icons/Amazon-Textract.svg"
       },
@@ -1038,7 +1038,7 @@
          },
          "released":{
             "date":"6/10/2019",
-            "link":"https://aws.amazon.com/about-aws/whats-new/2019/06/amazon-personalize-now-generally-released/"
+            "link":"https://aws.amazon.com/about-aws/whats-new/2019/06/amazon-personalize-now-generally-available/"
          },
          "icon":"icons/Amazon-Personalize.svg"
       },
@@ -1142,7 +1142,7 @@
          },
          "released":{
             "date":"2/27/2017",
-            "link":"https://aws.amazon.com/about-aws/whats-new/2017/02/aws-organizations-now-generally-released/"
+            "link":"https://aws.amazon.com/about-aws/whats-new/2017/02/aws-organizations-now-generally-available/"
          },
          "icon":"icons/AWS-Organizations.svg"
       },
@@ -1196,7 +1196,7 @@
          },
          "released":{
             "date":"6/24/2019",
-            "link":"https://aws.amazon.com/about-aws/whats-new/2019/06/aws-control-tower-is-now-generally-released/"
+            "link":"https://aws.amazon.com/about-aws/whats-new/2019/06/aws-control-tower-is-now-generally-available/"
          },
          "icon":"icons/AWS-Control-Tower.svg"
       },
@@ -1300,7 +1300,7 @@
          },
          "released":{
             "date":"3/15/2016",
-            "link":"https://aws.amazon.com/about-aws/whats-new/2016/03/aws-database-migration-service-is-now-generally-released/"
+            "link":"https://aws.amazon.com/about-aws/whats-new/2016/03/aws-database-migration-service-is-now-generally-available/"
          },
          "icon":"icons/AWS-Database-Migration-Service.svg"
       },
@@ -1486,7 +1486,7 @@
          },
          "released":{
             "date":"3/27/2019",
-            "link":"https://aws.amazon.com/about-aws/whats-new/2019/03/aws-app-mesh-is-now-generally-released/"
+            "link":"https://aws.amazon.com/about-aws/whats-new/2019/03/aws-app-mesh-is-now-generally-available/"
          },
          "icon":"icons/AWS-App-Mesh.svg"
       },
@@ -1598,7 +1598,7 @@
          },
          "released":{
             "date":"4/19/2016",
-            "link":"https://aws.amazon.com/about-aws/whats-new/2016/04/amazon-inspector-security-vulnerability-assessment-service-now-generally-released/"
+            "link":"https://aws.amazon.com/about-aws/whats-new/2016/04/amazon-inspector-security-vulnerability-assessment-service-now-generally-available/"
          },
          "icon":"icons/Amazon-Inspector.svg"
       },
@@ -1672,7 +1672,7 @@
          },
          "released":{
             "date":"6/24/2019",
-            "link":"https://aws.amazon.com/about-aws/whats-new/2019/06/aws-security-hub-now-generally-released/"
+            "link":"https://aws.amazon.com/about-aws/whats-new/2019/06/aws-security-hub-now-generally-available/"
          },
          "icon":"icons/AWS-Security-Hub.svg"
       },
@@ -1720,7 +1720,7 @@
          },
          "released":{
             "date":"6/28/2016",
-            "link":"https://aws.amazon.com/about-aws/whats-new/2016/06/amazon-elastic-file-system-efs-is-now-generally-released/"
+            "link":"https://aws.amazon.com/about-aws/whats-new/2016/06/amazon-elastic-file-system-efs-is-now-generally-available/"
          },
          "icon":"icons/Amazon-Elastic-File-System-EFS.svg"
       },
