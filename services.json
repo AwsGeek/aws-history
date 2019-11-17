@@ -1422,6 +1422,16 @@
          "icon":"icons/Amazon-CloudFront.svg"
       },
       {
+         "name":"Elastic Load Balancing (ELB)",
+         "category":"Networking & Content Delivery",
+         "product":"https://aws.amazon.com/elasticloadbalancing/",
+         "released":{
+            "date":"05/18/2009",
+            "link":"https://aws.amazon.com/blogs/aws/new-aws-load-balancing-automatic-scaling-and-cloud-monitoring-services/"
+         },
+         "icon":"icons/Elastic-Load-Balancing.svg"
+      },
+      {
          "name":"Amazon Route 53",
          "category":"Networking & Content Delivery",
          "product":"https://aws.amazon.com/route53/",
