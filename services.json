@@ -481,6 +481,10 @@
             "date":"11/27/2018",
             "link":"https://aws.amazon.com/about-aws/whats-new/2018/11/announcing-aws-outposts/"
          },
+         "released":{
+            "date":"12/3/2019",
+            "link":"https://aws.amazon.com/blogs/aws/aws-outposts-now-available-order-your-racks-today/"
+         },
          "icon":"icons/AWS-Outposts.svg"
       },
       {
