@@ -1024,6 +1024,10 @@
             "date":"11/28/2018",
             "link":"https://aws.amazon.com/about-aws/whats-new/2018/11/announcing-amazon-inferentia-machine-learning-inference-microchip/"
          },
+         "released":{
+            "date":"12/3/2019",
+            "link":"https://aws.amazon.com/blogs/aws/amazon-ec2-update-inf1-instances-with-aws-inferentia-chips-for-high-performance-cost-effective-inferencing/"
+         },
          "icon":"icons/Amazon-Inferentia.svg"
       },
       {
