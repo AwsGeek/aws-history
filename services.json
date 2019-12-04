@@ -973,6 +973,15 @@
          "icon":"icons/Amazon-SageMaker.svg"
       },
       {
+         "name":"Amazon Fraud Detector",
+         "category":"Machine Learning",
+         "product":"https://aws.amazon.com/fraud-detector/",
+         "announced":{
+            "date":"12/3/2019",
+            "link":"https://aws.amazon.com/about-aws/whats-new/2019/12/introducing-amazon-fraud-detector-now-in-preview/"
+         }
+      },
+      {
          "name":"Amazon Transcribe",
          "category":"Machine Learning",
          "product":"https://aws.amazon.com/transcribe/",
