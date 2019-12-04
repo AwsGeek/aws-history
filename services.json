@@ -603,6 +603,15 @@
          "icon":"icons/Amazon-Quantum-Ledger-Database-QLDB.svg"
       },
       {
+         "name":"Amazon Managed Apache Cassandra Service",
+         "category":"Database",
+         "product":"http://aws.amazon.com/mcs/",
+         "announced":{
+            "date":"12/3/2019",
+            "link":"https://aws.amazon.com/blogs/aws/new-amazon-managed-apache-cassandra-service-mcs/"
+         }
+      },
+      {
          "name":"Amazon Timestream",
          "category":"Database",
          "product":"https://aws.amazon.com/timestream/",
