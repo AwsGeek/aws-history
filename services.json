@@ -374,6 +374,15 @@
          "icon":"icons/Amazon-EC2.svg"
       },
       {
+         "name":"Amazon Braket",
+         "category":"Compute",
+         "product":"https://aws.amazon.com/braket/",
+         "announced":{
+            "date":"12/2/2019",
+            "link":"https://aws.amazon.com/blogs/aws/amazon-braket-get-started-with-quantum-computing/"
+         }
+      },
+      {
          "name":"AWS Elastic Beanstalk",
          "category":"Compute",
          "product":"https://aws.amazon.com/elasticbeanstalk/",
