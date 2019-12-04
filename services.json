@@ -1029,6 +1029,15 @@
          "icon":"icons/AWS-DeepLens.svg"
       },
       {
+         "name":"AWS DeepComposer",
+         "category":"Machine Learning",
+         "product":"https://aws.amazon.com/deepcomposer/",
+         "announced":{
+            "date":"12/1/2019",
+            "link":"https://aws.amazon.com/about-aws/whats-new/2019/12/introducing-aws-deepcomposer/"
+         }
+      },
+      {
          "name":"Amazon Elastic Inference",
          "category":"Machine Learning",
          "product":"https://aws.amazon.com/elastic-inference/",
