@@ -383,6 +383,15 @@
          }
       },
       {
+         "name":"Amazon Wavelength",
+         "category":"Compute",
+         "product":"https://aws.amazon.com/wavelength/",
+         "announced":{
+            "date":"12/3/2019",
+            "link":"https://aws.amazon.com/about-aws/whats-new/2019/12/announcing-aws-wavelength-delivering-ultra-low-latency-applications-5g/"
+         }
+      },
+      {
          "name":"AWS Elastic Beanstalk",
          "category":"Compute",
          "product":"https://aws.amazon.com/elasticbeanstalk/",
