@@ -1596,6 +1596,15 @@
          "icon":"icons/AWS-Ground-Station.svg"
       },
       {
+         "name":"Amazon Detective",
+         "category":"Security, Identity & Compliance",
+         "product":"https://aws.amazon.com/detective/",
+         "announced":{
+            "date":"12/3/2019",
+            "link":"https://aws.amazon.com/about-aws/whats-new/2019/12/introducing-amazon-detective/"
+         }
+      },      
+      {
          "name":"AWS Identity & Access Management",
          "category":"Security, Identity & Compliance",
          "product":"https://aws.amazon.com/iam/",
