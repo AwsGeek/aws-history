@@ -478,7 +478,7 @@
          "icon":"icons/AWS-Serverless-Application-Repository.svg"
       },
       {
-         "name":"Amazon Elastic Container Service for Kubernetes",
+         "name":"Amazon Elastic Kubernetes Service",
          "category":"Compute",
          "product":"https://aws.amazon.com/eks/",
          "announced":{
