@@ -258,6 +258,16 @@
          "icon":"icons/Amazon-Simple-Notification-Service-SNS.svg"
       },
       {
+         "name":"AWS Simple Workflow",
+         "category":"Application Integration",
+         "product":"https://aws.amazon.com/swf/",
+         "announced":{
+            "date":"02/21/2012",
+            "link":"https://aws.amazon.com/about-aws/whats-new/2012/02/21/aws-announces-swf/"
+         },
+         "icon":"icons/AWS-Simple-Workflow.svg"
+      },
+      {
          "name":"AWS Step Functions",
          "category":"Application Integration",
          "product":"https://aws.amazon.com/step-functions/",
