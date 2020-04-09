@@ -253,7 +253,7 @@
          "product":"https://aws.amazon.com/sns/",
          "announced":{
             "date":"4/7/2010",
-            "link":"https://aws.amazon.com/new/?whats-new-content-all.sort-by=item.additionalFields.postDateTime&whats-new-content-all.sort-order=desc&wn-featured-announcements.sort-by=item.additionalFields.numericSort&wn-featured-announcements.sort-order=asc&whats-new-content-all.q=simple%2Bnotification%2Bservice&whats-new-content-all.q_operator=AND&awsm.page-whats-new-content-all=5"
+            "link":"https://aws.amazon.com/about-aws/whats-new/2010/04/07/announcing-amazon-simple-notification-service/"
          },
          "icon":"icons/Amazon-Simple-Notification-Service-SNS.svg"
       },
@@ -261,12 +261,12 @@
          "name":"AWS Simple Workflow",
          "category":"Application Integration",
          "product":"https://aws.amazon.com/swf/",
-         "announced":{
+         "released":{
             "date":"02/21/2012",
             "link":"https://aws.amazon.com/about-aws/whats-new/2012/02/21/aws-announces-swf/"
          },
          "icon":"icons/AWS-Simple-Workflow.svg"
-      },
+      },      
       {
          "name":"AWS Step Functions",
          "category":"Application Integration",
@@ -345,7 +345,7 @@
          },
          "released":{
             "date":"1/4/2016",
-            "link":"https://aws.amazon.com/about-aws/whats-new/2016/01/amazon-workmail-now-generally-availab;e/"
+            "link":"https://aws.amazon.com/about-aws/whats-new/2016/01/amazon-workmail-now-generally-available/"
          },
          "icon":"icons/Amazon-WorkMail.svg"
       },
@@ -1045,6 +1045,10 @@
          "announced":{
             "date":"12/1/2019",
             "link":"https://aws.amazon.com/about-aws/whats-new/2019/12/introducing-aws-deepcomposer/"
+         },
+         "released":{
+            "date":"04/02/2020",
+            "link":"https://aws.amazon.com/about-aws/whats-new/2020/04/aws-deepcomposer-now-generally-available/"
          }
       },
       {
@@ -1612,6 +1616,10 @@
          "announced":{
             "date":"12/3/2019",
             "link":"https://aws.amazon.com/about-aws/whats-new/2019/12/introducing-amazon-detective/"
+         },
+         "released":{
+            "date":"3/31/2020",
+            "link":"https://aws.amazon.com/about-aws/whats-new/2020/03/amazon-detective-is-now-generally-available/"
          }
       },      
       {
