@@ -234,6 +234,15 @@
          "icon":"icons/Amazon-Managed-Streaming-for-Kafka.svg"
       },
       {
+         "name":"Amazon Appflow",
+         "category":"Application Integration",
+         "product":"https://aws.amazon.com/appflow/",
+         "released":{
+            "date":"4/22/2020",
+            "link":"https://aws.amazon.com/about-aws/whats-new/2020/04/introducing-amazon-appflow/"
+         }
+      },
+      {
          "name":"Amazon Simple Queue Service (SQS)",
          "category":"Application Integration",
          "product":"https://aws.amazon.com/sqs/",
@@ -271,7 +280,7 @@
          "name":"AWS Step Functions",
          "category":"Application Integration",
          "product":"https://aws.amazon.com/step-functions/",
-         "announced":{
+         "released":{
             "date":"12/1/2016",
             "link":"https://aws.amazon.com/about-aws/whats-new/2016/12/introducing-aws-step-functions/"
          },
@@ -390,7 +399,12 @@
          "announced":{
             "date":"12/2/2019",
             "link":"https://aws.amazon.com/blogs/aws/amazon-braket-get-started-with-quantum-computing/"
-         }
+         },
+         "released":{
+            "date":"8/13/2020",
+            "link":"https://aws.amazon.com/about-aws/whats-new/2020/08/quantum-computing-available-aws-through-amazon-braket/"
+         },
+         "icon":"icons/AWS-Braket.svg"
       },
       {
          "name":"Amazon Wavelength",
@@ -399,7 +413,12 @@
          "announced":{
             "date":"12/3/2019",
             "link":"https://aws.amazon.com/about-aws/whats-new/2019/12/announcing-aws-wavelength-delivering-ultra-low-latency-applications-5g/"
-         }
+         },
+         "released":{
+            "date":"8/6/2020",
+            "link":"https://aws.amazon.com/about-aws/whats-new/2020/08/announcing-the-general-availability-of-aws-wavelength-in-boston-and-the-san-francisco-bay-area/"
+         },
+         "icon":"icons/AWS-Wavelength.svg"
       },
       {
          "name":"AWS Elastic Beanstalk",
@@ -631,13 +650,18 @@
          "icon":"icons/Amazon-Quantum-Ledger-Database-QLDB.svg"
       },
       {
-         "name":"Amazon Managed Apache Cassandra Service",
+         "name":"Amazon Keyspaces (for Apache Cassandra)",
          "category":"Database",
          "product":"http://aws.amazon.com/mcs/",
          "announced":{
             "date":"12/3/2019",
             "link":"https://aws.amazon.com/blogs/aws/new-amazon-managed-apache-cassandra-service-mcs/"
-         }
+         },
+         "released":{
+            "date":"04/23/2020",
+            "link":"https://aws.amazon.com/blogs/aws/new-amazon-keyspaces-for-apache-cassandra-is-now-generally-available/"
+         },
+         "icon":"icons/Amazon-Managed-Apache-Cassandra-Service.svg"
       },
       {
          "name":"Amazon Timestream",
@@ -646,6 +670,10 @@
          "announced":{
             "date":"11/28/2018",
             "link":"https://aws.amazon.com/about-aws/whats-new/2018/11/announcing-amazon-timestream/"
+         },
+         "released":{
+            "date":"09/30/2020",
+            "link":"https://aws.amazon.com/about-aws/whats-new/2020/09/amazon-timestream-now-generally-available/"
          },
          "icon":"icons/Amazon-Timestream.svg"
       },
@@ -658,6 +686,15 @@
             "link":"https://aws.amazon.com/about-aws/whats-new/2019/01/amazon-documentdb-with-mongodb-compatibility-generally-available/"
          },
          "icon":"icons/Amazon-DocumentDB-with-MongoDB-compatibility.svg"
+      },
+      {
+         "name":"AWS CodeArtifact",
+         "category":"Developer Tools",
+         "product":"https://aws.amazon.com/codeartifact/",
+         "released":{
+            "date":"6/10/2020",
+            "link":"https://aws.amazon.com/about-aws/whats-new/2020/06/introducing-aws-codeartifact-a-fully-managed-software-artifact-repository-service/"
+         }
       },
       {
          "name":"AWS CodeDeploy",
@@ -898,6 +935,10 @@
             "date":"11/26/2018",
             "link":"https://aws.amazon.com/about-aws/whats-new/2018/11/announcing-aws-iot-sitewise-now-released-in-preview/"
          },
+         "released":{
+            "date":"7/9/2020",
+            "link":"https://aws.amazon.com/about-aws/whats-new/2020/07/aws-iot-sitewise-generally-available/"
+         },
          "icon":"icons/AWS-IoT-SiteWise.svg"
       },
       {
@@ -989,7 +1030,12 @@
          "announced":{
             "date":"12/3/2019",
             "link":"https://aws.amazon.com/about-aws/whats-new/2019/12/introducing-amazon-fraud-detector-now-in-preview/"
-         }
+         },
+         "released":{
+            "date":"7/28/2020",
+            "link":"https://aws.amazon.com/about-aws/whats-new/2020/07/detect-fraud-faster-using-machine-learning-with-amazon-fraud-detector/"
+         },
+         "icon":"icons/Amazon-Fraud-Detector.svg"
       },
       {
          "name":"Amazon Kendra",
@@ -998,7 +1044,12 @@
          "announced":{
             "date":"12/3/2019",
             "link":"https://aws.amazon.com/about-aws/whats-new/2019/12/announcing-amazon-kendra-reinventing-enterprise-search-with-machine-learning/"
-         }
+         },
+         "released":{
+            "date":"5/11/2020",
+            "link":"https://aws.amazon.com/about-aws/whats-new/2020/05/amazon-kendra-is-now-generally-available/"
+         },
+         "icon":"icons/Amazon-Kendra.svg"
       },
       {
          "name":"Amazon Transcribe",
@@ -1049,7 +1100,8 @@
          "released":{
             "date":"04/02/2020",
             "link":"https://aws.amazon.com/about-aws/whats-new/2020/04/aws-deepcomposer-now-generally-available/"
-         }
+         },
+         "icon":"icons/AWS-DeepComposer_primary-bg.svg"
       },
       {
          "name":"Amazon Elastic Inference",
@@ -1126,6 +1178,19 @@
             "link":"https://aws.amazon.com/about-aws/whats-new/2019/06/amazon-personalize-now-generally-available/"
          },
          "icon":"icons/Amazon-Personalize.svg"
+      },
+      {
+         "name":"AWS Chatbot",
+         "category":"Management & Governance",
+         "product":"https://aws.amazon.com/chatbot/",
+         "announces":{
+            "date":"7/24/2019",
+            "link":"https://aws.amazon.com/about-aws/whats-new/2019/07/introducing-aws-chatbot-chatops-for-aws/"
+         },
+         "released":{
+            "date":"4/22/2020",
+            "link":"https://aws.amazon.com/about-aws/whats-new/2020/04/aws-chatbot-now-generally-available/"
+         }
       },
       {
          "name":"AWS CloudFormation",
@@ -1620,7 +1685,8 @@
          "released":{
             "date":"3/31/2020",
             "link":"https://aws.amazon.com/about-aws/whats-new/2020/03/amazon-detective-is-now-generally-available/"
-         }
+         },
+         "icon":"icons/Amazon-Detective.svg"
       },      
       {
          "name":"AWS Identity & Access Management",
