@@ -520,6 +520,15 @@
          },
          "icon":"icons/Amazon-Elastic-Container-Service-for-Kubernetes.svg"
       },
+       {
+         "name":"AWS Fargate",
+         "category":"Compute",
+         "product":"https://aws.amazon.com/fargate/",
+         "announced":{
+            "date":"11/29/2017",
+            "link":"https://aws.amazon.com/about-aws/whats-new/2017/11/introducing-aws-fargate-a-technology-to-run-containers-without-managing-infrastructure/"
+         }
+      },
       {
          "name":"AWS Outposts",
          "category":"Compute",
