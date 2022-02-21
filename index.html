@@ -161,13 +161,9 @@
     });    
     $( "#col-released" ).click(function(event) {
         sortServices("#col-released", function(a, b) {
-            if a.announced {
-                adate = a.released ? a.released.date : a.announced.date;
-                bdate = b.released ? b.released.date : b.announced.date;
-                return (Date.parse(adate) < Date.parse(bdate) ? -1 : 1) * order;
-            } else {
-                return 1
-            }
+            adate = a.released ? a.released.date : (a.announced ? a.announced.date : '1/1/2222');
+            bdate = b.released ? b.released.date : (b.announced ? b.announced.date : '1/1/2222');
+            return (Date.parse(adate) < Date.parse(bdate) ? -1 : 1) * order;
         });
     });    
     function formatDate(date) {
