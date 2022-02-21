@@ -12,6 +12,10 @@
       "color": "#FF4F8B",
       "icon": "icons/Arch-Category_AR-VR_64.svg"
     },
+    "Architecture Strategy  ": {
+      "color": "#527FFF",
+      "icon": "icons/Arch-Category_Developer-Tools_64.svg"
+    },
     "AWS Cost Management": {
       "color": "#6CAE3E",
       "icon": "icons/Arch-Category_AWS-Cost-Management_64.svg"
@@ -23,6 +27,10 @@
     "Business Applications": {
       "color": "#FF5252",
       "icon": "icons/Arch-Category_Business-Applications_64.svg"
+    },
+    "Cloud Financial Management": {
+      "color": "#6CAE3E",
+      "icon": "icons/Arch-Category_AWS-Cost-Management_64.svg"
     },
     "Containers": {
       "color": "#FF9900",
@@ -324,7 +332,7 @@
     },
     {
       "name": "AWS Cost Explorer",
-      "category": "AWS Cost Management",
+      "category": "Cloud Financial Management",
       "product": "https://aws.amazon.com/aws-cost-management/aws-cost-explorer/",
       "released": {
         "date": "4/8/2014",
@@ -334,7 +342,7 @@
     },
     {
       "name": "AWS Budgets",
-      "category": "AWS Cost Management",
+      "category": "Cloud Financial Management",
       "product": "https://aws.amazon.com/aws-cost-management/aws-budgets/",
       "released": {
         "date": "6/29/2015",
@@ -1331,7 +1339,7 @@
     },
     {
       "name": "AWS Well-Architected Tool",
-      "category": "Developer Tools",
+      "category": "Architecture Strategy",
       "product": "https://aws.amazon.com/well-architected-tool/",
       "released": {
         "date": "11/29/2018",
@@ -1621,7 +1629,7 @@
     },
     {
       "name": "Amazon API Gateway",
-      "category": "Networking & Content Delivery",
+      "category": "Front-End Web & Mobile",
       "product": "https://aws.amazon.com/api-gateway/",
       "released": {
         "date": "7/9/2015",
