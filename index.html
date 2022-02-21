@@ -122,7 +122,7 @@
             services = data.services;
             categories = data.categories;
             services.forEach(function (service) {
-                
+                console.log(service.name)
                 // Extract the prefix
                 match = service.name.match(/^AWS|^Amazon/)
                 service.prefix = match ? match[0] + "&nbsp;" : "";                
