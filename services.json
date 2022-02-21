@@ -99,7 +99,7 @@
          "Serverless":  {
             "color":"#A166FF", 
             "icon":"icons/Arch-Category_Serverless_64.svg"
-         }
+         },
          "Storage":  {
             "color":"#6CAE3E", 
             "icon":"icons/Arch-Category_Storage_64.svg"
