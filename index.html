@@ -174,7 +174,7 @@
         services.forEach(function (service) {
                 
             announced = service.announced ? service.announced : service.released;
-            $announced = $announced ? $('<a>',{
+            $announced = announced ? $('<a>',{
                 target: "_blank",
                 text: formatDate(announced.date),
                 href: announced.link,
