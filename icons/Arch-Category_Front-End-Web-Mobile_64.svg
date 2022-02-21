@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="88px" height="88px" viewBox="0 0 88 88" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Icon-Architecture-Category/64/Mobile_64</title>
+    <defs>
+        <linearGradient x1="0%" y1="100%" x2="100%" y2="0%" id="linearGradient-1">
+            <stop stop-color="#BD0816" offset="0%"></stop>
+            <stop stop-color="#FF5252" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Icon-Architecture-Category/64/Mobile_64" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <rect id="Rectangle" fill="url(#linearGradient-1)" x="4" y="4" width="80" height="80"></rect>
+        <rect id="#879196-Border-Copy-17" stroke="#879196" stroke-width="2" x="1" y="1" width="86" height="86"></rect>
+        <g id="Icon-Category/64/Mobile_64" transform="translate(12.000000, 12.000000)" fill="#FFFFFF">
+            <path d="M44,55 L51,55 L51,53 L44,53 L44,55 Z M37,58 L58.001,58 L58.001,50 L37,50 L37,58 Z M37,20 L37,48 L58.001,48 L58,20 L37,20 Z M60,20 L60,58 C60,59.103 59.103,60 58,60 L37,60 C35.897,60 35,59.103 35,58 L35,20 C35,18.897 35.897,18 37,18 L58,18 C59.103,18 60,18.897 60,20 L60,20 Z M12,12 L36,12 L36,16 L38,16 L38,11 C38,10.448 37.553,10 37,10 L11,10 C10.447,10 10,10.448 10,11 L10,49 C10,49.552 10.447,50 11,50 L33,50 L33,48 L12,48 L12,12 Z M7.814,54 L33,54 L33,56 L7.814,56 C5.711,56 4,54.269 4,52.141 L4,7.859 C4,5.731 5.711,4 7.814,4 L40.186,4 C42.289,4 44,5.731 44,7.859 L44,16 L42,16 L42,7.859 C42,6.834 41.187,6 40.186,6 L7.814,6 C6.813,6 6,6.834 6,7.859 L6,52.141 C6,53.166 6.813,54 7.814,54 L7.814,54 Z" id="Fill-4"></path>
+        </g>
+    </g>
+</svg>
