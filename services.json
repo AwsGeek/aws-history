@@ -1331,7 +1331,7 @@
     },
     {
       "name": "AWS Well-Architected Tool",
-      "category": "Architecture Strategy",
+      "category": "Developer Tools",
       "product": "https://aws.amazon.com/well-architected-tool/",
       "released": {
         "date": "11/29/2018",
