@@ -2013,6 +2013,14 @@
       "name": "AWS Proton",
       "category": "Management & Governance",
       "product": "https://aws.amazon.com/proton/",
+      "announced": {
+        "date": "12/01/2020",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2020/12/amazon-web-services-announces-aws-proton/"
+      },
+      "released": {
+        "date": "6/9/2021",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2021/06/aws-announces-the-general-availability-of-aws-proton/"
+      },
       "icon": "icons/Arch_AWS-Proton_64.svg"
     },
     {
