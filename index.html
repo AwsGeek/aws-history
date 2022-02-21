@@ -193,6 +193,7 @@
                 href: service.product,
                 onclick: "trackOutboundLink('" + service.product + "'); return false;"
             });
+            console.log('  ' + service.category);
             var $tr = $("<tr style='background-color: " + categories[service.category].color + "aa'>").append(
                 $('<td class="icon">').prepend("<img src='" + service.icon + "' width='40' height='40' >"),
                 $('<td class="prefix">').html(service.prefix),
