@@ -1981,13 +1981,13 @@
       "name": "Amazon Managed Grafana",
       "category": "Management & Governance",
       "product": "https://aws.amazon.com/grafana/",
-      "icon": "icons/Arch_Amazon-Managed-Grafana_64.svg"
+      "icon": "icons/Arch_Amazon-Managed-Service-for-Grafana_64.svg"
     },
     {
       "name": "AWS Management Console Mobile Application",
       "category": "Management & Governance",
       "product": "https://aws.amazon.com/console/mobile/",
-      "icon": "icons/Arch_AWS-Management-Console-Mobile-Application_64.svg"
+      "icon": "icons/Arch_AWS-Management-Console_64.svg"
     },
     {
       "name": "AWS Proton",
@@ -2095,13 +2095,12 @@
       "name": "AWS App2Container",
       "category": "Containers",
       "product": "https://aws.amazon.com/app2container/",
-      "icon": "icons/Arch_AWS-App2Container_64.svg"
     },
     {
       "name": "Red Hat OpenShift Service on AWS",
       "category": "Containers",
       "product": "https://aws.amazon.com/rosa/",
-      "icon": "icons/Arch_Red-Hat-OpenShift-Service-on-AWS_64.svg"
+      "icon": "icons/Arch_Red-Hat-OpenShift_64.svg"
     },
     {
       "name": "Amazon Elastic Container Registry (ECR)",
@@ -2113,7 +2112,6 @@
       "name": "AWS Copilot",
       "category": "Containers",
       "product": "https://aws.amazon.com/containers/copilot/",
-      "icon": "icons/Arch_AWS-Copilot_64.svg"
     },
     {
       "name": "Amazon Elastic Container Service (ECS)",
@@ -2131,7 +2129,6 @@
       "name": "AWS Partner Device Catalog",
       "category": "Internet of Things",
       "product": "https://devices.amazonaws.com/",
-      "icon": "icons/Arch_AWS-Partner-Device-Catalog_64.svg"
     },
     {
       "name": "AWS IoT FleetWise (Preview)",
@@ -2149,7 +2146,6 @@
       "name": "AWS IoT EduKit",
       "category": "Internet of Things",
       "product": "https://aws.amazon.com/iot/edukit/",
-      "icon": "icons/Arch_AWS-IoT-EduKit_64.svg"
     },
     {
       "name": "AWS IoT RoboRunner (Preview)",
@@ -2180,12 +2176,6 @@
       "category": "Networking & Content Delivery",
       "product": "https://aws.amazon.com/private5g/",
       "icon": "icons/Arch_AWS-Private-5G_64.svg"
-    },
-    {
-      "name": "AWS VPN",
-      "category": "Networking & Content Delivery",
-      "product": "https://aws.amazon.com/vpn/",
-      "icon": "icons/Arch_AWS-VPN_64.svg"
     },
     {
       "name": "AWS Transit Gateway",
@@ -2233,7 +2223,6 @@
       "name": "Reserved Instance (RI) Reporting",
       "category": "Cloud Financial Management",
       "product": "https://aws.amazon.com/aws-cost-management/reserved-instance-reporting/",
-      "icon": "icons/Arch_Reserved-Instance_64.svg"
     },
     {
       "name": "AWS App Runner",
@@ -2275,7 +2264,7 @@
       "name": "AWS Snow Family",
       "category": "Storage",
       "product": "https://aws.amazon.com/snow/",
-      "icon": "icons/Arch_AWS-Snow-Family_64.svg"
+      "icon": "icons/Arch_AWS-Snow_64.svg"
     },
     {
       "name": "Amazon FSx",
@@ -2359,7 +2348,6 @@
       "name": "AWS Inferentia",
       "category": "Machine Learning",
       "product": "https://aws.amazon.com/machine-learning/inferentia/",
-      "icon": "icons/Arch_AWS-Inferentia_64.svg"
     },
     {
       "name": "AWS Panorama",
@@ -2401,7 +2389,6 @@
       "name": "PyTorch on AWS",
       "category": "Machine Learning",
       "product": "https://aws.amazon.com/pytorch/",
-      "icon": "icons/Arch_PyTorch-on-AWS_64.svg"
     },
     {
       "name": "Amazon Lookout for Equipment",
@@ -2449,7 +2436,7 @@
       "name": "Migration Evaluator (formerly TSO Logic)",
       "category": "Migration",
       "product": "https://aws.amazon.com/migration-evaluator/",
-      "icon": "icons/Arch_Migration-Evaluator_64.svg"
+      "icon": "icons/Arch_AWS-Migration-Evaluator_64.svg"
     },
     {
       "name": "AWS Transfer Family",
@@ -2467,7 +2454,7 @@
       "name": "CloudEndure Migration",
       "category": "Migration",
       "product": "https://aws.amazon.com/cloudendure-migration/",
-      "icon": "icons/Arch_CloudEndure-Migration_64.svg"
+      "icon": "icons/Arch_CloudEndure-Disaster-Recovery_64.svg"
     },
     {
       "name": "AWS Cloud Development Kit (CDK)",
