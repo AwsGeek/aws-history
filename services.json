@@ -36,7 +36,7 @@
       "color": "#527FFF",
       "icon": "icons/Arch-Category_Customer-Engagement_64.svg"
     },
-    "Database": {
+    "Databases": {
       "color": "#527FFF",
       "icon": "icons/Arch-Category_Database_64.svg"
     },
@@ -72,7 +72,7 @@
       "color": "#FF9900",
       "icon": "icons/Arch-Category_Media-Services_64.svg"
     },
-    "Migration & Transfer": {
+    "Migration": {
       "color": "#56C0A7",
       "icon": "icons/Arch-Category_Migration-and-Transfer_64.svg"
     },
@@ -406,7 +406,7 @@
     },
     {
       "name": "Amazon Braket",
-      "category": "Compute",
+      "category": "Quantum Technologies",
       "product": "https://aws.amazon.com/braket/",
       "announced": {
         "date": "12/2/2019",
@@ -568,7 +568,7 @@
     },
     {
       "name": "Amazon Connect",
-      "category": "Customer Engagement",
+      "category": "Business Applications",
       "product": "https://aws.amazon.com/connect/",
       "released": {
         "date": "3/28/2017",
@@ -578,7 +578,7 @@
     },
     {
       "name": "Amazon SimpleDB",
-      "category": "Database",
+      "category": "Databases",
       "product": "https://aws.amazon.com/simpledb/",
       "announced": {
         "date": "12/13/2007",
@@ -587,7 +587,7 @@
     },
     {
       "name": "Amazon ElastiCache",
-      "category": "Database",
+      "category": "Databases",
       "product": "https://aws.amazon.com/elasticache/",
       "announced": {
         "date": "8/22/2011",
@@ -597,7 +597,7 @@
     },
     {
       "name": "Amazon DynamoDB",
-      "category": "Database",
+      "category": "Databases",
       "product": "https://aws.amazon.com/dynamodb/",
       "released": {
         "date": "1/18/2012",
@@ -607,7 +607,7 @@
     },
     {
       "name": "Amazon Redshift",
-      "category": "Database",
+      "category": "Databases",
       "product": "https://aws.amazon.com/redshift/",
       "announced": {
         "date": "11/28/2012",
@@ -621,11 +621,11 @@
     },
     {
       "name": "Amazon RDS",
-      "category": "Database",
+      "category": "Databases",
       "product": "https://aws.amazon.com/rds/",
       "announced": {
         "date": "10/27/2009",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2009/10/27/introducing-amazon-relational-database-service/"
+        "link": "https://aws.amazon.com/about-aws/whats-new/2009/10/27/introducing-amazon-relational-Databases-service/"
       },
       "released": {
         "date": "6/5/2013",
@@ -635,11 +635,11 @@
     },
     {
       "name": "Amazon Neptune",
-      "category": "Database",
+      "category": "Databases",
       "product": "https://aws.amazon.com/neptune/",
       "announced": {
         "date": "11/29/2017",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2017/11/amazon-neptune-fast-reliable-graph-database-built-for-the-cloud/"
+        "link": "https://aws.amazon.com/about-aws/whats-new/2017/11/amazon-neptune-fast-reliable-graph-Databases-built-for-the-cloud/"
       },
       "released": {
         "date": "5/30/2018",
@@ -648,7 +648,7 @@
       "icon": "icons/Arch_Amazon-Neptune_64.svg"
     },
     {
-      "name": "Amazon Quantum Ledger Database (QLDB)",
+      "name": "Amazon Quantum Ledger Databases (QLDB)",
       "category": "Blockchain",
       "product": "https://aws.amazon.com/qldb/",
       "announced": {
@@ -657,13 +657,13 @@
       },
       "released": {
         "date": "9/10/2019",
-        "link": "https://aws.amazon.com/blogs/aws/now-available-amazon-quantum-ledger-database-qldb/"
+        "link": "https://aws.amazon.com/blogs/aws/now-available-amazon-quantum-ledger-Databases-qldb/"
       },
       "icon": "icons/Arch_Amazon-Quantum-Ledger-Database_64.svg"
     },
     {
       "name": "Amazon Keyspaces (for Apache Cassandra)",
-      "category": "Database",
+      "category": "Databases",
       "product": "http://aws.amazon.com/mcs/",
       "announced": {
         "date": "12/3/2019",
@@ -677,7 +677,7 @@
     },
     {
       "name": "Amazon Timestream",
-      "category": "Database",
+      "category": "Databases",
       "product": "https://aws.amazon.com/timestream/",
       "announced": {
         "date": "11/28/2018",
@@ -691,7 +691,7 @@
     },
     {
       "name": "Amazon DocumentDB (with MongoDB compatibility)",
-      "category": "Database",
+      "category": "Databases",
       "product": "https://aws.amazon.com/documentdb/",
       "released": {
         "date": "1/9/2019",
@@ -811,7 +811,7 @@
     },
     {
       "name": "Amazon WorkDocs",
-      "category": "End User Computing",
+      "category": "Business Applications",
       "product": "https://aws.amazon.com/workdocs/",
       "announced": {
         "date": "7/10/2014",
@@ -1311,7 +1311,7 @@
     },
     {
       "name": "AWS Auto Scaling",
-      "category": "Management & Governance",
+      "category": "Compute",
       "product": "https://aws.amazon.com/autoscaling/",
       "released": {
         "date": "1/16/2018",
@@ -1445,7 +1445,7 @@
     },
     {
       "name": "AWS Snowball Family",
-      "category": "Migration & Transfer",
+      "category": "Migration",
       "product": "https://aws.amazon.com/snow/",
       "released": {
         "date": "10/7/2015",
@@ -1454,22 +1454,22 @@
       "icon": "icons/Arch_AWS-Snowball_64.svg"
     },
     {
-      "name": "AWS Database Migration Service",
-      "category": "Migration & Transfer",
+      "name": "AWS Databases Migration Service",
+      "category": "Migration",
       "product": "https://aws.amazon.com/dms/",
       "announced": {
         "date": "10/7/2015",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2015/10/now-in-preview-aws-database-migration-service/"
+        "link": "https://aws.amazon.com/about-aws/whats-new/2015/10/now-in-preview-aws-Databases-migration-service/"
       },
       "released": {
         "date": "3/15/2016",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2016/03/aws-database-migration-service-is-now-generally-available/"
+        "link": "https://aws.amazon.com/about-aws/whats-new/2016/03/aws-Databases-migration-service-is-now-generally-available/"
       },
-      "icon": "icons/Arch_AWS-Database-Migration-Service_64.svg"
+      "icon": "icons/Arch_AWS-Databases-Migration-Service_64.svg"
     },
     {
       "name": "AWS Application Discovery Service",
-      "category": "Migration & Transfer",
+      "category": "Migration",
       "product": "https://aws.amazon.com/application-discovery/",
       "released": {
         "date": "5/12/2016",
@@ -1479,7 +1479,7 @@
     },
     {
       "name": "AWS Server Migration Service",
-      "category": "Migration & Transfer",
+      "category": "Migration",
       "product": "https://aws.amazon.com/server-migration-service/",
       "released": {
         "date": "10/24/2016",
@@ -1489,7 +1489,7 @@
     },
     {
       "name": "AWS Migration Hub",
-      "category": "Migration & Transfer",
+      "category": "Migration",
       "product": "https://aws.amazon.com/migration-hub/",
       "released": {
         "date": "8/14/2017",
@@ -1499,7 +1499,7 @@
     },
     {
       "name": "AWS DataSync",
-      "category": "Migration & Transfer",
+      "category": "Migration",
       "product": "https://aws.amazon.com/datasync/",
       "released": {
         "date": "11/26/2018",
@@ -1509,7 +1509,7 @@
     },
     {
       "name": "AWS Transfer for SFTP",
-      "category": "Migration & Transfer",
+      "category": "Migration",
       "product": "https://aws.amazon.com/sftp/",
       "released": {
         "date": "11/26/2018",
@@ -2058,6 +2058,12 @@
       "category": "Security, Identity, & Compliance",
       "product": "https://aws.amazon.com/single-sign-on/",
       "icon": "icons/Arch_AWS-Single-Sign-On_64.svg"
+    },
+    {
+      "name": "Amazon Quantum Ledger Database (QLDB)",
+      "category": "Blockchain",
+      "product": "https://aws.amazon.com/qldb/",
+      "icon": "icons/Arch_Amazon-Quantum-Ledger-Database_64.svg"
     },
     {
       "name": "Amazon Location Service",
