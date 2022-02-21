@@ -1,1955 +1,2501 @@
 {
-   "categories": {     
-         "Analytics":  { 
-            "color":"#A166FF", 
-            "icon":"icons/Arch-Category_Analytics_64.svg"
-         },
-         "Application Integration":  {
-            "color":"#FF4F8B", 
-            "icon":"icons/Arch-Category_Application-Integration_64.svg"
-         },
-         "AR & VR":  {
-            "color":"#FF4F8B", 
-            "icon":"icons/Arch-Category_AR-VR_64.svg"
-         },
-         "AWS Cost Management":  {
-            "color":"#6CAE3E", 
-            "icon":"icons/Arch-Category_AWS-Cost-Management_64.svg"
-         },
-         "Blockchain":  {
-            "color":"#FF9900", 
-            "icon":"icons/Arch-Category_Blockchain_64.svg"
-         },
-         "Business Applications":  {
-            "color":"#FF5252", 
-            "icon":"icons/Arch-Category_Business-Applications_64.svg"
-         },
-         "Containers":  {
-            "color":"#FF9900",
-            "icon":"icons/Arch-Category_Containers_64.svg"
-         },
-         "Compute":  {
-            "color":"#FF9900",
-            "icon":"icons/Arch-Category_Compute_64.svg"
-         },
-         "Customer Engagement":  {
-            "color":"#527FFF", 
-            "icon":"icons/Arch-Category_Customer-Engagement_64.svg"
-         },
-         "Database":  {
-            "color":"#527FFF", 
-            "icon":"icons/Arch-Category_Database_64.svg"
-         },
-         "Developer Tools":  {
-            "color":"#527FFF", 
-            "icon":"icons/Arch-Category_Developer-Tools_64.svg"
-         },
-         "End User Computing":  {
-            "color":"#56C0A7", 
-            "icon":"icons/Arch-Category_End-User-Computing_64.svg"
-         },
-         "Front-End Web & Mobile":  {
-            "color":"#FF5252", 
-            "icon":"icons/Arch-Category_Mobile_64.svg"
-         },
-         "Game Tech":  {
-            "color":"#A166FF", 
-            "icon":"icons/Arch-Category_Game-Tech_64.svg"
-         },
-         "Internet of Things":  {
-            "color":"#6CAE3E", 
-            "icon":"icons/Arch-Category_Internet-of-Things_64.svg"
-         },
-         "Machine Learning":  {
-            "color":"#56C0A7", 
-            "icon":"icons/Arch-Category_Machine-Learning_64.svg"
-         },
-         "Management & Governance":  {
-            "color":"#FF4F8B", 
-            "icon":"icons/Arch-Category_Management-and-Governance_64.svg"
-         },
-         "Media Services":  {
-            "color":"#FF9900", 
-            "icon":"icons/Arch-Category_Media-Services_64.svg"
-         },
-         "Migration & Transfer":  {
-            "color":"#56C0A7", 
-            "icon":"icons/Arch-Category_Migration-and-Transfer_64.svg"
-         },
-         "Networking & Content Delivery":  {
-            "color":"#A166FF", 
-            "icon":"icons/Arch-Category_Networking-and-Content-Delivery_64.svg"
-         },
-         "Quantum Technologies":  {
-            "color":"#FF9900", 
-            "icon":"icons/Arch-Category_Quantum-Technologies_64.svg"
-         },
-         "Robotics":  {
-            "color":"#FF5252", 
-            "icon":"icons/Arch-Category_Robotics_64.svg"
-         },
-         "Satellite":  {
-            "color":"#527FFF", 
-            "icon":"icons/Arch-Category_Satellite_64.svg"
-         },
-         "Security, Identity & Compliance":  {
-            "color":"#FF5252", 
-            "icon":"icons/Arch-Category_Security-Identity-and-Compliance_64.svg"
-         },
-         "Serverless":  {
-            "color":"#A166FF", 
-            "icon":"icons/Arch-Category_Serverless_64.svg"
-         },
-         "Storage":  {
-            "color":"#6CAE3E", 
-            "icon":"icons/Arch-Category_Storage_64.svg"
-         }
-   },
-   "services":[
-       {
-         "name":"AWS Data Exchange",
-         "category":"Analytics",
-         "product":"https://aws.amazon.com/data-exchange/",
-         "released":{
-            "date":"11/13/2019",
-            "link":"https://aws.amazon.com/about-aws/whats-new/2019/11/introducing-aws-data-exchange/"
-         }
-       },
-       {
-         "name":"Amazon Elastic Block Store (EBS)",
-         "category":"Storage",
-         "product":"https://aws.amazon.com/ebs/",
-         "released":{
-            "date":"8/20/2008",
-            "link":"https://aws.amazon.com/about-aws/whats-new/2008/08/20/amazon-elastic-block-store-now-available/"
-         },
-         "icon":"icons/Arch_Amazon-Elastic-Block-Store_64.svg"
-      },
-      {
-         "name":"Amazon EMR",
-         "category":"Analytics",
-         "product":"https://aws.amazon.com/elasticmapreduce/",
-         "announced":{
-            "date":"4/2/2009",
-            "link":"https://aws.amazon.com/about-aws/whats-new/2009/04/02/announcing-amazon-elastic-mapreduce/"
-         },
-         "icon":"icons/Arch_Amazon-EMR_64.svg"
-      },
-      {
-         "name":"Amazon CloudSearch",
-         "category":"Analytics",
-         "product":"https://aws.amazon.com/cloudsearch/",
-         "released":{
-            "date":"4/11/2012",
-            "link":"https://aws.amazon.com/about-aws/whats-new/2012/04/11/aws-announces-cloudsearch/"
-         },
-         "icon":"icons/Arch_Amazon-CloudSearch_64.svg"
-      },
-      {
-         "name":"AWS Data Pipeline",
-         "category":"Analytics",
-         "product":"https://aws.amazon.com/datapipeline/",
-         "announced":{
-            "date":"12/20/2012",
-            "link":"https://aws.amazon.com/about-aws/whats-new/2012/12/20/announcing-aws-data-pipeline/"
-         },
-         "icon":"icons/Arch_AWS-Data-Pipeline_64.svg"
-      },
-      {
-         "name":"Amazon Kinesis",
-         "category":"Analytics",
-         "product":"https://aws.amazon.com/kinesis/",
-         "announced":{
-            "date":"11/14/2013",
-            "link":"https://aws.amazon.com/about-aws/whats-new/2013/11/14/introducing-amazon-kinesis/"
-         },
-         "released":{
-            "date":"12/16/2013",
-            "link":"https://aws.amazon.com/about-aws/whats-new/2013/12/16/amazon-kinesis-available-for-all-customers/"
-         },
-         "icon":"icons/Arch_Amazon-Kinesis_64.svg"
-      },
-      {
-         "name":"Amazon Elasticsearch Service",
-         "category":"Analytics",
-         "product":"https://aws.amazon.com/elasticsearch-service/",
-         "released":{
-            "date":"10/1/2015",
-            "link":"https://aws.amazon.com/about-aws/whats-new/2015/10/introducing-amazon-elasticsearch-service/"
-         },
-         "icon":"icons/Arch_Amazon-OpenSearch-Service_64.svg"
-      },
-      {
-         "name":"Amazon Quicksight",
-         "category":"Analytics",
-         "product":"https://aws.amazon.com/quicksight/",
-         "announced":{
-            "date":"10/7/2015",
-            "link":"https://aws.amazon.com/about-aws/whats-new/2015/10/introducing-amazon-quicksight-now-in-preview/"
-         },
-         "released":{
-            "date":"11/15/2016",
-            "link":"https://aws.amazon.com/about-aws/whats-new/2016/11/amazon-quicksight-now-generally-available/"
-         },
-         "icon":"icons/Arch_Amazon-Quicksight_64.svg"
-      },
-      {
-         "name":"Amazon Athena",
-         "category":"Analytics",
-         "product":"https://aws.amazon.com/athena/",
-         "released":{
-            "date":"11/30/2016",
-            "link":"https://aws.amazon.com/about-aws/whats-new/2016/11/introducing-amazon-athena-a-pay-as-you-go-interactive-query-service-that-makes-it-easy-to-analyze-data-in-amazon-s3-using-standard-sql/"
-         },
-         "icon":"icons/Arch_Amazon-Athena_64.svg"
-      },
-      {
-         "name":"AWS Glue",
-         "category":"Analytics",
-         "product":"https://aws.amazon.com/glue/",
-         "announced":{
-            "date":"12/1/2016",
-            "link":"https://aws.amazon.com/about-aws/whats-new/2016/12/introducing-aws-glue-prepare-and-load-data-into-data-stores/"
-         },
-         "released":{
-            "date":"8/14/2017",
-            "link":"https://aws.amazon.com/about-aws/whats-new/2017/08/introducing-aws-glue-a-simple-flexible-and-cost-effective-extract-transfer-and-load-etl-service/"
-         },
-         "icon":"icons/Arch_AWS-Glue_64.svg"
-      },
-      {
-         "name":"AWS Lake Formation",
-         "category":"Analytics",
-         "product":"https://aws.amazon.com/lake-formation/",
-         "announced":{
-            "date":"11/28/2018",
-            "link":"https://aws.amazon.com/about-aws/whats-new/2018/11/announcing-aws-lake-formation/"
-         },
-         "released":{
-            "date":"8/8/2019",
-            "link":"https://press.aboutamazon.com/news-releases/news-release-details/aws-announces-general-availability-aws-lake-formation"
-         },
-         "icon":"icons/Arch_AWS-Lake-Formation_64.svg"
-      },
-      {
-         "name":"Amazon Managed Streaming for Kafka",
-         "category":"Analytics",
-         "product":"https://aws.amazon.com/msk/",
-         "announced":{
-            "date":"11/28/2018",
-            "link":"https://aws.amazon.com/about-aws/whats-new/2018/11/introducing-amazon-managed-streaming-for-kafka-in-public-preview/"
-         },
-         "released":{
-            "date":"5/30/2019",
-            "link":"https://aws.amazon.com/about-aws/whats-new/2019/05/amazon_managed_streaming_for_apache_kafka_amazon_msk_is_now_generally_available/"
-         },
-         "icon":"icons/Arch_Amazon-Managed-Streaming-for-Apache-Kafka_64.svg"
-      },
-      {
-         "name":"Amazon Appflow",
-         "category":"Application Integration",
-         "product":"https://aws.amazon.com/appflow/",
-         "released":{
-            "date":"4/22/2020",
-            "link":"https://aws.amazon.com/about-aws/whats-new/2020/04/introducing-amazon-appflow/"
-         }
-      },
-      {
-         "name":"Amazon Simple Queue Service (SQS)",
-         "category":"Application Integration",
-         "product":"https://aws.amazon.com/sqs/",
-         "announced":{
-            "date":"11/3/2004",
-            "link":"https://aws.amazon.com/about-aws/whats-new/2004/11/03/introducing-the-amazon-simple-queue-service/"
-         },
-         "released":{
-            "date":"7/11/2006",
-            "link":"https://aws.amazon.com/about-aws/whats-new/2006/07/11/amazon-simple-queue-service-amazon-sqs-now-generally-available/"
-         },
-         "icon":"icons/Arch_Amazon-Simple-Queue-Service_64.svg"
-      },
-      {
-         "name":"Amazon Simple Notification Service (SNS)",
-         "category":"Application Integration",
-         "product":"https://aws.amazon.com/sns/",
-         "announced":{
-            "date":"4/7/2010",
-            "link":"https://aws.amazon.com/about-aws/whats-new/2010/04/07/announcing-amazon-simple-notification-service/"
-         },
-         "icon":"icons/Arch_Amazon-Simple-Notification-Service_64.svg"
-      },
-      {
-         "name":"AWS Simple Workflow",
-         "category":"Application Integration",
-         "product":"https://aws.amazon.com/swf/",
-         "released":{
-            "date":"02/21/2012",
-            "link":"https://aws.amazon.com/about-aws/whats-new/2012/02/21/aws-announces-swf/"
-         },
-         "icon":"icons/Arch_AWS-Simple-Workflow_64.svg"
-      },      
-      {
-         "name":"AWS Step Functions",
-         "category":"Application Integration",
-         "product":"https://aws.amazon.com/step-functions/",
-         "released":{
-            "date":"12/1/2016",
-            "link":"https://aws.amazon.com/about-aws/whats-new/2016/12/introducing-aws-step-functions/"
-         },
-         "icon":"icons/Arch_AWS-Step-Functions_64.svg"
-      },
-      {
-         "name":"Amazon MQ",
-         "category":"Application Integration",
-         "product":"https://aws.amazon.com/amazon-mq/",
-         "released":{
-            "date":"11/28/2017",
-            "link":"https://aws.amazon.com/about-aws/whats-new/2017/11/introducing-amazon-mq/"
-         },
-         "icon":"icons/Arch_Amazon-MQ_64.svg"
-      },
-      {
-         "name":"Amazon Sumerian",
-         "category":"AR & VR",
-         "product":"https://aws.amazon.com/sumerian/",
-         "announced":{
-            "date":"11/26/2017",
-            "link":"https://aws.amazon.com/about-aws/whats-new/2017/11/announcing-amazon-sumerian-preview/"
-         },
-         "released":{
-            "date":"5/15/2018",
-            "link":"https://aws.amazon.com/about-aws/whats-new/2018/05/amazon-sumerian-is-generally-available/"
-         },
-         "icon":"icons/Arch_Amazon-Sumerian_64.svg"
-      },
-      {
-         "name":"AWS Cost Explorer",
-         "category":"AWS Cost Management",
-         "product":"https://aws.amazon.com/aws-cost-management/aws-cost-explorer/",
-         "released":{
-            "date":"4/8/2014",
-            "link":"https://aws.amazon.com/about-aws/whats-new/2014/04/08/introducing-cost-explorer-view-and-analyze-your-historical-aws-spend/"
-         },
-         "icon":"icons/Arch_AWS-Cost-Explorer_64.svg"
-      },
-      {
-         "name":"AWS Budgets",
-         "category":"AWS Cost Management",
-         "product":"https://aws.amazon.com/aws-cost-management/aws-budgets/",
-         "released":{
-            "date":"6/29/2015",
-            "link":"https://aws.amazon.com/about-aws/whats-new/2015/06/aws-introduces-budgets-a-simple-way-to-manage-your-aws-costs/"
-         },
-         "icon":"icons/Arch_AWS-Budgets_64.svg"
-      },
-      {
-         "name":"Amazon Managed Blockchain",
-         "category":"Blockchain",
-         "product":"https://aws.amazon.com/blockchain/",
-         "announced":{
-            "date":"11/28/2018",
-            "link":"https://aws.amazon.com/about-aws/whats-new/2018/11/introducing-amazon-managed-blockchain/"
-         },
-         "released":{
-            "date":"4/30/2019",
-            "link":"https://aws.amazon.com/about-aws/whats-new/2019/04/introducing-amazon-managed-blockchain/"
-         },
-         "icon":"icons/Arch_Amazon-Managed-Blockchain_64.svg"
-      },
-      {
-         "name":"Amazon WorkMail",
-         "category":"Business Applications",
-         "product":"https://aws.amazon.com/workmail/",
-         "announced":{
-            "date":"1/28/2015",
-            "link":"https://aws.amazon.com/about-aws/whats-new/2015/01/28/introducing-amazon-workmail/"
-         },
-         "released":{
-            "date":"1/4/2016",
-            "link":"https://aws.amazon.com/about-aws/whats-new/2016/01/amazon-workmail-now-generally-available/"
-         },
-         "icon":"icons/Arch_Amazon-WorkMail_64.svg"
-      },
-      {
-         "name":"Amazon Chime",
-         "category":"Business Applications",
-         "product":"https://aws.amazon.com/chime/",
-         "released":{
-            "date":"2/13/2017",
-            "link":"https://aws.amazon.com/about-aws/whats-new/2017/02/announcing-amazon-chime-frustration-free-online-meetings-with-exceptional-audio-and-video-quality/"
-         },
-         "icon":"icons/Arch_Amazon-Chime_64.svg"
-      },
-      {
-         "name":"Alexa for Business",
-         "category":"Business Applications",
-         "product":"https://aws.amazon.com/alexaforbusiness/",
-         "released":{
-            "date":"11/30/2017",
-            "link":"https://aws.amazon.com/about-aws/whats-new/2017/11/alexa-for-business-is-now-generally-released/"
-         },
-         "icon":"icons/Arch_Alexa-For-Business_64.svg"
-      },
-      {
-         "name":"Amazon EC2",
-         "category":"Compute",
-         "product":"https://aws.amazon.com/ec2/",
-         "announced":{
-            "date":"8/24/2006",
-            "link":"https://aws.amazon.com/about-aws/whats-new/2006/08/24/announcing-amazon-elastic-compute-cloud-amazon-ec2---beta/"
-         },
-         "released":{
-            "date":"10/23/2008",
-            "link":"https://aws.amazon.com/about-aws/whats-new/2008/10/23/amazon-ec2-exits-beta-and-now-offers-a-service-level-agreement/"
-         },
-         "icon":"icons/Arch_Amazon-EC2_64.svg"
-      },
-      {
-         "name":"Amazon Braket",
-         "category":"Compute",
-         "product":"https://aws.amazon.com/braket/",
-         "announced":{
-            "date":"12/2/2019",
-            "link":"https://aws.amazon.com/blogs/aws/amazon-braket-get-started-with-quantum-computing/"
-         },
-         "released":{
-            "date":"8/13/2020",
-            "link":"https://aws.amazon.com/about-aws/whats-new/2020/08/quantum-computing-available-aws-through-amazon-braket/"
-         },
-         "icon":"icons/Arch_Amazon-Braket_64.svg"
-      },
-      {
-         "name":"Amazon Wavelength",
-         "category":"Compute",
-         "product":"https://aws.amazon.com/wavelength/",
-         "announced":{
-            "date":"12/3/2019",
-            "link":"https://aws.amazon.com/about-aws/whats-new/2019/12/announcing-aws-wavelength-delivering-ultra-low-latency-applications-5g/"
-         },
-         "released":{
-            "date":"8/6/2020",
-            "link":"https://aws.amazon.com/about-aws/whats-new/2020/08/announcing-the-general-availability-of-aws-wavelength-in-boston-and-the-san-francisco-bay-area/"
-         },
-         "icon":"icons/Arch_AWS-Wavelength_64.svg"
-      },
-      {
-         "name":"AWS Elastic Beanstalk",
-         "category":"Compute",
-         "product":"https://aws.amazon.com/elasticbeanstalk/",
-         "announced":{
-            "date":"1/19/2011",
-            "link":"https://aws.amazon.com/about-aws/whats-new/2011/01/19/introducing-aws-elastic-beanstalk-beta/"
-         },
-         "icon":"icons/Arch_AWS-Elastic-Beanstalk_64.svg"
-      },
-      {
-         "name":"Amazon Elastic Container Service",
-         "category":"Compute",
-         "product":"https://aws.amazon.com/ecs/",
-         "announced":{
-            "date":"11/13/2014",
-            "link":"https://aws.amazon.com/about-aws/whats-new/2014/11/13/introducing-amazon-ec2-container-service/"
-         },
-         "released":{
-            "date":"4/9/2015",
-            "link":"https://aws.amazon.com/about-aws/whats-new/2015/04/amazon-ec2-container-service-is-now-generally-available/"
-         },
-         "icon":"icons/Arch_Amazon-Elastic-Container-Service_64.svg"
-      },
-      {
-         "name":"AWS Lambda",
-         "category":"Compute",
-         "product":"https://aws.amazon.com/lambda/",
-         "announced":{
-            "date":"11/13/2014",
-            "link":"https://aws.amazon.com/about-aws/whats-new/2014/11/13/introducing-aws-lambda/"
-         },
-         "released":{
-            "date":"4/9/2015",
-            "link":"https://aws.amazon.com/about-aws/whats-new/2015/04/aws-lambda-brings-scalable-event-computing-to-mobile-and-iot-backends/"
-         },
-         "icon":"icons/Arch_AWS-Lambda_64.svg"
-      },
-      {
-         "name":"Amazon Elastic Container Registry",
-         "category":"Compute",
-         "product":"https://aws.amazon.com/ecr/",
-         "released":{
-            "date":"12/21/2015",
-            "link":"https://aws.amazon.com/about-aws/whats-new/2015/12/amazon-ec2-container-registry-now-available/"
-         },
-         "icon":"icons/Arch_Amazon-Elastic-Container-Registry_64.svg"
-      },
-      {
-         "name":"Amazon Lightsail",
-         "category":"Compute",
-         "product":"https://aws.amazon.com/lightsail/",
-         "released":{
-            "date":"11/30/2016",
-            "link":"https://aws.amazon.com/about-aws/whats-new/2016/11/introducing-amazon-lightsail/"
-         },
-         "icon":"icons/Arch_Amazon-Lightsail_64.svg"
-      },
-      {
-         "name":"AWS Batch",
-         "category":"Compute",
-         "product":"https://aws.amazon.com/batch/",
-         "announced":{
-            "date":"12/1/2016",
-            "link":"https://aws.amazon.com/about-aws/whats-new/2016/12/announcing-aws-batch/"
-         },
-         "released":{
-            "date":"1/5/2017",
-            "link":"https://aws.amazon.com/about-aws/whats-new/2017/01/aws-batch-now-generally-available/"
-         },
-         "icon":"icons/Arch_AWS-Batch_64.svg"
-      },
-      {
-         "name":"AWS Serverless Application Repository",
-         "category":"Compute",
-         "product":"https://aws.amazon.com/serverlessrepo/",
-         "announced":{
-            "date":"11/30/2017",
-            "link":"https://aws.amazon.com/about-aws/whats-new/2017/11/aws-serverless-application-repository-enables-customers-to-discover-deploy-and-publish-serverless-applications/"
-         },
-         "released":{
-            "date":"2/21/2018",
-            "link":"https://aws.amazon.com/about-aws/whats-new/2018/02/aws-serverless-application-repository-now-generally-available/"
-         },
-         "icon":"icons/Arch_AWS-Serverless-Application-Repository_64.svg"
-      },
-      {
-         "name":"Amazon Elastic Kubernetes Service",
-         "category":"Compute",
-         "product":"https://aws.amazon.com/eks/",
-         "announced":{
-            "date":"11/29/2017",
-            "link":"https://aws.amazon.com/about-aws/whats-new/2017/11/introducing-amazon-elastic-container-service-for-kubernetes/"
-         },
-         "released":{
-            "date":"6/5/2018",
-            "link":"https://aws.amazon.com/about-aws/whats-new/2018/06/amazon-elastic-container-service-for-kubernetes-eks-now-ga/"
-         },
-         "icon":"icons/Arch_Amazon-Elastic-Kubernetes-Service_64.svg"
-      },
-      {
-         "name":"AWS Outposts",
-         "category":"Compute",
-         "product":"https://aws.amazon.com/outposts/",
-         "announced":{
-            "date":"11/27/2018",
-            "link":"https://aws.amazon.com/about-aws/whats-new/2018/11/announcing-aws-outposts/"
-         },
-         "released":{
-            "date":"12/3/2019",
-            "link":"https://aws.amazon.com/blogs/aws/aws-outposts-now-available-order-your-racks-today/"
-         },
-         "icon":"icons/Arch_AWS-Outposts-family_64.svg"
-      },
-      {
-         "name":"Amazon Simple Email Service (SES)",
-         "category":"Customer Engagement",
-         "product":"https://aws.amazon.com/ses/",
-         "announced":{
-            "date":"1/25/2011",
-            "link":"https://aws.amazon.com/about-aws/whats-new/2011/01/25/introducing-amazon-simple-email-service-beta/"
-         },
-         "icon":"icons/Arch_Amazon-Simple-Email-Service_64.svg"
-      },
-      {
-         "name":"Amazon Mobile Analytics",
-         "category":"Front-End Web & Mobile",
-         "product":"https://aws.amazon.com/mobileanalytics/",
-         "released":{
-            "date":"7/10/2014",
-            "link":"https://aws.amazon.com/about-aws/whats-new/2014/07/10/introducing-amazon-mobile-analytics/"
-         },
-         "icon":"icons/Arch_Amazon-Mobile-Analytics_64.svg"
-      },
-      {
-         "name":"Amazon Connect",
-         "category":"Customer Engagement",
-         "product":"https://aws.amazon.com/connect/",
-         "released":{
-            "date":"3/28/2017",
-            "link":"https://aws.amazon.com/about-aws/whats-new/2017/03/introducing-amazon-connect/"
-         },
-         "icon":"icons/Arch_Amazon-Connect_64.svg"
-      },
-      {
-         "name":"Amazon SimpleDB",
-         "category":"Database",
-         "product":"https://aws.amazon.com/simpledb/",
-         "announced":{
-            "date":"12/13/2007",
-            "link":"https://aws.amazon.com/about-aws/whats-new/2007/12/13/announcing-amazon-simpledb-limited-beta/"
-         }
-      },
-      {
-         "name":"Amazon ElastiCache",
-         "category":"Database",
-         "product":"https://aws.amazon.com/elasticache/",
-         "announced":{
-            "date":"8/22/2011",
-            "link":"https://aws.amazon.com/about-aws/whats-new/2011/08/22/announcing-amazon-elasticache/"
-         },
-         "icon":"icons/Arch_Amazon-ElastiCache_64.svg"
-      },
-      {
-         "name":"Amazon DynamoDB",
-         "category":"Database",
-         "product":"https://aws.amazon.com/dynamodb/",
-         "released":{
-            "date":"1/18/2012",
-            "link":"https://aws.amazon.com/about-aws/whats-new/2012/01/18/aws-announces-dynamodb/"
-         },
-         "icon":"icons/Arch_Amazon-DynamoDB_64.svg"
-      },
-      {
-         "name":"Amazon Redshift",
-         "category":"Database",
-         "product":"https://aws.amazon.com/redshift/",
-         "announced":{
-            "date":"11/28/2012",
-            "link":"https://aws.amazon.com/about-aws/whats-new/2012/11/28/announcing-amazon-redshift/"
-         },
-         "released":{
-            "date":"2/14/2013",
-            "link":"https://aws.amazon.com/about-aws/whats-new/2013/02/14/amazon-redshift-available-to-all-customers/"
-         },
-         "icon":"icons/Arch_Amazon-Redshift_64.svg"
-      },
-      {
-         "name":"Amazon RDS",
-         "category":"Database",
-         "product":"https://aws.amazon.com/rds/",
-         "announced":{
-            "date":"10/27/2009",
-            "link":"https://aws.amazon.com/about-aws/whats-new/2009/10/27/introducing-amazon-relational-database-service/"
-         },
-         "released":{
-            "date":"6/5/2013",
-            "link":"https://aws.amazon.com/about-aws/whats-new/2013/06/05/amazon-rds-ga-sla/"
-         },
-         "icon":"icons/Arch_Amazon-RDS_64.svg"
-      },
-      {
-         "name":"Amazon Neptune",
-         "category":"Database",
-         "product":"https://aws.amazon.com/neptune/",
-         "announced":{
-            "date":"11/29/2017",
-            "link":"https://aws.amazon.com/about-aws/whats-new/2017/11/amazon-neptune-fast-reliable-graph-database-built-for-the-cloud/"
-         },
-         "released":{
-            "date":"5/30/2018",
-            "link":"https://aws.amazon.com/about-aws/whats-new/2018/05/amazon-neptune-is-now-generally-available/"
-         },
-         "icon":"icons/Arch_Amazon-Neptune_64.svg"
-      },
-      {
-         "name":"Amazon Quantum Ledger Database (QLDB)",
-         "category":"Database",
-         "product":"https://aws.amazon.com/qldb/",
-         "announced":{
-            "date":"11/28/2018",
-            "link":"https://aws.amazon.com/about-aws/whats-new/2018/11/introducing-amazon-qldb/"
-         },
-         "released":{
-            "date":"9/10/2019",
-            "link":"https://aws.amazon.com/blogs/aws/now-available-amazon-quantum-ledger-database-qldb/"
-         },
-         "icon":"icons/Arch_Amazon-Quantum-Ledger-Database_64.svg"
-      },
-      {
-         "name":"Amazon Keyspaces (for Apache Cassandra)",
-         "category":"Database",
-         "product":"http://aws.amazon.com/mcs/",
-         "announced":{
-            "date":"12/3/2019",
-            "link":"https://aws.amazon.com/blogs/aws/new-amazon-managed-apache-cassandra-service-mcs/"
-         },
-         "released":{
-            "date":"04/23/2020",
-            "link":"https://aws.amazon.com/blogs/aws/new-amazon-keyspaces-for-apache-cassandra-is-now-generally-available/"
-         },
-         "icon":"icons/Arch_Amazon-Keyspaces_64.svg"
-      },
-      {
-         "name":"Amazon Timestream",
-         "category":"Database",
-         "product":"https://aws.amazon.com/timestream/",
-         "announced":{
-            "date":"11/28/2018",
-            "link":"https://aws.amazon.com/about-aws/whats-new/2018/11/announcing-amazon-timestream/"
-         },
-         "released":{
-            "date":"09/30/2020",
-            "link":"https://aws.amazon.com/about-aws/whats-new/2020/09/amazon-timestream-now-generally-available/"
-         },
-         "icon":"icons/Arch_Amazon-Timestream_64.svg"
-      },
-      {
-         "name":"Amazon DocumentDB (with MongoDB compatibility)",
-         "category":"Database",
-         "product":"https://aws.amazon.com/documentdb/",
-         "released":{
-            "date":"1/9/2019",
-            "link":"https://aws.amazon.com/about-aws/whats-new/2019/01/amazon-documentdb-with-mongodb-compatibility-generally-available/"
-         },
-         "icon":"icons/Arch_Amazon-DocumentDB_64.svg"
-      },
-      {
-         "name":"AWS CodeArtifact",
-         "category":"Developer Tools",
-         "product":"https://aws.amazon.com/codeartifact/",
-         "released":{
-            "date":"6/10/2020",
-            "link":"https://aws.amazon.com/about-aws/whats-new/2020/06/introducing-aws-codeartifact-a-fully-managed-software-artifact-repository-service/"
-         }
-      },
-      {
-         "name":"AWS CodeDeploy",
-         "category":"Developer Tools",
-         "product":"https://aws.amazon.com/codedeploy/",
-         "released":{
-            "date":"11/12/2014",
-            "link":"https://aws.amazon.com/about-aws/whats-new/2014/11/12/introducing-aws-codedeploy/"
-         },
-         "icon":"icons/Arch_AWS-CodeDeploy_64.svg"
-      },
-      {
-         "name":"AWS CodePipeline",
-         "category":"Developer Tools",
-         "product":"https://aws.amazon.com/codepipeline/",
-         "released":{
-            "date":"7/9/2015",
-            "link":"https://aws.amazon.com/about-aws/whats-new/2015/07/aws-codepipeline-now-available/"
-         },
-         "icon":"icons/Arch_AWS-CodePipeline_64.svg"
-      },
-      {
-         "name":"AWS CodeCommit",
-         "category":"Developer Tools",
-         "product":"https://aws.amazon.com/codecommit/",
-         "released":{
-            "date":"7/9/2015",
-            "link":"https://aws.amazon.com/about-aws/whats-new/2015/07/aws-codecommit-now-available/"
-         },
-         "icon":"icons/Arch_AWS-CodeCommit_64.svg"
-      },
-      {
-         "name":"AWS CodeBuild",
-         "category":"Developer Tools",
-         "product":"https://aws.amazon.com/codebuild/",
-         "released":{
-            "date":"12/1/2016",
-            "link":"https://aws.amazon.com/about-aws/whats-new/2016/12/announcing-aws-codebuild/"
-         },
-         "icon":"icons/Arch_AWS-CodeBuild_64.svg"
-      },
-      {
-         "name":"AWS CodeStar",
-         "category":"Developer Tools",
-         "product":"https://aws.amazon.com/codestar/",
-         "released":{
-            "date":"4/19/2017",
-            "link":"https://aws.amazon.com/about-aws/whats-new/2017/04/introducing-aws-codestar/"
-         },
-         "icon":"icons/Arch_AWS-CodeStar_64.svg"
-      },
-      {
-         "name":"AWS X-Ray",
-         "category":"Developer Tools",
-         "product":"https://aws.amazon.com/xray/",
-         "announced":{
-            "date":"12/1/2016",
-            "link":"https://aws.amazon.com/about-aws/whats-new/2016/12/announcing-aws-x-ray/"
-         },
-         "released":{
-            "date":"4/19/2017",
-            "link":"https://aws.amazon.com/about-aws/whats-new/2017/04/aws-x-ray-now-generally-available/"
-         },
-         "icon":"icons/Arch_AWS-X-Ray_64.svg"
-      },
-      {
-         "name":"AWS Cloud9",
-         "category":"Developer Tools",
-         "product":"https://aws.amazon.com/cloud9/",
-         "released":{
-            "date":"11/30/2017",
-            "link":"https://aws.amazon.com/about-aws/whats-new/2017/11/introducing-aws-cloud9/"
-         },
-         "icon":"icons/Arch_AWS-Cloud9_64.svg"
-      },
-      {
-         "name":"Amazon Appstream",
-         "category":"End User Computing",
-         "product":"https://aws.amazon.com/appstream",
-         "announced":{
-            "date":"11/13/2013",
-            "link":"https://aws.amazon.com/about-aws/whats-new/2013/11/13/introducing-amazon-appstream/"
-         },
-         "released":{
-            "date":"3/12/2014",
-            "link":"https://aws.amazon.com/about-aws/whats-new/2014/03/12/amazon-appstream-available-to-all-customers/"
-         }
-      },
-      {
-         "name":"Amazon WorkSpaces",
-         "category":"End User Computing",
-         "product":"https://aws.amazon.com/workspaces/",
-         "announced":{
-            "date":"11/13/2013",
-            "link":"https://aws.amazon.com/about-aws/whats-new/2013/11/13/introducing-amazon-workspaces/"
-         },
-         "released":{
-            "date":"3/26/2014",
-            "link":"https://aws.amazon.com/about-aws/whats-new/2014/03/26/amazon-workspaces-available-for-all-customers/"
-         },
-         "icon":"icons/Arch_Amazon-WorkSpaces_64.svg"
-      },
-      {
-         "name":"Amazon WorkDocs",
-         "category":"End User Computing",
-         "product":"https://aws.amazon.com/workdocs/",
-         "announced":{
-            "date":"7/10/2014",
-            "link":"https://aws.amazon.com/about-aws/whats-new/2014/07/10/introducing-amazon-zocalo/"
-         },
-         "released":{
-            "date":"8/27/2014",
-            "link":"https://aws.amazon.com/about-aws/whats-new/2014/08/27/amazon-zocalo-is-now-available-to-all-aws-customers/"
-         },
-         "icon":"icons/Arch_Amazon-WorkDocs_64.svg"
-      },
-      {
-         "name":"Amazon AppStream 2.0",
-         "category":"End User Computing",
-         "product":"https://aws.amazon.com/appstream2/",
-         "released":{
-            "date":"12/1/2016",
-            "link":"https://aws.amazon.com/about-aws/whats-new/2016/12/introducing-amazon-appstream-2-0-stream-desktop-applications-from-aws/"
-         },
-         "icon":"icons/Arch_Amazon-AppStream_64.svg"
-      },
-      {
-         "name":"Amazon WorkLink",
-         "category":"End User Computing",
-         "product":"https://aws.amazon.com/worklink/",
-         "released":{
-            "date":"1/22/2019",
-            "link":"https://aws.amazon.com/about-aws/whats-new/2019/01/introducing-amazon-worklink/"
-         },
-         "icon":"icons/Arch_Amazon-WorkLink_64.svg"
-      },
-      {
-         "name":"Amazon GameLift",
-         "category":"Game Tech",
-         "product":"https://aws.amazon.com/gamelift/",
-         "released":{
-            "date":"2/9/2016",
-            "link":"https://techcrunch.com/2016/02/09/aws-announces-new-set-of-integrated-services-aimed-at-game-developers/"
-         },
-         "icon":"icons/Arch_Amazon-GameLift_64.svg"
-      },
-      {
-         "name":"AWS IoT Core",
-         "category":"Internet of Things",
-         "product":"https://aws.amazon.com/iot-core/",
-         "announced":{
-            "date":"10/8/2015",
-            "link":"https://aws.amazon.com/about-aws/whats-new/2015/10/announcing-aws-iot-now-in-beta/"
-         },
-         "released":{
-            "date":"12/18/2015",
-            "link":"https://aws.amazon.com/about-aws/whats-new/2015/12/aws-iot-now-generally-available/"
-         },
-         "icon":"icons/Arch_AWS-IoT-Core_64.svg"
-      },
-      {
-         "name":"AWS Greengrass",
-         "category":"Internet of Things",
-         "product":"https://aws.amazon.com/greengrass/",
-         "announced":{
-            "date":"11/30/2016",
-            "link":"https://aws.amazon.com/about-aws/whats-new/2016/11/announcing-aws-greengrass-now-in-limited-preview/"
-         },
-         "released":{
-            "date":"6/7/2017",
-            "link":"https://aws.amazon.com/about-aws/whats-new/2017/06/aws-greengrass-is-now-generally-available/"
-         },
-         "icon":"icons/Arch_AWS-IoT-Greengrass_64.svg"
-      },
-      {
-         "name":"AWS IoT Device Management",
-         "category":"Internet of Things",
-         "product":"https://aws.amazon.com/iot-device-management/",
-         "released":{
-            "date":"11/29/2017",
-            "link":"https://aws.amazon.com/about-aws/whats-new/2017/11/announcing-aws-iot-device-management/"
-         },
-         "icon":"icons/Arch_AWS-IoT-Device-Management_64.svg"
-      },
-      {
-         "name":"Amazon FreeRTOS",
-         "category":"Internet of Things",
-         "product":"https://aws.amazon.com/freertos/",
-         "released":{
-            "date":"11/29/2017",
-            "link":"https://aws.amazon.com/about-aws/whats-new/2017/11/amazon-freertos-iot-operation-system-for-microcontrollers/"
-         },
-         "icon":"icons/Arch_FreeRTOS_64.svg"
-      },
-      {
-         "name":"AWS IoT Analytics",
-         "category":"Internet of Things",
-         "product":"https://aws.amazon.com/iot-analytics/",
-         "released":{
-            "date":"4/24/2018",
-            "link":"https://aws.amazon.com/about-aws/whats-new/2017/11/announcing-aws-iot-analytics/"
-         },
-         "icon":"icons/Arch_AWS-IoT-Analytics_64.svg"
-      },
-      {
-         "name":"AWS IoT 1-Click",
-         "category":"Internet of Things",
-         "product":"https://aws.amazon.com/iot-1-click/",
-         "announced":{
-            "date":"11/29/2017",
-            "link":"https://aws.amazon.com/about-aws/whats-new/2017/11/aws-iot-one-click-now-in-preview/"
-         },
-         "released":{
-            "date":"5/16/2018",
-            "link":"https://aws.amazon.com/about-aws/whats-new/2018/05/aws-iot-1-click-generally-available/"
-         },
-         "icon":"icons/Arch_AWS-IoT-1-Click_64.svg"
-      },
-      {
-         "name":"AWS IoT Device Defender",
-         "category":"Internet of Things",
-         "product":"https://aws.amazon.com/iot-device-defender/",
-         "announced":{
-            "date":"11/29/2017",
-            "link":"https://aws.amazon.com/about-aws/whats-new/2017/11/aws-iot-device-defender-helps-you-manage-device-security/"
-         },
-         "released":{
-            "date":"8/2/2018",
-            "link":"https://aws.amazon.com/about-aws/whats-new/2018/08/aws-iot-device-defender-now-generally-available/"
-         },
-         "icon":"icons/Arch_AWS-IoT-Device-Defender_64.svg"
-      },
-      {
-         "name":"AWS IoT SiteWise",
-         "category":"Internet of Things",
-         "product":"https://aws.amazon.com/iot-sitewise/",
-         "announced":{
-            "date":"11/26/2018",
-            "link":"https://aws.amazon.com/about-aws/whats-new/2018/11/announcing-aws-iot-sitewise-now-released-in-preview/"
-         },
-         "released":{
-            "date":"7/9/2020",
-            "link":"https://aws.amazon.com/about-aws/whats-new/2020/07/aws-iot-sitewise-generally-available/"
-         },
-         "icon":"icons/Arch_AWS-IoT-SiteWise_64.svg"
-      },
-      {
-         "name":"AWS IoT Events",
-         "category":"Internet of Things",
-         "product":"https://aws.amazon.com/iot-events/",
-         "announced":{
-            "date":"11/26/2018",
-            "link":"https://aws.amazon.com/about-aws/whats-new/2018/11/introducing-aws-iot-events-now-released-in-preview/"
-         },
-         "released":{
-            "date":"5/30/2019",
-            "link":"https://aws.amazon.com/about-aws/whats-new/2019/05/aws-iot-events-now-generally-available/"
-         },
-         "icon":"icons/Arch_AWS-IoT-Events_64.svg"
-      },
-      {
-         "name":"AWS IoT Things Graph",
-         "category":"Internet of Things",
-         "product":"https://aws.amazon.com/iot-things-graph/",
-         "announced":{
-            "date":"11/26/2018",
-            "link":"https://aws.amazon.com/about-aws/whats-new/2018/11/iot-things-graph-now-in-preview/"
-         },
-         "released":{
-            "date":"5/30/2019",
-            "link":"https://aws.amazon.com/about-aws/whats-new/2019/05/aws-iot-things-graph-now-generally-available/"
-         },
-         "icon":"icons/Arch_AWS-IoT-Things-Graph_64.svg"
-      },
-      {
-         "name":"Amazon Polly",
-         "category":"Machine Learning",
-         "product":"https://aws.amazon.com/polly/",
-         "released":{
-            "date":"11/30/2016",
-            "link":"https://aws.amazon.com/about-aws/whats-new/2016/11/introducing-amazon-polly/"
-         },
-         "icon":"icons/Arch_Amazon-Polly_64.svg"
-      },
-      {
-         "name":"Amazon Rekognition",
-         "category":"Machine Learning",
-         "product":"https://aws.amazon.com/rekognition/",
-         "released":{
-            "date":"11/30/2016",
-            "link":"https://aws.amazon.com/about-aws/whats-new/2016/11/introducing-amazon-rekognition/"
-         },
-         "icon":"icons/Arch_Amazon-Rekognition_64.svg"
-      },
-      {
-         "name":"Amazon Lex",
-         "category":"Machine Learning",
-         "product":"https://aws.amazon.com/lex/",
-         "announced":{
-            "date":"11/30/2016",
-            "link":"https://aws.amazon.com/about-aws/whats-new/2016/11/introducing-amazon-lex-now-in-preview/"
-         },
-         "released":{
-            "date":"4/19/2017",
-            "link":"https://aws.amazon.com/about-aws/whats-new/2017/04/amazon-lex-now-generally-available/"
-         },
-         "icon":"icons/Arch_Amazon-Lex_64.svg"
-      },
-      {
-         "name":"Amazon Comprehend",
-         "category":"Machine Learning",
-         "product":"https://aws.amazon.com/comprehend/",
-         "released":{
-            "date":"11/29/2017",
-            "link":"https://aws.amazon.com/about-aws/whats-new/2017/11/introducing-amazon-comprehend-discover-insights-from-text/"
-         },
-         "icon":"icons/Arch_Amazon-Comprehend_64.svg"
-      },
-      {
-         "name":"Amazon SageMaker",
-         "category":"Machine Learning",
-         "product":"https://aws.amazon.com/sagemaker/",
-         "released":{
-            "date":"11/29/2017",
-            "link":"https://aws.amazon.com/about-aws/whats-new/2017/11/introducing-amazon-sagemaker/"
-         },
-         "icon":"icons/Arch_Amazon-SageMaker_64.svg"
-      },
-      {
-         "name":"Amazon Fraud Detector",
-         "category":"Machine Learning",
-         "product":"https://aws.amazon.com/fraud-detector/",
-         "announced":{
-            "date":"12/3/2019",
-            "link":"https://aws.amazon.com/about-aws/whats-new/2019/12/introducing-amazon-fraud-detector-now-in-preview/"
-         },
-         "released":{
-            "date":"7/28/2020",
-            "link":"https://aws.amazon.com/about-aws/whats-new/2020/07/detect-fraud-faster-using-machine-learning-with-amazon-fraud-detector/"
-         },
-         "icon":"icons/Arch_Amazon-Fraud-Detector_64.svg"
-      },
-      {
-         "name":"Amazon Kendra",
-         "category":"Machine Learning",
-         "product":"https://aws.amazon.com/kendra/",
-         "announced":{
-            "date":"12/3/2019",
-            "link":"https://aws.amazon.com/about-aws/whats-new/2019/12/announcing-amazon-kendra-reinventing-enterprise-search-with-machine-learning/"
-         },
-         "released":{
-            "date":"5/11/2020",
-            "link":"https://aws.amazon.com/about-aws/whats-new/2020/05/amazon-kendra-is-now-generally-available/"
-         },
-         "icon":"icons/Arch_Amazon-Kendra_64.svg"
-      },
-      {
-         "name":"Amazon Transcribe",
-         "category":"Machine Learning",
-         "product":"https://aws.amazon.com/transcribe/",
-         "announced":{
-            "date":"11/29/2017",
-            "link":"https://aws.amazon.com/about-aws/whats-new/2017/11/introducing-amazon-transcribe-now-in-preview/"
-         },
-         "released":{
-            "date":"4/4/2018",
-            "link":"https://aws.amazon.com/about-aws/whats-new/2018/04/amazon-transcribe-is-now-generally-available/"
-         },
-         "icon":"icons/Arch_Amazon-Transcribe_64.svg"
-      },
-      {
-         "name":"Amazon Translate",
-         "category":"Machine Learning",
-         "product":"https://aws.amazon.com/translate/",
-         "announced":{
-            "date":"11/29/2017",
-            "link":"https://aws.amazon.com/about-aws/whats-new/2017/11/introducing-amazon-translate-now-in-preview/"
-         },
-         "released":{
-            "date":"4/4/2018",
-            "link":"https://aws.amazon.com/about-aws/whats-new/2018/04/amazon-translate-is-now-generally-available/"
-         },
-         "icon":"icons/Arch_Amazon-Translate_64.svg"
-      },
-      {
-         "name":"AWS DeepLens",
-         "category":"Machine Learning",
-         "product":"https://aws.amazon.com/deeplens/",
-         "announced":{
-            "date":"11/29/2017",
-            "link":"https://aws.amazon.com/about-aws/whats-new/2017/11/introducing-aws-deeplens-the-worlds-first-deep-learning-enabled-video-camera-for-developers/"
-         },
-         "icon":"icons/Arch_AWS-DeepLens_64.svg"
-      },
-      {
-         "name":"AWS DeepComposer",
-         "category":"Machine Learning",
-         "product":"https://aws.amazon.com/deepcomposer/",
-         "announced":{
-            "date":"12/1/2019",
-            "link":"https://aws.amazon.com/about-aws/whats-new/2019/12/introducing-aws-deepcomposer/"
-         },
-         "released":{
-            "date":"04/02/2020",
-            "link":"https://aws.amazon.com/about-aws/whats-new/2020/04/aws-deepcomposer-now-generally-available/"
-         },
-         "icon":"icons/Arch_AWS-DeepComposer_64.svg"
-      },
-      {
-         "name":"Amazon Elastic Inference",
-         "category":"Machine Learning",
-         "product":"https://aws.amazon.com/elastic-inference/",
-         "released":{
-            "date":"11/28/2018",
-            "link":"https://aws.amazon.com/about-aws/whats-new/2018/11/introducing-amazon-elastic-inference/"
-         },
-         "icon":"icons/Arch_Amazon-Elastic-Inference_64.svg"
-      },
-      {
-         "name":"Amazon Forecast",
-         "category":"Machine Learning",
-         "product":"https://aws.amazon.com/forecast/",
-         "announced":{
-            "date":"11/28/2018",
-            "link":"https://aws.amazon.com/about-aws/whats-new/2018/11/introducing-amazon-forecast-now-in-preview/"
-         },
-         "released":{
-            "date":"08/22/2019",
-            "link":"https://aws.amazon.com/about-aws/whats-new/2019/08/amazon-forecast-now-generally-available/"
-         },
-         "icon":"icons/Arch_Amazon-Forecast_64.svg"
-      },
-      {
-         "name":"Amazon Inferentia",
-         "category":"Machine Learning",
-         "product":"https://aws.amazon.com/inferentia/",
-         "announced":{
-            "date":"11/28/2018",
-            "link":"https://aws.amazon.com/about-aws/whats-new/2018/11/announcing-amazon-inferentia-machine-learning-inference-microchip/"
-         },
-         "released":{
-            "date":"12/3/2019",
-            "link":"https://aws.amazon.com/blogs/aws/amazon-ec2-update-inf1-instances-with-aws-inferentia-chips-for-high-performance-cost-effective-inferencing/"
-         },
-         "icon":"icons/Arch-Category_Compute_64.svg"
-      },
-      {
-         "name":"AWS DeepRacer",
-         "category":"Machine Learning",
-         "product":"https://aws.amazon.com/deepracer/",
-         "announced":{
-            "date":"11/28/2018",
-            "link":"https://aws.amazon.com/about-aws/whats-new/2018/11/introducing-aws-deepracer/"
-         },
-         "icon":"icons/Arch_AWS-DeepRacer_64.svg"
-      },
-      {
-         "name":"Amazon Textract",
-         "category":"Machine Learning",
-         "product":"https://aws.amazon.com/textract/",
-         "announced":{
-            "date":"11/28/2018",
-            "link":"https://aws.amazon.com/about-aws/whats-new/2018/11/introducing-amazon-textract-now-in-preview-easily-extract-text-and-data-from-virtually-any-document/"
-         },
-         "released":{
-            "date":"5/29/2019",
-            "link":"https://aws.amazon.com/about-aws/whats-new/2019/05/amazon-textract-now-generally-available/"
-         },
-         "icon":"icons/Arch_Amazon-Textract_64.svg"
-      },
-      {
-         "name":"Amazon Personalize",
-         "category":"Machine Learning",
-         "product":"https://aws.amazon.com/personalize/",
-         "announced":{
-            "date":"11/28/2018",
-            "link":"https://aws.amazon.com/about-aws/whats-new/2018/11/introducing-amazon-personalize-now-in-preview/"
-         },
-         "released":{
-            "date":"6/10/2019",
-            "link":"https://aws.amazon.com/about-aws/whats-new/2019/06/amazon-personalize-now-generally-available/"
-         },
-         "icon":"icons/Arch_Amazon-Personalize_64.svg"
-      },
-      {
-         "name":"AWS Chatbot",
-         "category":"Management & Governance",
-         "product":"https://aws.amazon.com/chatbot/",
-         "announces":{
-            "date":"7/24/2019",
-            "link":"https://aws.amazon.com/about-aws/whats-new/2019/07/introducing-aws-chatbot-chatops-for-aws/"
-         },
-         "released":{
-            "date":"4/22/2020",
-            "link":"https://aws.amazon.com/about-aws/whats-new/2020/04/aws-chatbot-now-generally-available/"
-         },
-         "icon":"icons/Arch_AWS-Chatbot_64.svg"
-      },
-      {
-         "name":"AWS CloudFormation",
-         "category":"Management & Governance",
-         "product":"https://aws.amazon.com/cloudformation/",
-         "released":{
-            "date":"2/25/2011",
-            "link":"https://aws.amazon.com/about-aws/whats-new/2011/02/25/introducing-aws-cloudformation/"
-         },
-         "icon":"icons/Arch_AWS-CloudFormation_64.svg"
-      },
-      {
-         "name":"AWS Trusted Advisor",
-         "category":"Management & Governance",
-         "product":"https://aws.amazon.com/trustedadvisor/",
-         "released":{
-            "date":"1/30/2012",
-            "link":"https://aws.amazon.com/about-aws/whats-new/2012/01/30/amazon-web-services-introduces-new-premium-support-features/"
-         },
-         "icon":"icons/Arch_AWS-Trusted-Advisor_64.svg"
-      },
-      {
-         "name":"AWS OpsWorks",
-         "category":"Management & Governance",
-         "product":"https://aws.amazon.com/opsworks/",
-         "released":{
-            "date":"2/18/2013",
-            "link":"https://aws.amazon.com/about-aws/whats-new/2013/02/18/announcing-aws-opsworks/"
-         },
-         "icon":"icons/Arch_AWS-OpsWorks_64.svg"
-      },
-      {
-         "name":"AWS CloudTrail",
-         "category":"Management & Governance",
-         "product":"https://aws.amazon.com/cloudtrail/",
-         "released":{
-            "date":"11/13/2013",
-            "link":"https://aws.amazon.com/about-aws/whats-new/2013/11/13/announcing-aws-cloudtrail/"
-         },
-         "icon":"icons/Arch_AWS-CloudTrail_64.svg"
-      },
-      {
-         "name":"AWS Config",
-         "category":"Management & Governance",
-         "product":"https://aws.amazon.com/config/",
-         "released":{
-            "date":"11/12/2014",
-            "link":"https://aws.amazon.com/about-aws/whats-new/2014/11/12/introducing-aws-config/"
-         },
-         "icon":"icons/Arch_AWS-Config_64.svg"
-      },
-      {
-         "name":"AWS Service Catalog",
-         "category":"Management & Governance",
-         "product":"https://aws.amazon.com/servicecatalog/",
-         "released":{
-            "date":"7/9/2015",
-            "link":"https://aws.amazon.com/about-aws/whats-new/2015/07/amazon-web-services-launches-aws-service-catalog/"
-         },
-         "icon":"icons/Arch_AWS-Service-Catalog_64.svg"
-      },
-      {
-         "name":"AWS Personal Health Dashboard",
-         "category":"Management & Governance",
-         "product":"https://aws.amazon.com/premiumsupport/phd/",
-         "released":{
-            "date":"12/1/2016",
-            "link":"https://aws.amazon.com/about-aws/whats-new/2016/12/introducing-aws-personal-health-dashboard/"
-         },
-         "icon":"icons/Arch_AWS-Personal-Health-Dashboard_64.svg"
-      },
-      {
-         "name":"AWS Systems Manager",
-         "category":"Management & Governance",
-         "product":"https://aws.amazon.com/systems-manager/",
-         "released":{
-            "date":"12/1/2016",
-            "link":"https://aws.amazon.com/about-aws/whats-new/2016/12/introducing-ec2-systems-manager-for-automated-configuration-management-of-ec2-and-on-premises-systems/"
-         },
-         "icon":"icons/Arch_AWS-Systems-Manager_64.svg"
-      },
-      {
-         "name":"AWS Managed Services",
-         "category":"Management & Governance",
-         "product":"https://aws.amazon.com/managed-services/",
-         "released":{
-            "date":"12/12/2016",
-            "link":"https://aws.amazon.com/blogs/aws/category/aws-managed-services/"
-         },
-         "icon":"icons/Arch_AWS-Managed-Services_64.svg"
-      },
-      {
-         "name":"AWS Organizations",
-         "category":"Management & Governance",
-         "product":"https://aws.amazon.com/organizations/",
-         "announced":{
-            "date":"11/29/2016",
-            "link":"https://aws.amazon.com/about-aws/whats-new/2016/11/announcing-aws-organizations-now-in-preview/"
-         },
-         "released":{
-            "date":"2/27/2017",
-            "link":"https://aws.amazon.com/about-aws/whats-new/2017/02/aws-organizations-now-generally-available/"
-         },
-         "icon":"icons/Arch_AWS-Organizations_64.svg"
-      },
-      {
-         "name":"AWS Auto Scaling",
-         "category":"Management & Governance",
-         "product":"https://aws.amazon.com/autoscaling/",
-         "released":{
-            "date":"1/16/2018",
-            "link":"https://aws.amazon.com/about-aws/whats-new/2018/01/introducing-aws-auto-scaling/"
-         },
-         "icon":"icons/Arch_AWS-Auto-Scaling_64.svg"
-      },
-      {
-         "name":"AWS License Manager",
-         "category":"Management & Governance",
-         "product":"https://aws.amazon.com/license-manager/",
-         "released":{
-            "date":"11/28/2018",
-            "link":"https://aws.amazon.com/about-aws/whats-new/2018/11/announcing-aws-license-manager/"
-         },
-         "icon":"icons/Arch_AWS-License-Manager_64.svg"
-      },
-      {
-         "name":"AWS Well-Architected Tool",
-         "category":"Management & Governance",
-         "product":"https://aws.amazon.com/well-architected-tool/",
-         "released":{
-            "date":"11/29/2018",
-            "link":"https://aws.amazon.com/about-aws/whats-new/2018/11/introducing-aws-well-architected-tool/"
-         },
-         "icon":"icons/Arch_AWS-Well-Architected-Tool_64.svg"
-      },
-      {
-         "name":"Amazon CloudWatch",
-         "category":"Management & Governance",
-         "product":"https://aws.amazon.com/cloudwatch/",
-         "announced":{
-            "date":"5/17/2009",
-            "link":"https://aws.amazon.com/about-aws/whats-new/2009/05/17/monitoring-auto-scaling-elastic-load-balancing/"
-         },
-         "icon":"icons/Arch_Amazon-CloudWatch_64.svg"
-      },
-      {
-         "name":"AWS Control Tower",
-         "category":"Management & Governance",
-         "product":"https://aws.amazon.com/controltower/",
-         "announced":{
-            "date":"11/28/2018",
-            "link":"https://aws.amazon.com/blogs/aws/aws-previews-and-pre-announcements-at-reinvent-2018-andy-jassy-keynote/"
-         },
-         "released":{
-            "date":"6/24/2019",
-            "link":"https://aws.amazon.com/about-aws/whats-new/2019/06/aws-control-tower-is-now-generally-available/"
-         },
-         "icon":"icons/Arch_AWS-Control-Tower_64.svg"
-      },
-      {
-         "name":"Amazon Elastic Transcoder",
-         "category":"Media Services",
-         "product":"https://aws.amazon.com/elastictranscoder/",
-         "announced":{
-            "date":"1/28/2013",
-            "link":"https://aws.amazon.com/about-aws/whats-new/2013/01/28/announcing-amazon-elastic-transcoder/"
-         },
-         "icon":"icons/Arch_Amazon-Elastic-Transcoder_64.svg"
-      },
-      {
-         "name":"AWS Elemental MediaConvert",
-         "category":"Media Services",
-         "product":"https://aws.amazon.com/mediaconvert/",
-         "released":{
-            "date":"11/26/2017",
-            "link":"https://aws.amazon.com/about-aws/whats-new/2017/11/introducing-aws-elemental-mediaconvert/"
-         },
-         "icon":"icons/Arch_AWS-Elemental-MediaConvert_64.svg"
-      },
-      {
-         "name":"AWS Elemental MediaPackage",
-         "category":"Media Services",
-         "product":"https://aws.amazon.com/mediapackage/",
-         "released":{
-            "date":"11/26/2017",
-            "link":"https://aws.amazon.com/about-aws/whats-new/2017/11/introducing-aws-elemental-mediapackage/"
-         },
-         "icon":"icons/Arch_AWS-Elemental-MediaPackage_64.svg"
-      },
-      {
-         "name":"AWS Elemental MediaLive",
-         "category":"Media Services",
-         "product":"https://aws.amazon.com/medialive/",
-         "released":{
-            "date":"11/26/2017",
-            "link":"https://aws.amazon.com/about-aws/whats-new/2017/11/introducing-aws-elemental-medialive/"
-         },
-         "icon":"icons/Arch_AWS-Elemental-MediaLive_64.svg"
-      },
-      {
-         "name":"AWS Elemental MediaStore",
-         "category":"Media Services",
-         "product":"https://aws.amazon.com/mediastore/",
-         "released":{
-            "date":"11/26/2017",
-            "link":"https://aws.amazon.com/about-aws/whats-new/2017/11/introducing-aws-elemental-mediastore/"
-         },
-         "icon":"icons/Arch_AWS-Elemental-MediaStore_64.svg"
-      },
-      {
-         "name":"AWS Elemental MediaTailor",
-         "category":"Media Services",
-         "product":"https://aws.amazon.com/mediatailor/",
-         "released":{
-            "date":"11/26/2017",
-            "link":"https://aws.amazon.com/about-aws/whats-new/2017/11/introducing-aws-elemental-mediatailor/"
-         },
-         "icon":"icons/Arch_AWS-Elemental-MediaTailor_64.svg"
-      },
-      {
-         "name":"Amazon Kinesis Video Streams",
-         "category":"Media Services",
-         "product":"https://aws.amazon.com/kinesis/video-streams/",
-         "released":{
-            "date":"11/29/2017",
-            "link":"https://aws.amazon.com/about-aws/whats-new/2017/11/introducing-amazon-kinesis-video-streams/"
-         },
-         "icon":"icons/Arch_Amazon-Kinesis-Video-Streams_64.svg"
-      },
-      {
-         "name":"AWS Elemental MediaConnect",
-         "category":"Media Services",
-         "product":"https://aws.amazon.com/mediaconnect/",
-         "released":{
-            "date":"11/27/2018",
-            "link":"https://aws.amazon.com/about-aws/whats-new/2018/11/introducing-aws-elemental-mediaconnect/"
-         },
-         "icon":"icons/Arch_AWS-Elemental-MediaConnect_64.svg"
-      },
-      {
-         "name":"AWS Snowball Family",
-         "category":"Migration & Transfer",
-         "product":"https://aws.amazon.com/snow/",
-         "released":{
-            "date":"10/7/2015",
-            "link":"https://aws.amazon.com/about-aws/whats-new/2015/10/aws-import-export-snowball/"
-         },
-         "icon":"icons/Arch_AWS-Snowball_64.svg"
-      },
-      {
-         "name":"AWS Database Migration Service",
-         "category":"Migration & Transfer",
-         "product":"https://aws.amazon.com/dms/",
-         "announced":{
-            "date":"10/7/2015",
-            "link":"https://aws.amazon.com/about-aws/whats-new/2015/10/now-in-preview-aws-database-migration-service/"
-         },
-         "released":{
-            "date":"3/15/2016",
-            "link":"https://aws.amazon.com/about-aws/whats-new/2016/03/aws-database-migration-service-is-now-generally-available/"
-         },
-         "icon":"icons/Arch_AWS-Database-Migration-Service_64.svg"
-      },
-      {
-         "name":"AWS Application Discovery Service",
-         "category":"Migration & Transfer",
-         "product":"https://aws.amazon.com/application-discovery/",
-         "released":{
-            "date":"5/12/2016",
-            "link":"https://aws.amazon.com/about-aws/whats-new/2016/05/now-released-aws-application-discovery-service/"
-         },
-         "icon":"icons/Arch_AWS-Application-Discovery-Service_64.svg"
-      },
-      {
-         "name":"AWS Server Migration Service",
-         "category":"Migration & Transfer",
-         "product":"https://aws.amazon.com/server-migration-service/",
-         "released":{
-            "date":"10/24/2016",
-            "link":"https://aws.amazon.com/about-aws/whats-new/2016/10/new-aws-server-migration-service-sms-makes-it-easier-and-faster-to-migrate-on-premises-servers-to-aws/"
-         },
-         "icon":"icons/Arch_AWS-Server-Migration-Service_64.svg"
-      },
-      {
-         "name":"AWS Migration Hub",
-         "category":"Migration & Transfer",
-         "product":"https://aws.amazon.com/migration-hub/",
-         "released":{
-            "date":"8/14/2017",
-            "link":"https://aws.amazon.com/about-aws/whats-new/2017/08/introducing-aws-migration-hub/"
-         },
-         "icon":"icons/Arch_AWS-Migration-Hub_64.svg"
-      },
-      {
-         "name":"AWS DataSync",
-         "category":"Migration & Transfer",
-         "product":"https://aws.amazon.com/datasync/",
-         "released":{
-            "date":"11/26/2018",
-            "link":"https://aws.amazon.com/about-aws/whats-new/2018/11/introducing-aws-datasync-for-accelerated-online-data-transfer/"
-         },
-         "icon":"icons/Arch_AWS-DataSync_64.svg"
-      },
-      {
-         "name":"AWS Transfer for SFTP",
-         "category":"Migration & Transfer",
-         "product":"https://aws.amazon.com/sftp/",
-         "released":{
-            "date":"11/26/2018",
-            "link":"https://aws.amazon.com/about-aws/whats-new/2018/11/aws-transfer-for-sftp-fully-managed-sftp-for-s3/"
-         },
-         "icon":"icons/Arch_AWS-Transfer-Family_64.svg"
-      },
-      {
-         "name":"AWS Device Farm",
-         "category":"Front-End Web & Mobile",
-         "product":"https://aws.amazon.com/device-farm/",
-         "released":{
-            "date":"7/9/2015",
-            "link":"https://aws.amazon.com/about-aws/whats-new/2015/07/deliver-high-quality-apps-by-testing-them-against-real-phones-and-tablets-in-the-aws-cloud-with-device-farm/"
-         },
-         "icon":"icons/Arch_AWS-Device-Farm_64.svg"
-      },
-      {
-         "name":"Amazon Pinpoint",
-         "category":"Front-End Web & Mobile",
-         "product":"https://aws.amazon.com/pinpoint/",
-         "released":{
-            "date":"12/1/2016",
-            "link":"https://aws.amazon.com/about-aws/whats-new/2016/12/introducing-amazon-pinpoint/"
-         },
-         "icon":"icons/Arch_Amazon-Pinpoint_64.svg"
-      },
-      {
-         "name":"AWS Amplify",
-         "category":"Front-End Web & Mobile",
-         "product":"https://aws.amazon.com/amplify/",
-         "released":{
-            "date":"11/21/2017",
-            "link":"https://aws.amazon.com/about-aws/whats-new/2017/11/introducing-aws-amplify-a-declarative-javascript-library-for-cloud-development-with-mobile-or-web-applications/"
-         },
-         "icon":"icons/Arch_AWS-Amplify_64.svg"
-      },
-      {
-         "name":"AWS AppSync",
-         "category":"Front-End Web & Mobile",
-         "product":"https://aws.amazon.com/appsync/",
-         "announced":{
-            "date":"11/28/2017",
-            "link":"https://aws.amazon.com/about-aws/whats-new/2017/11/introducing-aws-appsync-a-managed-graphql-service-with-real-time-data-and-offline-programming/"
-         },
-         "released":{
-            "date":"4/13/2018",
-            "link":"https://aws.amazon.com/about-aws/whats-new/2018/04/aws-appsync-now-ga/"
-         },
-         "icon":"icons/Arch_AWS-AppSync_64.svg"
-      },
-      {
-         "name":"Amazon CloudFront",
-         "category":"Networking & Content Delivery",
-         "product":"https://aws.amazon.com/cloudfront/",
-         "announced":{
-            "date":"11/18/2008",
-            "link":"https://aws.amazon.com/about-aws/whats-new/2008/11/18/whats-new-cloudfront/"
-         },
-         "released":{
-            "date":"11/9/2010",
-            "link":"https://aws.amazon.com/about-aws/whats-new/2010/11/09/cloudfront-adds-support-for-custom-origins-and-sla/"
-         },
-         "icon":"icons/Arch_Amazon-CloudFront_64.svg"
-      },
-      {
-         "name":"Elastic Load Balancing (ELB)",
-         "category":"Networking & Content Delivery",
-         "product":"https://aws.amazon.com/elasticloadbalancing/",
-         "released":{
-            "date":"05/18/2009",
-            "link":"https://aws.amazon.com/blogs/aws/new-aws-load-balancing-automatic-scaling-and-cloud-monitoring-services/"
-         },
-         "icon":"icons/Arch_Elastic-Load-Balancing_64.svg"
-      },
-      {
-         "name":"Amazon Route 53",
-         "category":"Networking & Content Delivery",
-         "product":"https://aws.amazon.com/route53/",
-         "released":{
-            "date":"12/6/2010",
-            "link":"https://aws.amazon.com/about-aws/whats-new/2010/12/06/announcing-amazon-route-53-dns-service/"
-         },
-         "icon":"icons/Arch_Amazon-Route-53_64.svg"
-      },
-      {
-         "name":"AWS Direct Connect",
-         "category":"Networking & Content Delivery",
-         "product":"https://aws.amazon.com/directconnect/",
-         "released":{
-            "date":"8/3/2011",
-            "link":"https://aws.amazon.com/about-aws/whats-new/2011/08/03/Announcing-AWS-Direct-Connect/"
-         },
-         "icon":"icons/Arch_AWS-Direct-Connect_64.svg"
-      },
-      {
-         "name":"Amazon VPC",
-         "category":"Networking & Content Delivery",
-         "product":"https://aws.amazon.com/vpc/",
-         "announced":{
-            "date":"8/26/2009",
-            "link":"https://aws.amazon.com/about-aws/whats-new/2009/08/26/introducing-amazon-virtual-private-cloud/"
-         },
-         "released":{
-            "date":"8/3/2011",
-            "link":"https://aws.amazon.com/about-aws/whats-new/2011/08/03/Announcing-VPC-GA/"
-         },
-         "icon":"icons/Arch_Amazon-Virtual-Private-Cloud_64.svg"
-      },
-      {
-         "name":"Amazon API Gateway",
-         "category":"Networking & Content Delivery",
-         "product":"https://aws.amazon.com/api-gateway/",
-         "released":{
-            "date":"7/9/2015",
-            "link":"https://aws.amazon.com/about-aws/whats-new/2015/07/introducing-amazon-api-gateway/"
-         },
-         "icon":"icons/Arch_Amazon-API-Gateway_64.svg"
-      },
-      {
-         "name":"AWS Global Accelerator",
-         "category":"Networking & Content Delivery",
-         "product":"https://aws.amazon.com/global-accelerator/",
-         "released":{
-            "date":"11/26/2018",
-            "link":"https://aws.amazon.com/about-aws/whats-new/2018/11/introducing-aws-global-accelerator/"
-         },
-         "icon":"icons/Arch_AWS-Global-Accelerator_64.svg"
-      },
-      {
-         "name":"AWS Cloud Map",
-         "category":"Networking & Content Delivery",
-         "product":"https://aws.amazon.com/cloud-map/",
-         "released":{
-            "date":"11/28/2018",
-            "link":"https://aws.amazon.com/about-aws/whats-new/2018/11/introducing-aws-cloud-map/"
-         },
-         "icon":"icons/Arch_AWS-Cloud-Map_64.svg"
-      },
-      {
-         "name":"AWS App Mesh",
-         "category":"Networking & Content Delivery",
-         "product":"https://aws.amazon.com/app-mesh/",
-         "announced":{
-            "date":"11/28/2018",
-            "link":"https://aws.amazon.com/about-aws/whats-new/2018/11/introducing-aws-app-mesh---service-mesh-for-microservices-on-aws/"
-         },
-         "released":{
-            "date":"3/27/2019",
-            "link":"https://aws.amazon.com/about-aws/whats-new/2019/03/aws-app-mesh-is-now-generally-available/"
-         },
-         "icon":"icons/Arch_AWS-App-Mesh_64.svg"
-      },
-      {
-         "name":"AWS RoboMaker",
-         "category":"Robotics",
-         "product":"https://aws.amazon.com/robomaker/",
-         "released":{
-            "date":"11/26/2018",
-            "link":"https://aws.amazon.com/about-aws/whats-new/2018/11/announcing-aws-robomaker-a-new-cloud-robotics-service/"
-         },
-         "icon":"icons/Arch_AWS-RoboMaker_64.svg"
-      },
-      {
-         "name":"AWS Ground Station",
-         "category":"Satellite",
-         "product":"https://aws.amazon.com/ground-station/",
-         "announced":{
-            "date":"11/27/2018",
-            "link":"https://aws.amazon.com/about-aws/whats-new/2018/11/announcing-aws-ground-station-preview/"
-         },
-         "released":{
-            "date":"5/22/2019",
-            "link":"https://aws.amazon.com/about-aws/whats-new/2019/05/announcing-general-availability-of-aws-ground-station-/"
-         },
-         "icon":"icons/Arch_AWS-Ground-Station_64.svg"
-      },
-      {
-         "name":"Amazon Detective",
-         "category":"Security, Identity & Compliance",
-         "product":"https://aws.amazon.com/detective/",
-         "announced":{
-            "date":"12/3/2019",
-            "link":"https://aws.amazon.com/about-aws/whats-new/2019/12/introducing-amazon-detective/"
-         },
-         "released":{
-            "date":"3/31/2020",
-            "link":"https://aws.amazon.com/about-aws/whats-new/2020/03/amazon-detective-is-now-generally-available/"
-         },
-         "icon":"icons/Arch_Amazon-Detective_64.svg"
-      },      
-      {
-         "name":"AWS Identity & Access Management",
-         "category":"Security, Identity & Compliance",
-         "product":"https://aws.amazon.com/iam/",
-         "announced":{
-            "date":"9/2/2010",
-            "link":"https://aws.amazon.com/about-aws/whats-new/2010/09/02/announcing-aws-identity-and-access-management-iam-preview-beta/"
-         },
-         "released":{
-            "date":"5/3/2011",
-            "link":"https://aws.amazon.com/about-aws/whats-new/2011/05/03/announcing-IAM/"
-         },
-         "icon":"icons/Arch_AWS-Identity-and-Access-Management_64.svg"
-      },
-      {
-         "name":"AWS CloudHSM",
-         "category":"Security, Identity & Compliance",
-         "product":"https://aws.amazon.com/cloudhsm/",
-         "released":{
-            "date":"3/26/2013",
-            "link":"https://aws.amazon.com/about-aws/whats-new/2013/03/26/announcing-aws-cloudhsm/"
-         },
-         "icon":"icons/Arch_AWS-CloudHSM_64.svg"
-      },
-      {
-         "name":"Amazon Cognito",
-         "category":"Security, Identity & Compliance",
-         "product":"https://aws.amazon.com/cognito/",
-         "released":{
-            "date":"7/10/2014",
-            "link":"https://aws.amazon.com/about-aws/whats-new/2014/07/10/introducing-amazon-cognito/"
-         },
-         "icon":"icons/Arch_Amazon-Cognito_64.svg"
-      },
-      {
-         "name":"AWS Directory Service",
-         "category":"Security, Identity & Compliance",
-         "product":"https://aws.amazon.com/directoryservice/",
-         "released":{
-            "date":"10/21/2014",
-            "link":"https://aws.amazon.com/about-aws/whats-new/2014/10/21/introducing-aws-directory-service/"
-         },
-         "icon":"icons/Arch_AWS-Directory-Service_64.svg"
-      },
-      {
-         "name":"AWS Key Management Service",
-         "category":"Security, Identity & Compliance",
-         "product":"https://aws.amazon.com/kms/",
-         "released":{
-            "date":"11/12/2014",
-            "link":"https://aws.amazon.com/about-aws/whats-new/2014/11/12/introducing-aws-key-management-service/"
-         },
-         "icon":"icons/Arch_AWS-Key-Management-Service_64.svg"
-      },
-      {
-         "name":"AWS WAF",
-         "category":"Security, Identity & Compliance",
-         "product":"https://aws.amazon.com/waf/",
-         "released":{
-            "date":"10/6/2015",
-            "link":"https://aws.amazon.com/about-aws/whats-new/2015/10/introducing-aws-waf/"
-         },
-         "icon":"icons/Arch_AWS-WAF_64.svg"
-      },
-      {
-         "name":"AWS Certificate Manager",
-         "category":"Security, Identity & Compliance",
-         "product":"https://aws.amazon.com/certificate-manager/",
-         "released":{
-            "date":"1/21/2016",
-            "link":"https://aws.amazon.com/about-aws/whats-new/2016/01/introducing-aws-certificate-manager/"
-         },
-         "icon":"icons/Arch_AWS-Certificate-Manager_64.svg"
-      },
-      {
-         "name":"Amazon Inspector",
-         "category":"Security, Identity & Compliance",
-         "product":"https://aws.amazon.com/inspector/",
-         "announced":{
-            "date":"10/7/2015",
-            "link":"https://aws.amazon.com/about-aws/whats-new/2015/10/announcing-amazon-inspector/"
-         },
-         "released":{
-            "date":"4/19/2016",
-            "link":"https://aws.amazon.com/about-aws/whats-new/2016/04/amazon-inspector-security-vulnerability-assessment-service-now-generally-available/"
-         },
-         "icon":"icons/Arch_Amazon-Inspector_64.svg"
-      },
-      {
-         "name":"AWS Shield",
-         "category":"Security, Identity & Compliance",
-         "product":"https://aws.amazon.com/shield/",
-         "released":{
-            "date":"12/1/2016",
-            "link":"https://aws.amazon.com/about-aws/whats-new/2016/12/introducing-aws-shield/"
-         },
-         "icon":"icons/Arch_AWS-Shield_64.svg"
-      },
-      {
-         "name":"AWS Artifact",
-         "category":"Security, Identity & Compliance",
-         "product":"https://aws.amazon.com/artifact/",
-         "released":{
-            "date":"12/7/2016",
-            "link":"https://aws.amazon.com/blogs/security/introducing-aws-artifact-speeding-access-to-compliance-reports/"
-         },
-         "icon":"icons/Arch_AWS-Artifact_64.svg"
-      },
-      {
-         "name":"Amazon Macie",
-         "category":"Security, Identity & Compliance",
-         "product":"https://aws.amazon.com/macie/",
-         "released":{
-            "date":"8/14/2017",
-            "link":"https://aws.amazon.com/about-aws/whats-new/2017/08/introducing-amazon-macie/"
-         },
-         "icon":"icons/Arch_Amazon-Macie_64.svg"
-      },
-      {
-         "name":"Amazon GuardDuty",
-         "category":"Security, Identity & Compliance",
-         "product":"https://aws.amazon.com/guardduty/",
-         "released":{
-            "date":"11/28/2017",
-            "link":"https://aws.amazon.com/about-aws/whats-new/2017/11/announcing-amazon-guardduty-intelligent-threat-detection/"
-         },
-         "icon":"icons/Arch_Amazon-GuardDuty_64.svg"
-      },
-      {
-         "name":"AWS Single Sign-On",
-         "category":"Security, Identity & Compliance",
-         "product":"https://aws.amazon.com/single-sign-on/",
-         "released":{
-            "date":"12/7/2017",
-            "link":"https://aws.amazon.com/about-aws/whats-new/2017/12/announcing-aws-single-sign-on--sso/"
-         },
-         "icon":"icons/Arch_AWS-Single-Sign-On_64.svg"
-      },
-      {
-         "name":"AWS Secrets Manager",
-         "category":"Security, Identity & Compliance",
-         "product":"https://aws.amazon.com/secrets-manager/",
-         "released":{
-            "date":"4/4/2018",
-            "link":"https://aws.amazon.com/about-aws/whats-new/2018/04/introducing-aws-secrets-manager/"
-         },
-         "icon":"icons/Arch_AWS-Secrets-Manager_64.svg"
-      },
-      {
-         "name":"AWS Security Hub",
-         "category":"Security, Identity & Compliance",
-         "product":"https://aws.amazon.com/security-hub/",
-         "announced":{
-            "date":"11/28/2018",
-            "link":"https://aws.amazon.com/about-aws/whats-new/2018/11/introducing-aws-security-hub/"
-         },
-         "released":{
-            "date":"6/24/2019",
-            "link":"https://aws.amazon.com/about-aws/whats-new/2019/06/aws-security-hub-now-generally-available/"
-         },
-         "icon":"icons/Arch_AWS-Security-Hub_64.svg"
-      },
-      {
-         "name":"Amazon Simple Storage Service (S3)",
-         "category":"Storage",
-         "product":"https://aws.amazon.com/s3/",
-         "released":{
-            "date":"3/13/2006",
-            "link":"https://aws.amazon.com/about-aws/whats-new/2006/03/13/announcing-amazon-s3---simple-storage-service/"
-         },
-         "icon":"icons/Arch_Amazon-Simple-Storage-Service_64.svg"
-      },
-      {
-         "name":"Amazon S3 Glacier",
-         "category":"Storage",
-         "product":"https://aws.amazon.com/glacier1/",
-         "released":{
-            "date":"8/20/2012",
-            "link":"https://aws.amazon.com/about-aws/whats-new/2012/08/20/announcing-amazon-glacier/"
-         },
-         "icon":"icons/Arch_Amazon-Simple-Storage-Service-Glacier_64.svg"
-      },
-      {
-         "name":"AWS Storage Gateway",
-         "category":"Storage",
-         "product":"https://aws.amazon.com/storagegateway/",
-         "announced":{
-            "date":"1/24/2012",
-            "link":"https://aws.amazon.com/about-aws/whats-new/2012/01/24/announcing-aws-storage-gateway/"
-         },
-         "released":{
-            "date":"10/29/2012",
-            "link":"https://aws.amazon.com/blogs/aws/aws-storage-gateway-new-gateway-cached-volume-model/"
-         },
-         "icon":"icons/Arch_AWS-Storage-Gateway_64.svg"
-      },
-      {
-         "name":"Amazon Elastic File System (EFS)",
-         "category":"Storage",
-         "product":"https://aws.amazon.com/efs/",
-         "announced":{
-            "date":"4/9/2015",
-            "link":"https://aws.amazon.com/about-aws/whats-new/2015/04/introducing-amazon-efs/"
-         },
-         "released":{
-            "date":"6/28/2016",
-            "link":"https://aws.amazon.com/about-aws/whats-new/2016/06/amazon-elastic-file-system-efs-is-now-generally-available/"
-         },
-         "icon":"icons/Arch_Amazon-Elastic-File-System_64.svg"
-      },
-      {
-         "name":"Amazon FSx for Lustre",
-         "category":"Storage",
-         "product":"https://aws.amazon.com/fsx/lustre/",
-         "released":{
-            "date":"11/28/2018",
-            "link":"https://aws.amazon.com/about-aws/whats-new/2018/11/amazon-fsx-lustre/"
-         },
-         "icon":"icons/Arch_Amazon-FSx-for-Lustre_64.svg"
-      },
-      {
-         "name":"Amazon FSx for Windows File Server",
-         "category":"Storage",
-         "product":"https://aws.amazon.com/fsx/windows/",
-         "released":{
-            "date":"11/28/2018",
-            "link":"https://aws.amazon.com/about-aws/whats-new/2018/11/amazon-fsx-windows/"
-         },
-         "icon":"icons/Arch_Amazon-FSx-for-WFS_64.svg"
-      },
-      {
-         "name":"AWS Backup",
-         "category":"Storage",
-         "product":"https://aws.amazon.com/backup/",
-         "released":{
-            "date":"1/16/2019",
-            "link":"https://aws.amazon.com/about-aws/whats-new/2019/01/introducing-aws-backup/"
-         },
-         "icon":"icons/Arch_AWS-Backup_64.svg"
-      },
-      {
-         "name":"Amazon Event Bridge",
-         "category":"Application Integration",
-         "product":"https://aws.amazon.com/eventbridge/",
-         "released":{
-            "date":"7/11/2019",
-            "link":"https://aws.amazon.com/about-aws/whats-new/2019/07/introducing-amazon-eventbridge/"
-         },
-         "icon":"icons/Arch_Amazon-EventBridge_64.svg"
+  "categories": {
+    "Analytics": {
+      "color": "#A166FF",
+      "icon": "icons/Arch-Category_Analytics_64.svg"
+    },
+    "Application Integration": {
+      "color": "#FF4F8B",
+      "icon": "icons/Arch-Category_Application-Integration_64.svg"
+    },
+    "AR & VR": {
+      "color": "#FF4F8B",
+      "icon": "icons/Arch-Category_AR-VR_64.svg"
+    },
+    "AWS Cost Management": {
+      "color": "#6CAE3E",
+      "icon": "icons/Arch-Category_AWS-Cost-Management_64.svg"
+    },
+    "Blockchain": {
+      "color": "#FF9900",
+      "icon": "icons/Arch-Category_Blockchain_64.svg"
+    },
+    "Business Applications": {
+      "color": "#FF5252",
+      "icon": "icons/Arch-Category_Business-Applications_64.svg"
+    },
+    "Containers": {
+      "color": "#FF9900",
+      "icon": "icons/Arch-Category_Containers_64.svg"
+    },
+    "Compute": {
+      "color": "#FF9900",
+      "icon": "icons/Arch-Category_Compute_64.svg"
+    },
+    "Customer Engagement": {
+      "color": "#527FFF",
+      "icon": "icons/Arch-Category_Customer-Engagement_64.svg"
+    },
+    "Database": {
+      "color": "#527FFF",
+      "icon": "icons/Arch-Category_Database_64.svg"
+    },
+    "Developer Tools": {
+      "color": "#527FFF",
+      "icon": "icons/Arch-Category_Developer-Tools_64.svg"
+    },
+    "End User Computing": {
+      "color": "#56C0A7",
+      "icon": "icons/Arch-Category_End-User-Computing_64.svg"
+    },
+    "Front-End Web & Mobile": {
+      "color": "#FF5252",
+      "icon": "icons/Arch-Category_Mobile_64.svg"
+    },
+    "Game Tech": {
+      "color": "#A166FF",
+      "icon": "icons/Arch-Category_Game-Tech_64.svg"
+    },
+    "Internet of Things": {
+      "color": "#6CAE3E",
+      "icon": "icons/Arch-Category_Internet-of-Things_64.svg"
+    },
+    "Machine Learning": {
+      "color": "#56C0A7",
+      "icon": "icons/Arch-Category_Machine-Learning_64.svg"
+    },
+    "Management & Governance": {
+      "color": "#FF4F8B",
+      "icon": "icons/Arch-Category_Management-and-Governance_64.svg"
+    },
+    "Media Services": {
+      "color": "#FF9900",
+      "icon": "icons/Arch-Category_Media-Services_64.svg"
+    },
+    "Migration & Transfer": {
+      "color": "#56C0A7",
+      "icon": "icons/Arch-Category_Migration-and-Transfer_64.svg"
+    },
+    "Networking & Content Delivery": {
+      "color": "#A166FF",
+      "icon": "icons/Arch-Category_Networking-and-Content-Delivery_64.svg"
+    },
+    "Quantum Technologies": {
+      "color": "#FF9900",
+      "icon": "icons/Arch-Category_Quantum-Technologies_64.svg"
+    },
+    "Robotics": {
+      "color": "#FF5252",
+      "icon": "icons/Arch-Category_Robotics_64.svg"
+    },
+    "Satellite": {
+      "color": "#527FFF",
+      "icon": "icons/Arch-Category_Satellite_64.svg"
+    },
+    "Security, Identity, & Compliance": {
+      "color": "#FF5252",
+      "icon": "icons/Arch-Category_Security-Identity-and-Compliance_64.svg"
+    },
+    "Serverless": {
+      "color": "#A166FF",
+      "icon": "icons/Arch-Category_Serverless_64.svg"
+    },
+    "Storage": {
+      "color": "#6CAE3E",
+      "icon": "icons/Arch-Category_Storage_64.svg"
+    }
+  },
+  "services": [
+    {
+      "name": "AWS Data Exchange",
+      "category": "Analytics",
+      "product": "https://aws.amazon.com/data-exchange/",
+      "released": {
+        "date": "11/13/2019",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2019/11/introducing-aws-data-exchange/"
       }
-   ]
+    },
+    {
+      "name": "Amazon Elastic Block Store (EBS)",
+      "category": "Storage",
+      "product": "https://aws.amazon.com/ebs/",
+      "released": {
+        "date": "8/20/2008",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2008/08/20/amazon-elastic-block-store-now-available/"
+      },
+      "icon": "icons/Arch_Amazon-Elastic-Block-Store_64.svg"
+    },
+    {
+      "name": "Amazon EMR",
+      "category": "Analytics",
+      "product": "https://aws.amazon.com/elasticmapreduce/",
+      "announced": {
+        "date": "4/2/2009",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2009/04/02/announcing-amazon-elastic-mapreduce/"
+      },
+      "icon": "icons/Arch_Amazon-EMR_64.svg"
+    },
+    {
+      "name": "Amazon CloudSearch",
+      "category": "Analytics",
+      "product": "https://aws.amazon.com/cloudsearch/",
+      "released": {
+        "date": "4/11/2012",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2012/04/11/aws-announces-cloudsearch/"
+      },
+      "icon": "icons/Arch_Amazon-CloudSearch_64.svg"
+    },
+    {
+      "name": "AWS Data Pipeline",
+      "category": "Analytics",
+      "product": "https://aws.amazon.com/datapipeline/",
+      "announced": {
+        "date": "12/20/2012",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2012/12/20/announcing-aws-data-pipeline/"
+      },
+      "icon": "icons/Arch_AWS-Data-Pipeline_64.svg"
+    },
+    {
+      "name": "Amazon Kinesis",
+      "category": "Analytics",
+      "product": "https://aws.amazon.com/kinesis/",
+      "announced": {
+        "date": "11/14/2013",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2013/11/14/introducing-amazon-kinesis/"
+      },
+      "released": {
+        "date": "12/16/2013",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2013/12/16/amazon-kinesis-available-for-all-customers/"
+      },
+      "icon": "icons/Arch_Amazon-Kinesis_64.svg"
+    },
+    {
+      "name": "Amazon Elasticsearch Service",
+      "category": "Analytics",
+      "product": "https://aws.amazon.com/elasticsearch-service/",
+      "released": {
+        "date": "10/1/2015",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2015/10/introducing-amazon-elasticsearch-service/"
+      },
+      "icon": "icons/Arch_Amazon-OpenSearch-Service_64.svg"
+    },
+    {
+      "name": "Amazon Quicksight",
+      "category": "Analytics",
+      "product": "https://aws.amazon.com/quicksight/",
+      "announced": {
+        "date": "10/7/2015",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2015/10/introducing-amazon-quicksight-now-in-preview/"
+      },
+      "released": {
+        "date": "11/15/2016",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2016/11/amazon-quicksight-now-generally-available/"
+      },
+      "icon": "icons/Arch_Amazon-Quicksight_64.svg"
+    },
+    {
+      "name": "Amazon Athena",
+      "category": "Analytics",
+      "product": "https://aws.amazon.com/athena/",
+      "released": {
+        "date": "11/30/2016",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2016/11/introducing-amazon-athena-a-pay-as-you-go-interactive-query-service-that-makes-it-easy-to-analyze-data-in-amazon-s3-using-standard-sql/"
+      },
+      "icon": "icons/Arch_Amazon-Athena_64.svg"
+    },
+    {
+      "name": "AWS Glue",
+      "category": "Analytics",
+      "product": "https://aws.amazon.com/glue/",
+      "announced": {
+        "date": "12/1/2016",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2016/12/introducing-aws-glue-prepare-and-load-data-into-data-stores/"
+      },
+      "released": {
+        "date": "8/14/2017",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2017/08/introducing-aws-glue-a-simple-flexible-and-cost-effective-extract-transfer-and-load-etl-service/"
+      },
+      "icon": "icons/Arch_AWS-Glue_64.svg"
+    },
+    {
+      "name": "AWS Lake Formation",
+      "category": "Analytics",
+      "product": "https://aws.amazon.com/lake-formation/",
+      "announced": {
+        "date": "11/28/2018",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2018/11/announcing-aws-lake-formation/"
+      },
+      "released": {
+        "date": "8/8/2019",
+        "link": "https://press.aboutamazon.com/news-releases/news-release-details/aws-announces-general-availability-aws-lake-formation"
+      },
+      "icon": "icons/Arch_AWS-Lake-Formation_64.svg"
+    },
+    {
+      "name": "Amazon Managed Streaming for Kafka",
+      "category": "Analytics",
+      "product": "https://aws.amazon.com/msk/",
+      "announced": {
+        "date": "11/28/2018",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2018/11/introducing-amazon-managed-streaming-for-kafka-in-public-preview/"
+      },
+      "released": {
+        "date": "5/30/2019",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2019/05/amazon_managed_streaming_for_apache_kafka_amazon_msk_is_now_generally_available/"
+      },
+      "icon": "icons/Arch_Amazon-Managed-Streaming-for-Apache-Kafka_64.svg"
+    },
+    {
+      "name": "Amazon Appflow",
+      "category": "Application Integration",
+      "product": "https://aws.amazon.com/appflow/",
+      "released": {
+        "date": "4/22/2020",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2020/04/introducing-amazon-appflow/"
+      }
+    },
+    {
+      "name": "Amazon Simple Queue Service (SQS)",
+      "category": "Application Integration",
+      "product": "https://aws.amazon.com/sqs/",
+      "announced": {
+        "date": "11/3/2004",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2004/11/03/introducing-the-amazon-simple-queue-service/"
+      },
+      "released": {
+        "date": "7/11/2006",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2006/07/11/amazon-simple-queue-service-amazon-sqs-now-generally-available/"
+      },
+      "icon": "icons/Arch_Amazon-Simple-Queue-Service_64.svg"
+    },
+    {
+      "name": "Amazon Simple Notification Service (SNS)",
+      "category": "Application Integration",
+      "product": "https://aws.amazon.com/sns/",
+      "announced": {
+        "date": "4/7/2010",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2010/04/07/announcing-amazon-simple-notification-service/"
+      },
+      "icon": "icons/Arch_Amazon-Simple-Notification-Service_64.svg"
+    },
+    {
+      "name": "AWS Simple Workflow",
+      "category": "Application Integration",
+      "product": "https://aws.amazon.com/swf/",
+      "released": {
+        "date": "02/21/2012",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2012/02/21/aws-announces-swf/"
+      },
+      "icon": "icons/Arch_AWS-Simple-Workflow_64.svg"
+    },
+    {
+      "name": "AWS Step Functions",
+      "category": "Application Integration",
+      "product": "https://aws.amazon.com/step-functions/",
+      "released": {
+        "date": "12/1/2016",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2016/12/introducing-aws-step-functions/"
+      },
+      "icon": "icons/Arch_AWS-Step-Functions_64.svg"
+    },
+    {
+      "name": "Amazon MQ",
+      "category": "Application Integration",
+      "product": "https://aws.amazon.com/amazon-mq/",
+      "released": {
+        "date": "11/28/2017",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2017/11/introducing-amazon-mq/"
+      },
+      "icon": "icons/Arch_Amazon-MQ_64.svg"
+    },
+    {
+      "name": "Amazon Sumerian",
+      "category": "AR & VR",
+      "product": "https://aws.amazon.com/sumerian/",
+      "announced": {
+        "date": "11/26/2017",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2017/11/announcing-amazon-sumerian-preview/"
+      },
+      "released": {
+        "date": "5/15/2018",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2018/05/amazon-sumerian-is-generally-available/"
+      },
+      "icon": "icons/Arch_Amazon-Sumerian_64.svg"
+    },
+    {
+      "name": "AWS Cost Explorer",
+      "category": "AWS Cost Management",
+      "product": "https://aws.amazon.com/aws-cost-management/aws-cost-explorer/",
+      "released": {
+        "date": "4/8/2014",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2014/04/08/introducing-cost-explorer-view-and-analyze-your-historical-aws-spend/"
+      },
+      "icon": "icons/Arch_AWS-Cost-Explorer_64.svg"
+    },
+    {
+      "name": "AWS Budgets",
+      "category": "AWS Cost Management",
+      "product": "https://aws.amazon.com/aws-cost-management/aws-budgets/",
+      "released": {
+        "date": "6/29/2015",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2015/06/aws-introduces-budgets-a-simple-way-to-manage-your-aws-costs/"
+      },
+      "icon": "icons/Arch_AWS-Budgets_64.svg"
+    },
+    {
+      "name": "Amazon Managed Blockchain",
+      "category": "Blockchain",
+      "product": "https://aws.amazon.com/blockchain/",
+      "announced": {
+        "date": "11/28/2018",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2018/11/introducing-amazon-managed-blockchain/"
+      },
+      "released": {
+        "date": "4/30/2019",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2019/04/introducing-amazon-managed-blockchain/"
+      },
+      "icon": "icons/Arch_Amazon-Managed-Blockchain_64.svg"
+    },
+    {
+      "name": "Amazon WorkMail",
+      "category": "Business Applications",
+      "product": "https://aws.amazon.com/workmail/",
+      "announced": {
+        "date": "1/28/2015",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2015/01/28/introducing-amazon-workmail/"
+      },
+      "released": {
+        "date": "1/4/2016",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2016/01/amazon-workmail-now-generally-available/"
+      },
+      "icon": "icons/Arch_Amazon-WorkMail_64.svg"
+    },
+    {
+      "name": "Amazon Chime",
+      "category": "Business Applications",
+      "product": "https://aws.amazon.com/chime/",
+      "released": {
+        "date": "2/13/2017",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2017/02/announcing-amazon-chime-frustration-free-online-meetings-with-exceptional-audio-and-video-quality/"
+      },
+      "icon": "icons/Arch_Amazon-Chime_64.svg"
+    },
+    {
+      "name": "Alexa for Business",
+      "category": "Business Applications",
+      "product": "https://aws.amazon.com/alexaforbusiness/",
+      "released": {
+        "date": "11/30/2017",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2017/11/alexa-for-business-is-now-generally-released/"
+      },
+      "icon": "icons/Arch_Alexa-For-Business_64.svg"
+    },
+    {
+      "name": "Amazon EC2",
+      "category": "Compute",
+      "product": "https://aws.amazon.com/ec2/",
+      "announced": {
+        "date": "8/24/2006",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2006/08/24/announcing-amazon-elastic-compute-cloud-amazon-ec2---beta/"
+      },
+      "released": {
+        "date": "10/23/2008",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2008/10/23/amazon-ec2-exits-beta-and-now-offers-a-service-level-agreement/"
+      },
+      "icon": "icons/Arch_Amazon-EC2_64.svg"
+    },
+    {
+      "name": "Amazon Braket",
+      "category": "Compute",
+      "product": "https://aws.amazon.com/braket/",
+      "announced": {
+        "date": "12/2/2019",
+        "link": "https://aws.amazon.com/blogs/aws/amazon-braket-get-started-with-quantum-computing/"
+      },
+      "released": {
+        "date": "8/13/2020",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2020/08/quantum-computing-available-aws-through-amazon-braket/"
+      },
+      "icon": "icons/Arch_Amazon-Braket_64.svg"
+    },
+    {
+      "name": "Amazon Wavelength",
+      "category": "Compute",
+      "product": "https://aws.amazon.com/wavelength/",
+      "announced": {
+        "date": "12/3/2019",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2019/12/announcing-aws-wavelength-delivering-ultra-low-latency-applications-5g/"
+      },
+      "released": {
+        "date": "8/6/2020",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2020/08/announcing-the-general-availability-of-aws-wavelength-in-boston-and-the-san-francisco-bay-area/"
+      },
+      "icon": "icons/Arch_AWS-Wavelength_64.svg"
+    },
+    {
+      "name": "AWS Elastic Beanstalk",
+      "category": "Compute",
+      "product": "https://aws.amazon.com/elasticbeanstalk/",
+      "announced": {
+        "date": "1/19/2011",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2011/01/19/introducing-aws-elastic-beanstalk-beta/"
+      },
+      "icon": "icons/Arch_AWS-Elastic-Beanstalk_64.svg"
+    },
+    {
+      "name": "Amazon Elastic Container Service",
+      "category": "Compute",
+      "product": "https://aws.amazon.com/ecs/",
+      "announced": {
+        "date": "11/13/2014",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2014/11/13/introducing-amazon-ec2-container-service/"
+      },
+      "released": {
+        "date": "4/9/2015",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2015/04/amazon-ec2-container-service-is-now-generally-available/"
+      },
+      "icon": "icons/Arch_Amazon-Elastic-Container-Service_64.svg"
+    },
+    {
+      "name": "AWS Lambda",
+      "category": "Compute",
+      "product": "https://aws.amazon.com/lambda/",
+      "announced": {
+        "date": "11/13/2014",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2014/11/13/introducing-aws-lambda/"
+      },
+      "released": {
+        "date": "4/9/2015",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2015/04/aws-lambda-brings-scalable-event-computing-to-mobile-and-iot-backends/"
+      },
+      "icon": "icons/Arch_AWS-Lambda_64.svg"
+    },
+    {
+      "name": "Amazon Elastic Container Registry",
+      "category": "Compute",
+      "product": "https://aws.amazon.com/ecr/",
+      "released": {
+        "date": "12/21/2015",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2015/12/amazon-ec2-container-registry-now-available/"
+      },
+      "icon": "icons/Arch_Amazon-Elastic-Container-Registry_64.svg"
+    },
+    {
+      "name": "Amazon Lightsail",
+      "category": "Compute",
+      "product": "https://aws.amazon.com/lightsail/",
+      "released": {
+        "date": "11/30/2016",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2016/11/introducing-amazon-lightsail/"
+      },
+      "icon": "icons/Arch_Amazon-Lightsail_64.svg"
+    },
+    {
+      "name": "AWS Batch",
+      "category": "Compute",
+      "product": "https://aws.amazon.com/batch/",
+      "announced": {
+        "date": "12/1/2016",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2016/12/announcing-aws-batch/"
+      },
+      "released": {
+        "date": "1/5/2017",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2017/01/aws-batch-now-generally-available/"
+      },
+      "icon": "icons/Arch_AWS-Batch_64.svg"
+    },
+    {
+      "name": "AWS Serverless Application Repository",
+      "category": "Compute",
+      "product": "https://aws.amazon.com/serverlessrepo/",
+      "announced": {
+        "date": "11/30/2017",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2017/11/aws-serverless-application-repository-enables-customers-to-discover-deploy-and-publish-serverless-applications/"
+      },
+      "released": {
+        "date": "2/21/2018",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2018/02/aws-serverless-application-repository-now-generally-available/"
+      },
+      "icon": "icons/Arch_AWS-Serverless-Application-Repository_64.svg"
+    },
+    {
+      "name": "Amazon Elastic Kubernetes Service",
+      "category": "Compute",
+      "product": "https://aws.amazon.com/eks/",
+      "announced": {
+        "date": "11/29/2017",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2017/11/introducing-amazon-elastic-container-service-for-kubernetes/"
+      },
+      "released": {
+        "date": "6/5/2018",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2018/06/amazon-elastic-container-service-for-kubernetes-eks-now-ga/"
+      },
+      "icon": "icons/Arch_Amazon-Elastic-Kubernetes-Service_64.svg"
+    },
+    {
+      "name": "AWS Outposts",
+      "category": "Compute",
+      "product": "https://aws.amazon.com/outposts/",
+      "announced": {
+        "date": "11/27/2018",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2018/11/announcing-aws-outposts/"
+      },
+      "released": {
+        "date": "12/3/2019",
+        "link": "https://aws.amazon.com/blogs/aws/aws-outposts-now-available-order-your-racks-today/"
+      },
+      "icon": "icons/Arch_AWS-Outposts-family_64.svg"
+    },
+    {
+      "name": "Amazon Simple Email Service (SES)",
+      "category": "Front-End Web & Mobile",
+      "product": "https://aws.amazon.com/ses/",
+      "announced": {
+        "date": "1/25/2011",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2011/01/25/introducing-amazon-simple-email-service-beta/"
+      },
+      "icon": "icons/Arch_Amazon-Simple-Email-Service_64.svg"
+    },
+    {
+      "name": "Amazon Mobile Analytics",
+      "category": "Front-End Web & Mobile",
+      "product": "https://aws.amazon.com/mobileanalytics/",
+      "released": {
+        "date": "7/10/2014",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2014/07/10/introducing-amazon-mobile-analytics/"
+      },
+      "icon": "icons/Arch_Amazon-Mobile-Analytics_64.svg"
+    },
+    {
+      "name": "Amazon Connect",
+      "category": "Customer Engagement",
+      "product": "https://aws.amazon.com/connect/",
+      "released": {
+        "date": "3/28/2017",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2017/03/introducing-amazon-connect/"
+      },
+      "icon": "icons/Arch_Amazon-Connect_64.svg"
+    },
+    {
+      "name": "Amazon SimpleDB",
+      "category": "Database",
+      "product": "https://aws.amazon.com/simpledb/",
+      "announced": {
+        "date": "12/13/2007",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2007/12/13/announcing-amazon-simpledb-limited-beta/"
+      }
+    },
+    {
+      "name": "Amazon ElastiCache",
+      "category": "Database",
+      "product": "https://aws.amazon.com/elasticache/",
+      "announced": {
+        "date": "8/22/2011",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2011/08/22/announcing-amazon-elasticache/"
+      },
+      "icon": "icons/Arch_Amazon-ElastiCache_64.svg"
+    },
+    {
+      "name": "Amazon DynamoDB",
+      "category": "Database",
+      "product": "https://aws.amazon.com/dynamodb/",
+      "released": {
+        "date": "1/18/2012",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2012/01/18/aws-announces-dynamodb/"
+      },
+      "icon": "icons/Arch_Amazon-DynamoDB_64.svg"
+    },
+    {
+      "name": "Amazon Redshift",
+      "category": "Database",
+      "product": "https://aws.amazon.com/redshift/",
+      "announced": {
+        "date": "11/28/2012",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2012/11/28/announcing-amazon-redshift/"
+      },
+      "released": {
+        "date": "2/14/2013",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2013/02/14/amazon-redshift-available-to-all-customers/"
+      },
+      "icon": "icons/Arch_Amazon-Redshift_64.svg"
+    },
+    {
+      "name": "Amazon RDS",
+      "category": "Database",
+      "product": "https://aws.amazon.com/rds/",
+      "announced": {
+        "date": "10/27/2009",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2009/10/27/introducing-amazon-relational-database-service/"
+      },
+      "released": {
+        "date": "6/5/2013",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2013/06/05/amazon-rds-ga-sla/"
+      },
+      "icon": "icons/Arch_Amazon-RDS_64.svg"
+    },
+    {
+      "name": "Amazon Neptune",
+      "category": "Database",
+      "product": "https://aws.amazon.com/neptune/",
+      "announced": {
+        "date": "11/29/2017",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2017/11/amazon-neptune-fast-reliable-graph-database-built-for-the-cloud/"
+      },
+      "released": {
+        "date": "5/30/2018",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2018/05/amazon-neptune-is-now-generally-available/"
+      },
+      "icon": "icons/Arch_Amazon-Neptune_64.svg"
+    },
+    {
+      "name": "Amazon Quantum Ledger Database (QLDB)",
+      "category": "Blockchain",
+      "product": "https://aws.amazon.com/qldb/",
+      "announced": {
+        "date": "11/28/2018",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2018/11/introducing-amazon-qldb/"
+      },
+      "released": {
+        "date": "9/10/2019",
+        "link": "https://aws.amazon.com/blogs/aws/now-available-amazon-quantum-ledger-database-qldb/"
+      },
+      "icon": "icons/Arch_Amazon-Quantum-Ledger-Database_64.svg"
+    },
+    {
+      "name": "Amazon Keyspaces (for Apache Cassandra)",
+      "category": "Database",
+      "product": "http://aws.amazon.com/mcs/",
+      "announced": {
+        "date": "12/3/2019",
+        "link": "https://aws.amazon.com/blogs/aws/new-amazon-managed-apache-cassandra-service-mcs/"
+      },
+      "released": {
+        "date": "04/23/2020",
+        "link": "https://aws.amazon.com/blogs/aws/new-amazon-keyspaces-for-apache-cassandra-is-now-generally-available/"
+      },
+      "icon": "icons/Arch_Amazon-Keyspaces_64.svg"
+    },
+    {
+      "name": "Amazon Timestream",
+      "category": "Database",
+      "product": "https://aws.amazon.com/timestream/",
+      "announced": {
+        "date": "11/28/2018",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2018/11/announcing-amazon-timestream/"
+      },
+      "released": {
+        "date": "09/30/2020",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2020/09/amazon-timestream-now-generally-available/"
+      },
+      "icon": "icons/Arch_Amazon-Timestream_64.svg"
+    },
+    {
+      "name": "Amazon DocumentDB (with MongoDB compatibility)",
+      "category": "Database",
+      "product": "https://aws.amazon.com/documentdb/",
+      "released": {
+        "date": "1/9/2019",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2019/01/amazon-documentdb-with-mongodb-compatibility-generally-available/"
+      },
+      "icon": "icons/Arch_Amazon-DocumentDB_64.svg"
+    },
+    {
+      "name": "AWS CodeArtifact",
+      "category": "Developer Tools",
+      "product": "https://aws.amazon.com/codeartifact/",
+      "released": {
+        "date": "6/10/2020",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2020/06/introducing-aws-codeartifact-a-fully-managed-software-artifact-repository-service/"
+      }
+    },
+    {
+      "name": "AWS CodeDeploy",
+      "category": "Developer Tools",
+      "product": "https://aws.amazon.com/codedeploy/",
+      "released": {
+        "date": "11/12/2014",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2014/11/12/introducing-aws-codedeploy/"
+      },
+      "icon": "icons/Arch_AWS-CodeDeploy_64.svg"
+    },
+    {
+      "name": "AWS CodePipeline",
+      "category": "Developer Tools",
+      "product": "https://aws.amazon.com/codepipeline/",
+      "released": {
+        "date": "7/9/2015",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2015/07/aws-codepipeline-now-available/"
+      },
+      "icon": "icons/Arch_AWS-CodePipeline_64.svg"
+    },
+    {
+      "name": "AWS CodeCommit",
+      "category": "Developer Tools",
+      "product": "https://aws.amazon.com/codecommit/",
+      "released": {
+        "date": "7/9/2015",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2015/07/aws-codecommit-now-available/"
+      },
+      "icon": "icons/Arch_AWS-CodeCommit_64.svg"
+    },
+    {
+      "name": "AWS CodeBuild",
+      "category": "Developer Tools",
+      "product": "https://aws.amazon.com/codebuild/",
+      "released": {
+        "date": "12/1/2016",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2016/12/announcing-aws-codebuild/"
+      },
+      "icon": "icons/Arch_AWS-CodeBuild_64.svg"
+    },
+    {
+      "name": "AWS CodeStar",
+      "category": "Developer Tools",
+      "product": "https://aws.amazon.com/codestar/",
+      "released": {
+        "date": "4/19/2017",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2017/04/introducing-aws-codestar/"
+      },
+      "icon": "icons/Arch_AWS-CodeStar_64.svg"
+    },
+    {
+      "name": "AWS X-Ray",
+      "category": "Developer Tools",
+      "product": "https://aws.amazon.com/xray/",
+      "announced": {
+        "date": "12/1/2016",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2016/12/announcing-aws-x-ray/"
+      },
+      "released": {
+        "date": "4/19/2017",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2017/04/aws-x-ray-now-generally-available/"
+      },
+      "icon": "icons/Arch_AWS-X-Ray_64.svg"
+    },
+    {
+      "name": "AWS Cloud9",
+      "category": "Developer Tools",
+      "product": "https://aws.amazon.com/cloud9/",
+      "released": {
+        "date": "11/30/2017",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2017/11/introducing-aws-cloud9/"
+      },
+      "icon": "icons/Arch_AWS-Cloud9_64.svg"
+    },
+    {
+      "name": "Amazon Appstream",
+      "category": "End User Computing",
+      "product": "https://aws.amazon.com/appstream",
+      "announced": {
+        "date": "11/13/2013",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2013/11/13/introducing-amazon-appstream/"
+      },
+      "released": {
+        "date": "3/12/2014",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2014/03/12/amazon-appstream-available-to-all-customers/"
+      }
+    },
+    {
+      "name": "Amazon WorkSpaces",
+      "category": "End User Computing",
+      "product": "https://aws.amazon.com/workspaces/",
+      "announced": {
+        "date": "11/13/2013",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2013/11/13/introducing-amazon-workspaces/"
+      },
+      "released": {
+        "date": "3/26/2014",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2014/03/26/amazon-workspaces-available-for-all-customers/"
+      },
+      "icon": "icons/Arch_Amazon-WorkSpaces_64.svg"
+    },
+    {
+      "name": "Amazon WorkDocs",
+      "category": "End User Computing",
+      "product": "https://aws.amazon.com/workdocs/",
+      "announced": {
+        "date": "7/10/2014",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2014/07/10/introducing-amazon-zocalo/"
+      },
+      "released": {
+        "date": "8/27/2014",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2014/08/27/amazon-zocalo-is-now-available-to-all-aws-customers/"
+      },
+      "icon": "icons/Arch_Amazon-WorkDocs_64.svg"
+    },
+    {
+      "name": "Amazon AppStream 2.0",
+      "category": "End User Computing",
+      "product": "https://aws.amazon.com/appstream2/",
+      "released": {
+        "date": "12/1/2016",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2016/12/introducing-amazon-appstream-2-0-stream-desktop-applications-from-aws/"
+      },
+      "icon": "icons/Arch_Amazon-AppStream_64.svg"
+    },
+    {
+      "name": "Amazon WorkLink",
+      "category": "End User Computing",
+      "product": "https://aws.amazon.com/worklink/",
+      "released": {
+        "date": "1/22/2019",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2019/01/introducing-amazon-worklink/"
+      },
+      "icon": "icons/Arch_Amazon-WorkLink_64.svg"
+    },
+    {
+      "name": "Amazon GameLift",
+      "category": "Game Tech",
+      "product": "https://aws.amazon.com/gamelift/",
+      "released": {
+        "date": "2/9/2016",
+        "link": "https://techcrunch.com/2016/02/09/aws-announces-new-set-of-integrated-services-aimed-at-game-developers/"
+      },
+      "icon": "icons/Arch_Amazon-GameLift_64.svg"
+    },
+    {
+      "name": "AWS IoT Core",
+      "category": "Internet of Things",
+      "product": "https://aws.amazon.com/iot-core/",
+      "announced": {
+        "date": "10/8/2015",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2015/10/announcing-aws-iot-now-in-beta/"
+      },
+      "released": {
+        "date": "12/18/2015",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2015/12/aws-iot-now-generally-available/"
+      },
+      "icon": "icons/Arch_AWS-IoT-Core_64.svg"
+    },
+    {
+      "name": "AWS Greengrass",
+      "category": "Internet of Things",
+      "product": "https://aws.amazon.com/greengrass/",
+      "announced": {
+        "date": "11/30/2016",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2016/11/announcing-aws-greengrass-now-in-limited-preview/"
+      },
+      "released": {
+        "date": "6/7/2017",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2017/06/aws-greengrass-is-now-generally-available/"
+      },
+      "icon": "icons/Arch_AWS-IoT-Greengrass_64.svg"
+    },
+    {
+      "name": "AWS IoT Device Management",
+      "category": "Internet of Things",
+      "product": "https://aws.amazon.com/iot-device-management/",
+      "released": {
+        "date": "11/29/2017",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2017/11/announcing-aws-iot-device-management/"
+      },
+      "icon": "icons/Arch_AWS-IoT-Device-Management_64.svg"
+    },
+    {
+      "name": "Amazon FreeRTOS",
+      "category": "Internet of Things",
+      "product": "https://aws.amazon.com/freertos/",
+      "released": {
+        "date": "11/29/2017",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2017/11/amazon-freertos-iot-operation-system-for-microcontrollers/"
+      },
+      "icon": "icons/Arch_FreeRTOS_64.svg"
+    },
+    {
+      "name": "AWS IoT Analytics",
+      "category": "Internet of Things",
+      "product": "https://aws.amazon.com/iot-analytics/",
+      "released": {
+        "date": "4/24/2018",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2017/11/announcing-aws-iot-analytics/"
+      },
+      "icon": "icons/Arch_AWS-IoT-Analytics_64.svg"
+    },
+    {
+      "name": "AWS IoT 1-Click",
+      "category": "Internet of Things",
+      "product": "https://aws.amazon.com/iot-1-click/",
+      "announced": {
+        "date": "11/29/2017",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2017/11/aws-iot-one-click-now-in-preview/"
+      },
+      "released": {
+        "date": "5/16/2018",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2018/05/aws-iot-1-click-generally-available/"
+      },
+      "icon": "icons/Arch_AWS-IoT-1-Click_64.svg"
+    },
+    {
+      "name": "AWS IoT Device Defender",
+      "category": "Internet of Things",
+      "product": "https://aws.amazon.com/iot-device-defender/",
+      "announced": {
+        "date": "11/29/2017",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2017/11/aws-iot-device-defender-helps-you-manage-device-security/"
+      },
+      "released": {
+        "date": "8/2/2018",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2018/08/aws-iot-device-defender-now-generally-available/"
+      },
+      "icon": "icons/Arch_AWS-IoT-Device-Defender_64.svg"
+    },
+    {
+      "name": "AWS IoT SiteWise",
+      "category": "Internet of Things",
+      "product": "https://aws.amazon.com/iot-sitewise/",
+      "announced": {
+        "date": "11/26/2018",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2018/11/announcing-aws-iot-sitewise-now-released-in-preview/"
+      },
+      "released": {
+        "date": "7/9/2020",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2020/07/aws-iot-sitewise-generally-available/"
+      },
+      "icon": "icons/Arch_AWS-IoT-SiteWise_64.svg"
+    },
+    {
+      "name": "AWS IoT Events",
+      "category": "Internet of Things",
+      "product": "https://aws.amazon.com/iot-events/",
+      "announced": {
+        "date": "11/26/2018",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2018/11/introducing-aws-iot-events-now-released-in-preview/"
+      },
+      "released": {
+        "date": "5/30/2019",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2019/05/aws-iot-events-now-generally-available/"
+      },
+      "icon": "icons/Arch_AWS-IoT-Events_64.svg"
+    },
+    {
+      "name": "AWS IoT Things Graph",
+      "category": "Internet of Things",
+      "product": "https://aws.amazon.com/iot-things-graph/",
+      "announced": {
+        "date": "11/26/2018",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2018/11/iot-things-graph-now-in-preview/"
+      },
+      "released": {
+        "date": "5/30/2019",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2019/05/aws-iot-things-graph-now-generally-available/"
+      },
+      "icon": "icons/Arch_AWS-IoT-Things-Graph_64.svg"
+    },
+    {
+      "name": "Amazon Polly",
+      "category": "Machine Learning",
+      "product": "https://aws.amazon.com/polly/",
+      "released": {
+        "date": "11/30/2016",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2016/11/introducing-amazon-polly/"
+      },
+      "icon": "icons/Arch_Amazon-Polly_64.svg"
+    },
+    {
+      "name": "Amazon Rekognition",
+      "category": "Machine Learning",
+      "product": "https://aws.amazon.com/rekognition/",
+      "released": {
+        "date": "11/30/2016",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2016/11/introducing-amazon-rekognition/"
+      },
+      "icon": "icons/Arch_Amazon-Rekognition_64.svg"
+    },
+    {
+      "name": "Amazon Lex",
+      "category": "Machine Learning",
+      "product": "https://aws.amazon.com/lex/",
+      "announced": {
+        "date": "11/30/2016",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2016/11/introducing-amazon-lex-now-in-preview/"
+      },
+      "released": {
+        "date": "4/19/2017",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2017/04/amazon-lex-now-generally-available/"
+      },
+      "icon": "icons/Arch_Amazon-Lex_64.svg"
+    },
+    {
+      "name": "Amazon Comprehend",
+      "category": "Machine Learning",
+      "product": "https://aws.amazon.com/comprehend/",
+      "released": {
+        "date": "11/29/2017",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2017/11/introducing-amazon-comprehend-discover-insights-from-text/"
+      },
+      "icon": "icons/Arch_Amazon-Comprehend_64.svg"
+    },
+    {
+      "name": "Amazon SageMaker",
+      "category": "Machine Learning",
+      "product": "https://aws.amazon.com/sagemaker/",
+      "released": {
+        "date": "11/29/2017",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2017/11/introducing-amazon-sagemaker/"
+      },
+      "icon": "icons/Arch_Amazon-SageMaker_64.svg"
+    },
+    {
+      "name": "Amazon Fraud Detector",
+      "category": "Machine Learning",
+      "product": "https://aws.amazon.com/fraud-detector/",
+      "announced": {
+        "date": "12/3/2019",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2019/12/introducing-amazon-fraud-detector-now-in-preview/"
+      },
+      "released": {
+        "date": "7/28/2020",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2020/07/detect-fraud-faster-using-machine-learning-with-amazon-fraud-detector/"
+      },
+      "icon": "icons/Arch_Amazon-Fraud-Detector_64.svg"
+    },
+    {
+      "name": "Amazon Kendra",
+      "category": "Machine Learning",
+      "product": "https://aws.amazon.com/kendra/",
+      "announced": {
+        "date": "12/3/2019",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2019/12/announcing-amazon-kendra-reinventing-enterprise-search-with-machine-learning/"
+      },
+      "released": {
+        "date": "5/11/2020",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2020/05/amazon-kendra-is-now-generally-available/"
+      },
+      "icon": "icons/Arch_Amazon-Kendra_64.svg"
+    },
+    {
+      "name": "Amazon Transcribe",
+      "category": "Machine Learning",
+      "product": "https://aws.amazon.com/transcribe/",
+      "announced": {
+        "date": "11/29/2017",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2017/11/introducing-amazon-transcribe-now-in-preview/"
+      },
+      "released": {
+        "date": "4/4/2018",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2018/04/amazon-transcribe-is-now-generally-available/"
+      },
+      "icon": "icons/Arch_Amazon-Transcribe_64.svg"
+    },
+    {
+      "name": "Amazon Translate",
+      "category": "Machine Learning",
+      "product": "https://aws.amazon.com/translate/",
+      "announced": {
+        "date": "11/29/2017",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2017/11/introducing-amazon-translate-now-in-preview/"
+      },
+      "released": {
+        "date": "4/4/2018",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2018/04/amazon-translate-is-now-generally-available/"
+      },
+      "icon": "icons/Arch_Amazon-Translate_64.svg"
+    },
+    {
+      "name": "AWS DeepLens",
+      "category": "Machine Learning",
+      "product": "https://aws.amazon.com/deeplens/",
+      "announced": {
+        "date": "11/29/2017",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2017/11/introducing-aws-deeplens-the-worlds-first-deep-learning-enabled-video-camera-for-developers/"
+      },
+      "icon": "icons/Arch_AWS-DeepLens_64.svg"
+    },
+    {
+      "name": "AWS DeepComposer",
+      "category": "Machine Learning",
+      "product": "https://aws.amazon.com/deepcomposer/",
+      "announced": {
+        "date": "12/1/2019",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2019/12/introducing-aws-deepcomposer/"
+      },
+      "released": {
+        "date": "04/02/2020",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2020/04/aws-deepcomposer-now-generally-available/"
+      },
+      "icon": "icons/Arch_AWS-DeepComposer_64.svg"
+    },
+    {
+      "name": "Amazon Elastic Inference",
+      "category": "Machine Learning",
+      "product": "https://aws.amazon.com/elastic-inference/",
+      "released": {
+        "date": "11/28/2018",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2018/11/introducing-amazon-elastic-inference/"
+      },
+      "icon": "icons/Arch_Amazon-Elastic-Inference_64.svg"
+    },
+    {
+      "name": "Amazon Forecast",
+      "category": "Machine Learning",
+      "product": "https://aws.amazon.com/forecast/",
+      "announced": {
+        "date": "11/28/2018",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2018/11/introducing-amazon-forecast-now-in-preview/"
+      },
+      "released": {
+        "date": "08/22/2019",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2019/08/amazon-forecast-now-generally-available/"
+      },
+      "icon": "icons/Arch_Amazon-Forecast_64.svg"
+    },
+    {
+      "name": "Amazon Inferentia",
+      "category": "Machine Learning",
+      "product": "https://aws.amazon.com/inferentia/",
+      "announced": {
+        "date": "11/28/2018",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2018/11/announcing-amazon-inferentia-machine-learning-inference-microchip/"
+      },
+      "released": {
+        "date": "12/3/2019",
+        "link": "https://aws.amazon.com/blogs/aws/amazon-ec2-update-inf1-instances-with-aws-inferentia-chips-for-high-performance-cost-effective-inferencing/"
+      },
+      "icon": "icons/Arch-Category_Compute_64.svg"
+    },
+    {
+      "name": "AWS DeepRacer",
+      "category": "Machine Learning",
+      "product": "https://aws.amazon.com/deepracer/",
+      "announced": {
+        "date": "11/28/2018",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2018/11/introducing-aws-deepracer/"
+      },
+      "icon": "icons/Arch_AWS-DeepRacer_64.svg"
+    },
+    {
+      "name": "Amazon Textract",
+      "category": "Machine Learning",
+      "product": "https://aws.amazon.com/textract/",
+      "announced": {
+        "date": "11/28/2018",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2018/11/introducing-amazon-textract-now-in-preview-easily-extract-text-and-data-from-virtually-any-document/"
+      },
+      "released": {
+        "date": "5/29/2019",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2019/05/amazon-textract-now-generally-available/"
+      },
+      "icon": "icons/Arch_Amazon-Textract_64.svg"
+    },
+    {
+      "name": "Amazon Personalize",
+      "category": "Machine Learning",
+      "product": "https://aws.amazon.com/personalize/",
+      "announced": {
+        "date": "11/28/2018",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2018/11/introducing-amazon-personalize-now-in-preview/"
+      },
+      "released": {
+        "date": "6/10/2019",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2019/06/amazon-personalize-now-generally-available/"
+      },
+      "icon": "icons/Arch_Amazon-Personalize_64.svg"
+    },
+    {
+      "name": "AWS Chatbot",
+      "category": "Management & Governance",
+      "product": "https://aws.amazon.com/chatbot/",
+      "announces": {
+        "date": "7/24/2019",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2019/07/introducing-aws-chatbot-chatops-for-aws/"
+      },
+      "released": {
+        "date": "4/22/2020",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2020/04/aws-chatbot-now-generally-available/"
+      },
+      "icon": "icons/Arch_AWS-Chatbot_64.svg"
+    },
+    {
+      "name": "AWS CloudFormation",
+      "category": "Management & Governance",
+      "product": "https://aws.amazon.com/cloudformation/",
+      "released": {
+        "date": "2/25/2011",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2011/02/25/introducing-aws-cloudformation/"
+      },
+      "icon": "icons/Arch_AWS-CloudFormation_64.svg"
+    },
+    {
+      "name": "AWS Trusted Advisor",
+      "category": "Management & Governance",
+      "product": "https://aws.amazon.com/trustedadvisor/",
+      "released": {
+        "date": "1/30/2012",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2012/01/30/amazon-web-services-introduces-new-premium-support-features/"
+      },
+      "icon": "icons/Arch_AWS-Trusted-Advisor_64.svg"
+    },
+    {
+      "name": "AWS OpsWorks",
+      "category": "Management & Governance",
+      "product": "https://aws.amazon.com/opsworks/",
+      "released": {
+        "date": "2/18/2013",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2013/02/18/announcing-aws-opsworks/"
+      },
+      "icon": "icons/Arch_AWS-OpsWorks_64.svg"
+    },
+    {
+      "name": "AWS CloudTrail",
+      "category": "Management & Governance",
+      "product": "https://aws.amazon.com/cloudtrail/",
+      "released": {
+        "date": "11/13/2013",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2013/11/13/announcing-aws-cloudtrail/"
+      },
+      "icon": "icons/Arch_AWS-CloudTrail_64.svg"
+    },
+    {
+      "name": "AWS Config",
+      "category": "Management & Governance",
+      "product": "https://aws.amazon.com/config/",
+      "released": {
+        "date": "11/12/2014",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2014/11/12/introducing-aws-config/"
+      },
+      "icon": "icons/Arch_AWS-Config_64.svg"
+    },
+    {
+      "name": "AWS Service Catalog",
+      "category": "Management & Governance",
+      "product": "https://aws.amazon.com/servicecatalog/",
+      "released": {
+        "date": "7/9/2015",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2015/07/amazon-web-services-launches-aws-service-catalog/"
+      },
+      "icon": "icons/Arch_AWS-Service-Catalog_64.svg"
+    },
+    {
+      "name": "AWS Personal Health Dashboard",
+      "category": "Management & Governance",
+      "product": "https://aws.amazon.com/premiumsupport/phd/",
+      "released": {
+        "date": "12/1/2016",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2016/12/introducing-aws-personal-health-dashboard/"
+      },
+      "icon": "icons/Arch_AWS-Personal-Health-Dashboard_64.svg"
+    },
+    {
+      "name": "AWS Systems Manager",
+      "category": "Management & Governance",
+      "product": "https://aws.amazon.com/systems-manager/",
+      "released": {
+        "date": "12/1/2016",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2016/12/introducing-ec2-systems-manager-for-automated-configuration-management-of-ec2-and-on-premises-systems/"
+      },
+      "icon": "icons/Arch_AWS-Systems-Manager_64.svg"
+    },
+    {
+      "name": "AWS Managed Services",
+      "category": "Management & Governance",
+      "product": "https://aws.amazon.com/managed-services/",
+      "released": {
+        "date": "12/12/2016",
+        "link": "https://aws.amazon.com/blogs/aws/category/aws-managed-services/"
+      },
+      "icon": "icons/Arch_AWS-Managed-Services_64.svg"
+    },
+    {
+      "name": "AWS Organizations",
+      "category": "Management & Governance",
+      "product": "https://aws.amazon.com/organizations/",
+      "announced": {
+        "date": "11/29/2016",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2016/11/announcing-aws-organizations-now-in-preview/"
+      },
+      "released": {
+        "date": "2/27/2017",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2017/02/aws-organizations-now-generally-available/"
+      },
+      "icon": "icons/Arch_AWS-Organizations_64.svg"
+    },
+    {
+      "name": "AWS Auto Scaling",
+      "category": "Management & Governance",
+      "product": "https://aws.amazon.com/autoscaling/",
+      "released": {
+        "date": "1/16/2018",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2018/01/introducing-aws-auto-scaling/"
+      },
+      "icon": "icons/Arch_AWS-Auto-Scaling_64.svg"
+    },
+    {
+      "name": "AWS License Manager",
+      "category": "Management & Governance",
+      "product": "https://aws.amazon.com/license-manager/",
+      "released": {
+        "date": "11/28/2018",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2018/11/announcing-aws-license-manager/"
+      },
+      "icon": "icons/Arch_AWS-License-Manager_64.svg"
+    },
+    {
+      "name": "AWS Well-Architected Tool",
+      "category": "Architecture Strategy",
+      "product": "https://aws.amazon.com/well-architected-tool/",
+      "released": {
+        "date": "11/29/2018",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2018/11/introducing-aws-well-architected-tool/"
+      },
+      "icon": "icons/Arch_AWS-Well-Architected-Tool_64.svg"
+    },
+    {
+      "name": "Amazon CloudWatch",
+      "category": "Management & Governance",
+      "product": "https://aws.amazon.com/cloudwatch/",
+      "announced": {
+        "date": "5/17/2009",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2009/05/17/monitoring-auto-scaling-elastic-load-balancing/"
+      },
+      "icon": "icons/Arch_Amazon-CloudWatch_64.svg"
+    },
+    {
+      "name": "AWS Control Tower",
+      "category": "Management & Governance",
+      "product": "https://aws.amazon.com/controltower/",
+      "announced": {
+        "date": "11/28/2018",
+        "link": "https://aws.amazon.com/blogs/aws/aws-previews-and-pre-announcements-at-reinvent-2018-andy-jassy-keynote/"
+      },
+      "released": {
+        "date": "6/24/2019",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2019/06/aws-control-tower-is-now-generally-available/"
+      },
+      "icon": "icons/Arch_AWS-Control-Tower_64.svg"
+    },
+    {
+      "name": "Amazon Elastic Transcoder",
+      "category": "Media Services",
+      "product": "https://aws.amazon.com/elastictranscoder/",
+      "announced": {
+        "date": "1/28/2013",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2013/01/28/announcing-amazon-elastic-transcoder/"
+      },
+      "icon": "icons/Arch_Amazon-Elastic-Transcoder_64.svg"
+    },
+    {
+      "name": "AWS Elemental MediaConvert",
+      "category": "Media Services",
+      "product": "https://aws.amazon.com/mediaconvert/",
+      "released": {
+        "date": "11/26/2017",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2017/11/introducing-aws-elemental-mediaconvert/"
+      },
+      "icon": "icons/Arch_AWS-Elemental-MediaConvert_64.svg"
+    },
+    {
+      "name": "AWS Elemental MediaPackage",
+      "category": "Media Services",
+      "product": "https://aws.amazon.com/mediapackage/",
+      "released": {
+        "date": "11/26/2017",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2017/11/introducing-aws-elemental-mediapackage/"
+      },
+      "icon": "icons/Arch_AWS-Elemental-MediaPackage_64.svg"
+    },
+    {
+      "name": "AWS Elemental MediaLive",
+      "category": "Media Services",
+      "product": "https://aws.amazon.com/medialive/",
+      "released": {
+        "date": "11/26/2017",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2017/11/introducing-aws-elemental-medialive/"
+      },
+      "icon": "icons/Arch_AWS-Elemental-MediaLive_64.svg"
+    },
+    {
+      "name": "AWS Elemental MediaStore",
+      "category": "Media Services",
+      "product": "https://aws.amazon.com/mediastore/",
+      "released": {
+        "date": "11/26/2017",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2017/11/introducing-aws-elemental-mediastore/"
+      },
+      "icon": "icons/Arch_AWS-Elemental-MediaStore_64.svg"
+    },
+    {
+      "name": "AWS Elemental MediaTailor",
+      "category": "Media Services",
+      "product": "https://aws.amazon.com/mediatailor/",
+      "released": {
+        "date": "11/26/2017",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2017/11/introducing-aws-elemental-mediatailor/"
+      },
+      "icon": "icons/Arch_AWS-Elemental-MediaTailor_64.svg"
+    },
+    {
+      "name": "Amazon Kinesis Video Streams",
+      "category": "Media Services",
+      "product": "https://aws.amazon.com/kinesis/video-streams/",
+      "released": {
+        "date": "11/29/2017",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2017/11/introducing-amazon-kinesis-video-streams/"
+      },
+      "icon": "icons/Arch_Amazon-Kinesis-Video-Streams_64.svg"
+    },
+    {
+      "name": "AWS Elemental MediaConnect",
+      "category": "Media Services",
+      "product": "https://aws.amazon.com/mediaconnect/",
+      "released": {
+        "date": "11/27/2018",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2018/11/introducing-aws-elemental-mediaconnect/"
+      },
+      "icon": "icons/Arch_AWS-Elemental-MediaConnect_64.svg"
+    },
+    {
+      "name": "AWS Snowball Family",
+      "category": "Migration & Transfer",
+      "product": "https://aws.amazon.com/snow/",
+      "released": {
+        "date": "10/7/2015",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2015/10/aws-import-export-snowball/"
+      },
+      "icon": "icons/Arch_AWS-Snowball_64.svg"
+    },
+    {
+      "name": "AWS Database Migration Service",
+      "category": "Migration & Transfer",
+      "product": "https://aws.amazon.com/dms/",
+      "announced": {
+        "date": "10/7/2015",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2015/10/now-in-preview-aws-database-migration-service/"
+      },
+      "released": {
+        "date": "3/15/2016",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2016/03/aws-database-migration-service-is-now-generally-available/"
+      },
+      "icon": "icons/Arch_AWS-Database-Migration-Service_64.svg"
+    },
+    {
+      "name": "AWS Application Discovery Service",
+      "category": "Migration & Transfer",
+      "product": "https://aws.amazon.com/application-discovery/",
+      "released": {
+        "date": "5/12/2016",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2016/05/now-released-aws-application-discovery-service/"
+      },
+      "icon": "icons/Arch_AWS-Application-Discovery-Service_64.svg"
+    },
+    {
+      "name": "AWS Server Migration Service",
+      "category": "Migration & Transfer",
+      "product": "https://aws.amazon.com/server-migration-service/",
+      "released": {
+        "date": "10/24/2016",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2016/10/new-aws-server-migration-service-sms-makes-it-easier-and-faster-to-migrate-on-premises-servers-to-aws/"
+      },
+      "icon": "icons/Arch_AWS-Server-Migration-Service_64.svg"
+    },
+    {
+      "name": "AWS Migration Hub",
+      "category": "Migration & Transfer",
+      "product": "https://aws.amazon.com/migration-hub/",
+      "released": {
+        "date": "8/14/2017",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2017/08/introducing-aws-migration-hub/"
+      },
+      "icon": "icons/Arch_AWS-Migration-Hub_64.svg"
+    },
+    {
+      "name": "AWS DataSync",
+      "category": "Migration & Transfer",
+      "product": "https://aws.amazon.com/datasync/",
+      "released": {
+        "date": "11/26/2018",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2018/11/introducing-aws-datasync-for-accelerated-online-data-transfer/"
+      },
+      "icon": "icons/Arch_AWS-DataSync_64.svg"
+    },
+    {
+      "name": "AWS Transfer for SFTP",
+      "category": "Migration & Transfer",
+      "product": "https://aws.amazon.com/sftp/",
+      "released": {
+        "date": "11/26/2018",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2018/11/aws-transfer-for-sftp-fully-managed-sftp-for-s3/"
+      },
+      "icon": "icons/Arch_AWS-Transfer-Family_64.svg"
+    },
+    {
+      "name": "AWS Device Farm",
+      "category": "Front-End Web & Mobile",
+      "product": "https://aws.amazon.com/device-farm/",
+      "released": {
+        "date": "7/9/2015",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2015/07/deliver-high-quality-apps-by-testing-them-against-real-phones-and-tablets-in-the-aws-cloud-with-device-farm/"
+      },
+      "icon": "icons/Arch_AWS-Device-Farm_64.svg"
+    },
+    {
+      "name": "Amazon Pinpoint",
+      "category": "Front-End Web & Mobile",
+      "product": "https://aws.amazon.com/pinpoint/",
+      "released": {
+        "date": "12/1/2016",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2016/12/introducing-amazon-pinpoint/"
+      },
+      "icon": "icons/Arch_Amazon-Pinpoint_64.svg"
+    },
+    {
+      "name": "AWS Amplify",
+      "category": "Front-End Web & Mobile",
+      "product": "https://aws.amazon.com/amplify/",
+      "released": {
+        "date": "11/21/2017",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2017/11/introducing-aws-amplify-a-declarative-javascript-library-for-cloud-development-with-mobile-or-web-applications/"
+      },
+      "icon": "icons/Arch_AWS-Amplify_64.svg"
+    },
+    {
+      "name": "AWS AppSync",
+      "category": "Front-End Web & Mobile",
+      "product": "https://aws.amazon.com/appsync/",
+      "announced": {
+        "date": "11/28/2017",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2017/11/introducing-aws-appsync-a-managed-graphql-service-with-real-time-data-and-offline-programming/"
+      },
+      "released": {
+        "date": "4/13/2018",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2018/04/aws-appsync-now-ga/"
+      },
+      "icon": "icons/Arch_AWS-AppSync_64.svg"
+    },
+    {
+      "name": "Amazon CloudFront",
+      "category": "Networking & Content Delivery",
+      "product": "https://aws.amazon.com/cloudfront/",
+      "announced": {
+        "date": "11/18/2008",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2008/11/18/whats-new-cloudfront/"
+      },
+      "released": {
+        "date": "11/9/2010",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2010/11/09/cloudfront-adds-support-for-custom-origins-and-sla/"
+      },
+      "icon": "icons/Arch_Amazon-CloudFront_64.svg"
+    },
+    {
+      "name": "Elastic Load Balancing (ELB)",
+      "category": "Networking & Content Delivery",
+      "product": "https://aws.amazon.com/elasticloadbalancing/",
+      "released": {
+        "date": "05/18/2009",
+        "link": "https://aws.amazon.com/blogs/aws/new-aws-load-balancing-automatic-scaling-and-cloud-monitoring-services/"
+      },
+      "icon": "icons/Arch_Elastic-Load-Balancing_64.svg"
+    },
+    {
+      "name": "Amazon Route 53",
+      "category": "Networking & Content Delivery",
+      "product": "https://aws.amazon.com/route53/",
+      "released": {
+        "date": "12/6/2010",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2010/12/06/announcing-amazon-route-53-dns-service/"
+      },
+      "icon": "icons/Arch_Amazon-Route-53_64.svg"
+    },
+    {
+      "name": "AWS Direct Connect",
+      "category": "Networking & Content Delivery",
+      "product": "https://aws.amazon.com/directconnect/",
+      "released": {
+        "date": "8/3/2011",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2011/08/03/Announcing-AWS-Direct-Connect/"
+      },
+      "icon": "icons/Arch_AWS-Direct-Connect_64.svg"
+    },
+    {
+      "name": "Amazon VPC",
+      "category": "Networking & Content Delivery",
+      "product": "https://aws.amazon.com/vpc/",
+      "announced": {
+        "date": "8/26/2009",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2009/08/26/introducing-amazon-virtual-private-cloud/"
+      },
+      "released": {
+        "date": "8/3/2011",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2011/08/03/Announcing-VPC-GA/"
+      },
+      "icon": "icons/Arch_Amazon-Virtual-Private-Cloud_64.svg"
+    },
+    {
+      "name": "Amazon API Gateway",
+      "category": "Networking & Content Delivery",
+      "product": "https://aws.amazon.com/api-gateway/",
+      "released": {
+        "date": "7/9/2015",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2015/07/introducing-amazon-api-gateway/"
+      },
+      "icon": "icons/Arch_Amazon-API-Gateway_64.svg"
+    },
+    {
+      "name": "AWS Global Accelerator",
+      "category": "Networking & Content Delivery",
+      "product": "https://aws.amazon.com/global-accelerator/",
+      "released": {
+        "date": "11/26/2018",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2018/11/introducing-aws-global-accelerator/"
+      },
+      "icon": "icons/Arch_AWS-Global-Accelerator_64.svg"
+    },
+    {
+      "name": "AWS Cloud Map",
+      "category": "Networking & Content Delivery",
+      "product": "https://aws.amazon.com/cloud-map/",
+      "released": {
+        "date": "11/28/2018",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2018/11/introducing-aws-cloud-map/"
+      },
+      "icon": "icons/Arch_AWS-Cloud-Map_64.svg"
+    },
+    {
+      "name": "AWS App Mesh",
+      "category": "Networking & Content Delivery",
+      "product": "https://aws.amazon.com/app-mesh/",
+      "announced": {
+        "date": "11/28/2018",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2018/11/introducing-aws-app-mesh---service-mesh-for-microservices-on-aws/"
+      },
+      "released": {
+        "date": "3/27/2019",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2019/03/aws-app-mesh-is-now-generally-available/"
+      },
+      "icon": "icons/Arch_AWS-App-Mesh_64.svg"
+    },
+    {
+      "name": "AWS RoboMaker",
+      "category": "Robotics",
+      "product": "https://aws.amazon.com/robomaker/",
+      "released": {
+        "date": "11/26/2018",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2018/11/announcing-aws-robomaker-a-new-cloud-robotics-service/"
+      },
+      "icon": "icons/Arch_AWS-RoboMaker_64.svg"
+    },
+    {
+      "name": "AWS Ground Station",
+      "category": "Satellite",
+      "product": "https://aws.amazon.com/ground-station/",
+      "announced": {
+        "date": "11/27/2018",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2018/11/announcing-aws-ground-station-preview/"
+      },
+      "released": {
+        "date": "5/22/2019",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2019/05/announcing-general-availability-of-aws-ground-station-/"
+      },
+      "icon": "icons/Arch_AWS-Ground-Station_64.svg"
+    },
+    {
+      "name": "Amazon Detective",
+      "category": "Security, Identity, & Compliance",
+      "product": "https://aws.amazon.com/detective/",
+      "announced": {
+        "date": "12/3/2019",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2019/12/introducing-amazon-detective/"
+      },
+      "released": {
+        "date": "3/31/2020",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2020/03/amazon-detective-is-now-generally-available/"
+      },
+      "icon": "icons/Arch_Amazon-Detective_64.svg"
+    },
+    {
+      "name": "AWS Identity & Access Management",
+      "category": "Security, Identity, & Compliance",
+      "product": "https://aws.amazon.com/iam/",
+      "announced": {
+        "date": "9/2/2010",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2010/09/02/announcing-aws-identity-and-access-management-iam-preview-beta/"
+      },
+      "released": {
+        "date": "5/3/2011",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2011/05/03/announcing-IAM/"
+      },
+      "icon": "icons/Arch_AWS-Identity-and-Access-Management_64.svg"
+    },
+    {
+      "name": "AWS CloudHSM",
+      "category": "Security, Identity, & Compliance",
+      "product": "https://aws.amazon.com/cloudhsm/",
+      "released": {
+        "date": "3/26/2013",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2013/03/26/announcing-aws-cloudhsm/"
+      },
+      "icon": "icons/Arch_AWS-CloudHSM_64.svg"
+    },
+    {
+      "name": "Amazon Cognito",
+      "category": "Security, Identity, & Compliance",
+      "product": "https://aws.amazon.com/cognito/",
+      "released": {
+        "date": "7/10/2014",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2014/07/10/introducing-amazon-cognito/"
+      },
+      "icon": "icons/Arch_Amazon-Cognito_64.svg"
+    },
+    {
+      "name": "AWS Directory Service",
+      "category": "Security, Identity, & Compliance",
+      "product": "https://aws.amazon.com/directoryservice/",
+      "released": {
+        "date": "10/21/2014",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2014/10/21/introducing-aws-directory-service/"
+      },
+      "icon": "icons/Arch_AWS-Directory-Service_64.svg"
+    },
+    {
+      "name": "AWS Key Management Service",
+      "category": "Security, Identity, & Compliance",
+      "product": "https://aws.amazon.com/kms/",
+      "released": {
+        "date": "11/12/2014",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2014/11/12/introducing-aws-key-management-service/"
+      },
+      "icon": "icons/Arch_AWS-Key-Management-Service_64.svg"
+    },
+    {
+      "name": "AWS WAF",
+      "category": "Security, Identity, & Compliance",
+      "product": "https://aws.amazon.com/waf/",
+      "released": {
+        "date": "10/6/2015",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2015/10/introducing-aws-waf/"
+      },
+      "icon": "icons/Arch_AWS-WAF_64.svg"
+    },
+    {
+      "name": "AWS Certificate Manager",
+      "category": "Security, Identity, & Compliance",
+      "product": "https://aws.amazon.com/certificate-manager/",
+      "released": {
+        "date": "1/21/2016",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2016/01/introducing-aws-certificate-manager/"
+      },
+      "icon": "icons/Arch_AWS-Certificate-Manager_64.svg"
+    },
+    {
+      "name": "Amazon Inspector",
+      "category": "Security, Identity, & Compliance",
+      "product": "https://aws.amazon.com/inspector/",
+      "announced": {
+        "date": "10/7/2015",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2015/10/announcing-amazon-inspector/"
+      },
+      "released": {
+        "date": "4/19/2016",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2016/04/amazon-inspector-security-vulnerability-assessment-service-now-generally-available/"
+      },
+      "icon": "icons/Arch_Amazon-Inspector_64.svg"
+    },
+    {
+      "name": "AWS Shield",
+      "category": "Security, Identity, & Compliance",
+      "product": "https://aws.amazon.com/shield/",
+      "released": {
+        "date": "12/1/2016",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2016/12/introducing-aws-shield/"
+      },
+      "icon": "icons/Arch_AWS-Shield_64.svg"
+    },
+    {
+      "name": "AWS Artifact",
+      "category": "Security, Identity, & Compliance",
+      "product": "https://aws.amazon.com/artifact/",
+      "released": {
+        "date": "12/7/2016",
+        "link": "https://aws.amazon.com/blogs/security/introducing-aws-artifact-speeding-access-to-compliance-reports/"
+      },
+      "icon": "icons/Arch_AWS-Artifact_64.svg"
+    },
+    {
+      "name": "Amazon Macie",
+      "category": "Security, Identity, & Compliance",
+      "product": "https://aws.amazon.com/macie/",
+      "released": {
+        "date": "8/14/2017",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2017/08/introducing-amazon-macie/"
+      },
+      "icon": "icons/Arch_Amazon-Macie_64.svg"
+    },
+    {
+      "name": "Amazon GuardDuty",
+      "category": "Security, Identity, & Compliance",
+      "product": "https://aws.amazon.com/guardduty/",
+      "released": {
+        "date": "11/28/2017",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2017/11/announcing-amazon-guardduty-intelligent-threat-detection/"
+      },
+      "icon": "icons/Arch_Amazon-GuardDuty_64.svg"
+    },
+    {
+      "name": "AWS Single Sign-On",
+      "category": "Security, Identity, & Compliance",
+      "product": "https://aws.amazon.com/single-sign-on/",
+      "released": {
+        "date": "12/7/2017",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2017/12/announcing-aws-single-sign-on--sso/"
+      },
+      "icon": "icons/Arch_AWS-Single-Sign-On_64.svg"
+    },
+    {
+      "name": "AWS Secrets Manager",
+      "category": "Security, Identity, & Compliance",
+      "product": "https://aws.amazon.com/secrets-manager/",
+      "released": {
+        "date": "4/4/2018",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2018/04/introducing-aws-secrets-manager/"
+      },
+      "icon": "icons/Arch_AWS-Secrets-Manager_64.svg"
+    },
+    {
+      "name": "AWS Security Hub",
+      "category": "Security, Identity, & Compliance",
+      "product": "https://aws.amazon.com/security-hub/",
+      "announced": {
+        "date": "11/28/2018",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2018/11/introducing-aws-security-hub/"
+      },
+      "released": {
+        "date": "6/24/2019",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2019/06/aws-security-hub-now-generally-available/"
+      },
+      "icon": "icons/Arch_AWS-Security-Hub_64.svg"
+    },
+    {
+      "name": "Amazon Simple Storage Service (S3)",
+      "category": "Storage",
+      "product": "https://aws.amazon.com/s3/",
+      "released": {
+        "date": "3/13/2006",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2006/03/13/announcing-amazon-s3---simple-storage-service/"
+      },
+      "icon": "icons/Arch_Amazon-Simple-Storage-Service_64.svg"
+    },
+    {
+      "name": "Amazon S3 Glacier",
+      "category": "Storage",
+      "product": "https://aws.amazon.com/glacier1/",
+      "released": {
+        "date": "8/20/2012",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2012/08/20/announcing-amazon-glacier/"
+      },
+      "icon": "icons/Arch_Amazon-Simple-Storage-Service-Glacier_64.svg"
+    },
+    {
+      "name": "AWS Storage Gateway",
+      "category": "Storage",
+      "product": "https://aws.amazon.com/storagegateway/",
+      "announced": {
+        "date": "1/24/2012",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2012/01/24/announcing-aws-storage-gateway/"
+      },
+      "released": {
+        "date": "10/29/2012",
+        "link": "https://aws.amazon.com/blogs/aws/aws-storage-gateway-new-gateway-cached-volume-model/"
+      },
+      "icon": "icons/Arch_AWS-Storage-Gateway_64.svg"
+    },
+    {
+      "name": "Amazon Elastic File System (EFS)",
+      "category": "Storage",
+      "product": "https://aws.amazon.com/efs/",
+      "announced": {
+        "date": "4/9/2015",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2015/04/introducing-amazon-efs/"
+      },
+      "released": {
+        "date": "6/28/2016",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2016/06/amazon-elastic-file-system-efs-is-now-generally-available/"
+      },
+      "icon": "icons/Arch_Amazon-Elastic-File-System_64.svg"
+    },
+    {
+      "name": "Amazon FSx for Lustre",
+      "category": "Storage",
+      "product": "https://aws.amazon.com/fsx/lustre/",
+      "released": {
+        "date": "11/28/2018",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2018/11/amazon-fsx-lustre/"
+      },
+      "icon": "icons/Arch_Amazon-FSx-for-Lustre_64.svg"
+    },
+    {
+      "name": "Amazon FSx for Windows File Server",
+      "category": "Storage",
+      "product": "https://aws.amazon.com/fsx/windows/",
+      "released": {
+        "date": "11/28/2018",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2018/11/amazon-fsx-windows/"
+      },
+      "icon": "icons/Arch_Amazon-FSx-for-WFS_64.svg"
+    },
+    {
+      "name": "AWS Backup",
+      "category": "Storage",
+      "product": "https://aws.amazon.com/backup/",
+      "released": {
+        "date": "1/16/2019",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2019/01/introducing-aws-backup/"
+      },
+      "icon": "icons/Arch_AWS-Backup_64.svg"
+    },
+    {
+      "name": "Amazon Event Bridge",
+      "category": "Application Integration",
+      "product": "https://aws.amazon.com/eventbridge/",
+      "released": {
+        "date": "7/11/2019",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2019/07/introducing-amazon-eventbridge/"
+      },
+      "icon": "icons/Arch_Amazon-EventBridge_64.svg"
+    },
+    {
+      "name": "AWS Distro for OpenTelemetry",
+      "category": "Management & Governance",
+      "product": "https://aws.amazon.com/otel/",
+      "icon": "icons/Arch_AWS-Distro-for-OpenTelemetry_64.svg"
+    },
+    {
+      "name": "Amazon Managed Service for Prometheus",
+      "category": "Management & Governance",
+      "product": "https://aws.amazon.com/prometheus/",
+      "icon": "icons/Arch_Amazon-Managed-Service-for-Prometheus_64.svg"
+    },
+    {
+      "name": "AWS Management Console",
+      "category": "Management & Governance",
+      "product": "https://aws.amazon.com/console/",
+      "icon": "icons/Arch_AWS-Management-Console_64.svg"
+    },
+    {
+      "name": "Amazon Managed Grafana",
+      "category": "Management & Governance",
+      "product": "https://aws.amazon.com/grafana/",
+      "icon": "icons/Arch_Amazon-Managed-Grafana_64.svg"
+    },
+    {
+      "name": "AWS Management Console Mobile Application",
+      "category": "Management & Governance",
+      "product": "https://aws.amazon.com/console/mobile/",
+      "icon": "icons/Arch_AWS-Management-Console-Mobile-Application_64.svg"
+    },
+    {
+      "name": "AWS Proton",
+      "category": "Management & Governance",
+      "product": "https://aws.amazon.com/proton/",
+      "icon": "icons/Arch_AWS-Proton_64.svg"
+    },
+    {
+      "name": "AWS Launch Wizard",
+      "category": "Management & Governance",
+      "product": "https://aws.amazon.com/launchwizard/",
+      "icon": "icons/Arch_AWS-Launch-Wizard_64.svg"
+    },
+    {
+      "name": "AWS Resilience Hub",
+      "category": "Management & Governance",
+      "product": "https://aws.amazon.com/resilience-hub/",
+      "icon": "icons/Arch_AWS-Resilience-Hub_64.svg"
+    },
+    {
+      "name": "Amazon Managed Workflows for Apache Airflow (MWAA)",
+      "category": "Application Integration",
+      "product": "https://aws.amazon.com/managed-workflows-for-apache-airflow/",
+      "icon": "icons/Arch_Amazon-Managed-Workflows-for-Apache-Airflow_64.svg"
+    },
+    {
+      "name": "Amazon EventBridge",
+      "category": "Application Integration",
+      "product": "https://aws.amazon.com/eventbridge/",
+      "icon": "icons/Arch_Amazon-EventBridge_64.svg"
+    },
+    {
+      "name": "Amazon AppFlow",
+      "category": "Application Integration",
+      "product": "https://aws.amazon.com/appflow/",
+      "icon": "icons/Arch_Amazon-AppFlow_64.svg"
+    },
+    {
+      "name": "AWS Identity and Access Management",
+      "category": "Security, Identity, & Compliance",
+      "product": "https://aws.amazon.com/iam/",
+      "icon": "icons/Arch_AWS-Identity-and-Access-Management_64.svg"
+    },
+    {
+      "name": "AWS Network Firewall",
+      "category": "Security, Identity, & Compliance",
+      "product": "https://aws.amazon.com/network-firewall/",
+      "icon": "icons/Arch_AWS-Network-Firewall_64.svg"
+    },
+    {
+      "name": "AWS Firewall Manager",
+      "category": "Security, Identity, & Compliance",
+      "product": "https://aws.amazon.com/firewall-manager/",
+      "icon": "icons/Arch_AWS-Firewall-Manager_64.svg"
+    },
+    {
+      "name": "AWS Audit Manager",
+      "category": "Security, Identity, & Compliance",
+      "product": "https://aws.amazon.com/audit-manager/",
+      "icon": "icons/Arch_AWS-Audit-Manager_64.svg"
+    },
+    {
+      "name": "AWS Key Management Service (KMS)",
+      "category": "Security, Identity, & Compliance",
+      "product": "https://aws.amazon.com/kms/",
+      "icon": "icons/Arch_AWS-Key-Management-Service_64.svg"
+    },
+    {
+      "name": "AWS Resource Access Manager",
+      "category": "Security, Identity, & Compliance",
+      "product": "https://aws.amazon.com/ram/",
+      "icon": "icons/Arch_AWS-Resource-Access-Manager_64.svg"
+    },
+    {
+      "name": "AWS Single Sign-On (SSO)",
+      "category": "Security, Identity, & Compliance",
+      "product": "https://aws.amazon.com/single-sign-on/",
+      "icon": "icons/Arch_AWS-Single-Sign-On_64.svg"
+    },
+    {
+      "name": "Amazon Location Service",
+      "category": "Front-End Web & Mobile",
+      "product": "https://aws.amazon.com/location/",
+      "icon": "icons/Arch_Amazon-Location-Service_64.svg"
+    },
+    {
+      "name": "Amazon Elastic Kubernetes Service (EKS)",
+      "category": "Containers",
+      "product": "https://aws.amazon.com/eks/",
+      "icon": "icons/Arch_Amazon-Elastic-Kubernetes-Service_64.svg"
+    },
+    {
+      "name": "AWS Fargate",
+      "category": "Containers",
+      "product": "https://aws.amazon.com/fargate/",
+      "icon": "icons/Arch_AWS-Fargate_64.svg"
+    },
+    {
+      "name": "AWS App2Container",
+      "category": "Containers",
+      "product": "https://aws.amazon.com/app2container/",
+      "icon": "icons/Arch_AWS-App2Container_64.svg"
+    },
+    {
+      "name": "Red Hat OpenShift Service on AWS",
+      "category": "Containers",
+      "product": "https://aws.amazon.com/rosa/",
+      "icon": "icons/Arch_Red-Hat-OpenShift-Service-on-AWS_64.svg"
+    },
+    {
+      "name": "Amazon Elastic Container Registry (ECR)",
+      "category": "Containers",
+      "product": "https://aws.amazon.com/ecr/",
+      "icon": "icons/Arch_Amazon-Elastic-Container-Registry_64.svg"
+    },
+    {
+      "name": "AWS Copilot",
+      "category": "Containers",
+      "product": "https://aws.amazon.com/containers/copilot/",
+      "icon": "icons/Arch_AWS-Copilot_64.svg"
+    },
+    {
+      "name": "Amazon Elastic Container Service (ECS)",
+      "category": "Containers",
+      "product": "https://aws.amazon.com/ecs/",
+      "icon": "icons/Arch_Amazon-Elastic-Container-Service_64.svg"
+    },
+    {
+      "name": "AWS IoT Greengrass",
+      "category": "Internet of Things",
+      "product": "https://aws.amazon.com/greengrass/",
+      "icon": "icons/Arch_AWS-IoT-Greengrass_64.svg"
+    },
+    {
+      "name": "AWS Partner Device Catalog",
+      "category": "Internet of Things",
+      "product": "https://devices.amazonaws.com/",
+      "icon": "icons/Arch_AWS-Partner-Device-Catalog_64.svg"
+    },
+    {
+      "name": "AWS IoT FleetWise (Preview)",
+      "category": "Internet of Things",
+      "product": "https://aws.amazon.com/iot-fleetwise/",
+      "icon": "icons/Arch_AWS-IoT-FleetWise_64.svg"
+    },
+    {
+      "name": "AWS IoT TwinMaker (Preview)",
+      "category": "Internet of Things",
+      "product": "https://aws.amazon.com/iot-twinmaker/",
+      "icon": "icons/Arch_AWS-IoT-TwinMaker_64.svg"
+    },
+    {
+      "name": "AWS IoT EduKit",
+      "category": "Internet of Things",
+      "product": "https://aws.amazon.com/iot/edukit/",
+      "icon": "icons/Arch_AWS-IoT-EduKit_64.svg"
+    },
+    {
+      "name": "AWS IoT RoboRunner (Preview)",
+      "category": "Internet of Things",
+      "product": "https://aws.amazon.com/roborunner",
+      "icon": "icons/Arch_AWS-IoT-RoboRunner_64.svg"
+    },
+    {
+      "name": "AWS IoT Button",
+      "category": "Internet of Things",
+      "product": "https://aws.amazon.com/iotbutton/",
+      "icon": "icons/Arch_AWS-IoT-Button_64.svg"
+    },
+    {
+      "name": "Amazon Lumberyard",
+      "category": "Game Tech",
+      "product": "https://aws.amazon.com/lumberyard/",
+      "icon": "icons/Arch_Amazon-Lumberyard_64.svg"
+    },
+    {
+      "name": "AWS PrivateLink",
+      "category": "Networking & Content Delivery",
+      "product": "https://aws.amazon.com/privatelink/",
+      "icon": "icons/Arch_AWS-PrivateLink_64.svg"
+    },
+    {
+      "name": "AWS Private 5G",
+      "category": "Networking & Content Delivery",
+      "product": "https://aws.amazon.com/private5g/",
+      "icon": "icons/Arch_AWS-Private-5G_64.svg"
+    },
+    {
+      "name": "AWS VPN",
+      "category": "Networking & Content Delivery",
+      "product": "https://aws.amazon.com/vpn/",
+      "icon": "icons/Arch_AWS-VPN_64.svg"
+    },
+    {
+      "name": "AWS Transit Gateway",
+      "category": "Networking & Content Delivery",
+      "product": "https://aws.amazon.com/transit-gateway/",
+      "icon": "icons/Arch_AWS-Transit-Gateway_64.svg"
+    },
+    {
+      "name": "AWS Cloud WAN (Preview)",
+      "category": "Networking & Content Delivery",
+      "product": "https://aws.amazon.com/cloud-wan/",
+      "icon": "icons/Arch_AWS-Cloud-WAN_64.svg"
+    },
+    {
+      "name": "AWS Elemental Appliances & Software",
+      "category": "Media Services",
+      "product": "https://aws.amazon.com/elemental-appliances-software/",
+      "icon": "icons/Arch_AWS-Elemental-Appliances-&-Software_64.svg"
+    },
+    {
+      "name": "Amazon Nimble Studio",
+      "category": "Media Services",
+      "product": "https://aws.amazon.com/nimble-studio/",
+      "icon": "icons/Arch_Amazon-Nimble-Studio_64.svg"
+    },
+    {
+      "name": "Amazon Interactive Video Service",
+      "category": "Media Services",
+      "product": "https://aws.amazon.com/ivs/",
+      "icon": "icons/Arch_Amazon-Interactive-Video-Service_64.svg"
+    },
+    {
+      "name": "AWS Cost and Usage Report",
+      "category": "Cloud Financial Management",
+      "product": "https://aws.amazon.com/aws-cost-management/aws-cost-and-usage-reporting/",
+      "icon": "icons/Arch_AWS-Cost-and-Usage-Report_64.svg"
+    },
+    {
+      "name": "Savings Plans",
+      "category": "Cloud Financial Management",
+      "product": "https://aws.amazon.com/savingsplans/",
+      "icon": "icons/Arch_Savings-Plans_64.svg"
+    },
+    {
+      "name": "Reserved Instance (RI) Reporting",
+      "category": "Cloud Financial Management",
+      "product": "https://aws.amazon.com/aws-cost-management/reserved-instance-reporting/",
+      "icon": "icons/Arch_Reserved-Instance_64.svg"
+    },
+    {
+      "name": "AWS App Runner",
+      "category": "Compute",
+      "product": "https://aws.amazon.com/apprunner/",
+      "icon": "icons/Arch_AWS-App-Runner_64.svg"
+    },
+    {
+      "name": "AWS Compute Optimizer",
+      "category": "Compute",
+      "product": "https://aws.amazon.com/compute-optimizer/",
+      "icon": "icons/Arch_AWS-Compute-Optimizer_64.svg"
+    },
+    {
+      "name": "Amazon EC2 Auto Scaling",
+      "category": "Compute",
+      "product": "https://aws.amazon.com/ec2/autoscaling/",
+      "icon": "icons/Arch_Amazon-EC2-Auto-Scaling_64.svg"
+    },
+    {
+      "name": "VMware Cloud on AWS",
+      "category": "Compute",
+      "product": "https://aws.amazon.com/vmware/",
+      "icon": "icons/Arch_VMware-Cloud-on-AWS_64.svg"
+    },
+    {
+      "name": "AWS Wavelength",
+      "category": "Compute",
+      "product": "https://aws.amazon.com/wavelength/",
+      "icon": "icons/Arch_AWS-Wavelength_64.svg"
+    },
+    {
+      "name": "CloudEndure Disaster Recovery",
+      "category": "Storage",
+      "product": "https://aws.amazon.com/cloudendure-disaster-recovery/",
+      "icon": "icons/Arch_CloudEndure-Disaster-Recovery_64.svg"
+    },
+    {
+      "name": "AWS Snow Family",
+      "category": "Storage",
+      "product": "https://aws.amazon.com/snow/",
+      "icon": "icons/Arch_AWS-Snow-Family_64.svg"
+    },
+    {
+      "name": "Amazon FSx",
+      "category": "Storage",
+      "product": "https://aws.amazon.com/fsx/",
+      "icon": "icons/Arch_Amazon-FSx_64.svg"
+    },
+    {
+      "name": "Amazon Honeycode",
+      "category": "Business Applications",
+      "product": "https://aws.amazon.com/honeycode/",
+      "icon": "icons/Arch_Amazon-Honeycode_64.svg"
+    },
+    {
+      "name": "Amazon DocumentDB",
+      "category": "Databases",
+      "product": "https://aws.amazon.com/documentdb/",
+      "icon": "icons/Arch_Amazon-DocumentDB_64.svg"
+    },
+    {
+      "name": "Amazon RDS on VMware",
+      "category": "Databases",
+      "product": "https://aws.amazon.com/rds/vmware/",
+      "icon": "icons/Arch_Amazon-RDS-on-VMware_64.svg"
+    },
+    {
+      "name": "Amazon MemoryDB for Redis",
+      "category": "Databases",
+      "product": "https://aws.amazon.com/memorydb/",
+      "icon": "icons/Arch_Amazon-MemoryDB-for-Redis_64.svg"
+    },
+    {
+      "name": "Amazon Aurora",
+      "category": "Databases",
+      "product": "https://aws.amazon.com/rds/aurora/",
+      "icon": "icons/Arch_Amazon-Aurora_64.svg"
+    },
+    {
+      "name": "Amazon DevOps Guru",
+      "category": "Machine Learning",
+      "product": "https://aws.amazon.com/devops-guru/",
+      "icon": "icons/Arch_Amazon-DevOps-Guru_64.svg"
+    },
+    {
+      "name": "Amazon Monitron",
+      "category": "Machine Learning",
+      "product": "https://aws.amazon.com/monitron/",
+      "icon": "icons/Arch_Amazon-Monitron_64.svg"
+    },
+    {
+      "name": "Amazon Lookout for Metrics",
+      "category": "Machine Learning",
+      "product": "https://aws.amazon.com/lookout-for-metrics/",
+      "icon": "icons/Arch_Amazon-Lookout-for-Metrics_64.svg"
+    },
+    {
+      "name": "TensorFlow on AWS",
+      "category": "Machine Learning",
+      "product": "https://aws.amazon.com/tensorflow/",
+      "icon": "icons/Arch_TensorFlow-on-AWS_64.svg"
+    },
+    {
+      "name": "Amazon HealthLake",
+      "category": "Machine Learning",
+      "product": "https://aws.amazon.com/healthlake/",
+      "icon": "icons/Arch_Amazon-HealthLake_64.svg"
+    },
+    {
+      "name": "AWS Deep Learning Containers",
+      "category": "Machine Learning",
+      "product": "https://aws.amazon.com/machine-learning/containers/",
+      "icon": "icons/Arch_AWS-Deep-Learning-Containers_64.svg"
+    },
+    {
+      "name": "Amazon Lookout for Vision",
+      "category": "Machine Learning",
+      "product": "https://aws.amazon.com/lookout-for-vision/",
+      "icon": "icons/Arch_Amazon-Lookout-for-Vision_64.svg"
+    },
+    {
+      "name": "AWS Inferentia",
+      "category": "Machine Learning",
+      "product": "https://aws.amazon.com/machine-learning/inferentia/",
+      "icon": "icons/Arch_AWS-Inferentia_64.svg"
+    },
+    {
+      "name": "AWS Panorama",
+      "category": "Machine Learning",
+      "product": "https://aws.amazon.com/panorama/",
+      "icon": "icons/Arch_AWS-Panorama_64.svg"
+    },
+    {
+      "name": "Amazon CodeGuru",
+      "category": "Machine Learning",
+      "product": "https://aws.amazon.com/codeguru/",
+      "icon": "icons/Arch_Amazon-CodeGuru_64.svg"
+    },
+    {
+      "name": "Amazon Augmented AI",
+      "category": "Machine Learning",
+      "product": "https://aws.amazon.com/augmented-ai/",
+      "icon": "icons/Arch_Amazon-Augmented-AI_64.svg"
+    },
+    {
+      "name": "Apache MXNet on AWS",
+      "category": "Machine Learning",
+      "product": "https://aws.amazon.com/mxnet/",
+      "icon": "icons/Arch_Apache-MXNet-on-AWS_64.svg"
+    },
+    {
+      "name": "AWS Deep Learning AMIs",
+      "category": "Machine Learning",
+      "product": "https://aws.amazon.com/machine-learning/amis/",
+      "icon": "icons/Arch_AWS-Deep-Learning-AMIs_64.svg"
+    },
+    {
+      "name": "Amazon SageMaker Ground Truth",
+      "category": "Machine Learning",
+      "product": "https://aws.amazon.com/sagemaker/groundtruth/",
+      "icon": "icons/Arch_Amazon-SageMaker-Ground-Truth_64.svg"
+    },
+    {
+      "name": "PyTorch on AWS",
+      "category": "Machine Learning",
+      "product": "https://aws.amazon.com/pytorch/",
+      "icon": "icons/Arch_PyTorch-on-AWS_64.svg"
+    },
+    {
+      "name": "Amazon Lookout for Equipment",
+      "category": "Machine Learning",
+      "product": "https://aws.amazon.com/lookout-for-equipment/",
+      "icon": "icons/Arch_Amazon-Lookout-for-Equipment_64.svg"
+    },
+    {
+      "name": "Amazon OpenSearch Service (successor to Amazon Elasticsearch Service)",
+      "category": "Analytics",
+      "product": "https://aws.amazon.com/elasticsearch-service/",
+      "icon": "icons/Arch_Amazon-OpenSearch-Service_64.svg"
+    },
+    {
+      "name": "Amazon FinSpace",
+      "category": "Analytics",
+      "product": "https://aws.amazon.com/finspace/",
+      "icon": "icons/Arch_Amazon-FinSpace_64.svg"
+    },
+    {
+      "name": "Amazon Managed Streaming for Apache Kafka (MSK)",
+      "category": "Analytics",
+      "product": "https://aws.amazon.com/msk/",
+      "icon": "icons/Arch_Amazon-Managed-Streaming-for-Apache-Kafka_64.svg"
+    },
+    {
+      "name": "Amazon QuickSight",
+      "category": "Analytics",
+      "product": "https://aws.amazon.com/quicksight/",
+      "icon": "icons/Arch_Amazon-QuickSight_64.svg"
+    },
+    {
+      "name": "AWS Mainframe Modernization (Preview)",
+      "category": "Migration",
+      "product": "https://aws.amazon.com/mainframe-modernization/",
+      "icon": "icons/Arch_AWS-Mainframe-Modernization_64.svg"
+    },
+    {
+      "name": "AWS Database Migration Service (DMS)",
+      "category": "Migration",
+      "product": "https://aws.amazon.com/dms/",
+      "icon": "icons/Arch_AWS-Database-Migration-Service_64.svg"
+    },
+    {
+      "name": "Migration Evaluator (formerly TSO Logic)",
+      "category": "Migration",
+      "product": "https://aws.amazon.com/migration-evaluator/",
+      "icon": "icons/Arch_Migration-Evaluator_64.svg"
+    },
+    {
+      "name": "AWS Transfer Family",
+      "category": "Migration",
+      "product": "https://aws.amazon.com/aws-transfer-family/",
+      "icon": "icons/Arch_AWS-Transfer-Family_64.svg"
+    },
+    {
+      "name": "AWS Server Migration Service (SMS)",
+      "category": "Migration",
+      "product": "https://aws.amazon.com/server-migration-service/",
+      "icon": "icons/Arch_AWS-Server-Migration-Service_64.svg"
+    },
+    {
+      "name": "CloudEndure Migration",
+      "category": "Migration",
+      "product": "https://aws.amazon.com/cloudendure-migration/",
+      "icon": "icons/Arch_CloudEndure-Migration_64.svg"
+    },
+    {
+      "name": "AWS Cloud Development Kit (CDK)",
+      "category": "Developer Tools",
+      "product": "https://aws.amazon.com/cdk/",
+      "icon": "icons/Arch_AWS-Cloud-Development-Kit_64.svg"
+    },
+    {
+      "name": "AWS Tools and SDKs",
+      "category": "Developer Tools",
+      "product": "https://aws.amazon.com/getting-started/tools-sdks/",
+      "icon": "icons/Arch_AWS-Tools-and-SDKs_64.svg"
+    },
+    {
+      "name": "AWS Command Line Interface (CLI)",
+      "category": "Developer Tools",
+      "product": "https://aws.amazon.com/cli/",
+      "icon": "icons/Arch_AWS-Command-Line-Interface_64.svg"
+    },
+    {
+      "name": "AWS Cloud Control API",
+      "category": "Developer Tools",
+      "product": "https://aws.amazon.com/cloudcontrolapi/",
+      "icon": "icons/Arch_AWS-Cloud-Control-API_64.svg"
+    },
+    {
+      "name": "Amazon Corretto",
+      "category": "Developer Tools",
+      "product": "https://aws.amazon.com/corretto/",
+      "icon": "icons/Arch_Amazon-Corretto_64.svg"
+    },
+    {
+      "name": "AWS CloudShell",
+      "category": "Developer Tools",
+      "product": "https://aws.amazon.com/cloudshell/",
+      "icon": "icons/Arch_AWS-CloudShell_64.svg"
+    },
+    {
+      "name": "AWS Fault Injection Simulator",
+      "category": "Developer Tools",
+      "product": "https://aws.amazon.com/fis/",
+      "icon": "icons/Arch_AWS-Fault-Injection-Simulator_64.svg"
+    }
+  ]
 }
