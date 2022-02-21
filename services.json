@@ -1983,6 +1983,10 @@
       "name": "AWS Management Console",
       "category": "Management & Governance",
       "product": "https://aws.amazon.com/console/",
+      "announced": {
+        "date": "1/8/2009",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2009/01/08/announcing-the-aws-management-console/"
+      },
       "icon": "icons/Arch_AWS-Management-Console_64.svg"
     },
     {
