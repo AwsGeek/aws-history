@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="88px" height="88px" viewBox="0 0 88 88" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Icon-Architecture-Category/64/Storage_64</title>
+    <defs>
+        <linearGradient x1="0%" y1="100%" x2="100%" y2="0%" id="linearGradient-1">
+            <stop stop-color="#1B660F" offset="0%"></stop>
+            <stop stop-color="#6CAE3E" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Icon-Architecture-Category/64/Storage_64" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <rect id="Rectangle" fill="url(#linearGradient-1)" x="4" y="4" width="80" height="80"></rect>
+        <rect id="#879196-Border-Copy-23" stroke="#879196" stroke-width="2" x="1" y="1" width="86" height="86"></rect>
+        <g id="Icon-Category/64/Storage_64" transform="translate(12.000000, 12.000000)" fill="#FFFFFF">
+            <path d="M23,42 L41,42 L41.001,47 L23,47 L23,42 Z M23,49 L41,49 C42.103,49 43,48.103 43,47 L43,42 C43,40.897 42.103,40 41,40 L23,40 C21.897,40 21,40.897 21,42 L21,47 C21,48.103 21.897,49 23,49 L23,49 Z M21,27 L42,27 L42,25 L21,25 L21,27 Z M21,14 L29,14 L29,12 L21,12 L21,14 Z M21,20 L30,20 L30,18 L21,18 L21,20 Z M56,56.034 C56,57.118 55.118,58 54.034,58 L9.966,58 C8.882,58 8,57.118 8,56.034 L8,35 L56,35 L56,56.034 Z M17,6 L36,6 L36,16 C36,16.552 36.447,17 37,17 L47,17 L47,33 L17,33 L17,6 Z M38,7.414 L45.586,15 L38,15 L38,7.414 Z M57,33 L49,33 L49,16 L48.991,16 C48.99,15.74 48.898,15.484 48.707,15.293 L37.707,4.293 C37.516,4.102 37.26,4.01 37,4.01 L37,4 L16,4 C15.447,4 15,4.448 15,5 L15,33 L7,33 C6.447,33 6,33.448 6,34 L6,56.034 C6,58.221 7.779,60 9.966,60 L54.034,60 C56.221,60 58,58.221 58,56.034 L58,34 C58,33.448 57.553,33 57,33 L57,33 Z" id="Storage_Category-Icon_64_Squid"></path>
+        </g>
+    </g>
+</svg>

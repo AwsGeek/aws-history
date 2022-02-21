@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="88px" height="88px" viewBox="0 0 88 88" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Icon-Architecture-Category/64/AR-VR_64</title>
+    <defs>
+        <linearGradient x1="0%" y1="100%" x2="100%" y2="0%" id="linearGradient-1">
+            <stop stop-color="#B0084D" offset="0%"></stop>
+            <stop stop-color="#FF4F8B" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Icon-Architecture-Category/64/AR-VR_64" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <rect id="Rectangle" fill="url(#linearGradient-1)" x="4" y="4" width="80" height="80"></rect>
+        <rect id="#879196-Border-Copy" stroke="#879196" stroke-width="2" x="1" y="1" width="86" height="86"></rect>
+        <g id="Icon-Category/64/AR-VR_64" transform="translate(12.000000, 12.000000)" fill="#FFFFFF">
+            <path d="M53.97,45.935 L42.342,45.935 C40.924,45.935 39.58,45.041 38.656,43.482 L35.246,37.737 C34.56,36.579 33.346,35.888 32,35.888 C30.655,35.888 29.441,36.579 28.754,37.736 L25.345,43.482 C24.521,44.871 22.747,45.935 21.128,45.935 L9.5,45.935 C7.701,45.935 6,44.26 6,42.548 L6,25.935 L58,25.935 L58,42.548 C58,44.293 55.73,45.935 53.97,45.935 L53.97,45.935 Z M11.906,17.935 L52.095,17.935 L56.903,23.935 L7.098,23.935 L11.906,17.935 Z M59.991,24.935 C59.991,24.71 59.924,24.487 59.778,24.306 L53.349,16.371 C53.158,16.137 52.873,16 52.572,16 L11.429,16 C11.127,16 10.842,16.137 10.652,16.371 L4.223,24.306 C4.072,24.493 4.005,24.724 4.01,24.956 L4,24.956 L4,42.548 C4,45.338 6.621,47.879 9.5,47.879 L21.128,47.879 C23.444,47.879 25.885,46.491 27.066,44.502 L30.475,38.756 C30.797,38.212 31.367,37.888 32,37.888 C32.633,37.888 33.203,38.212 33.526,38.757 L36.935,44.502 C38.23,46.684 40.2,47.935 42.342,47.935 L53.97,47.935 C56.701,47.935 60,45.532 60,42.548 L60,24.935 L59.991,24.935 Z" id="AR-VR_Category-Icon_64_Squid--"></path>
+        </g>
+    </g>
+</svg>

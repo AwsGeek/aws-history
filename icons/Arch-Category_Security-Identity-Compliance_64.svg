@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="88px" height="88px" viewBox="0 0 88 88" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Icon-Architecture-Category/64/Security-Identity-Compliance_64</title>
+    <defs>
+        <linearGradient x1="0%" y1="100%" x2="100%" y2="0%" id="linearGradient-1">
+            <stop stop-color="#BD0816" offset="0%"></stop>
+            <stop stop-color="#FF5252" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Icon-Architecture-Category/64/Security-Identity-Compliance_64" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <rect id="Rectangle" fill="url(#linearGradient-1)" x="4" y="4" width="80" height="80"></rect>
+        <rect id="#879196-Border-Copy-22" stroke="#879196" stroke-width="2" x="1" y="1" width="86" height="86"></rect>
+        <g id="Icon-Category/64/Security-Identity-Compliance_64" transform="translate(12.000000, 12.000000)" fill="#FFFFFF">
+            <path d="M51,37.14175 C51,37.19575 50.964,42.57875 48.563,47.85775 C45.417,54.77675 39.845,58.28575 32,58.28575 C24.164,58.28575 18.593,54.54275 15.442,47.16175 C13.035,41.52075 13,35.77075 13,35.71475 L13,13.39375 L32,6.07175 L51,13.39375 L51,37.14175 Z M52.359,11.77375 L32.359,4.06675 C32.129,3.97775 31.871,3.97775 31.641,4.06675 L11.641,11.77375 C11.255,11.92275 11,12.29375 11,12.70675 L11,35.71475 C11,35.95975 11.24,60.28575 32,60.28575 C52.76,60.28575 53,37.37375 53,37.14275 L53,12.70675 C53,12.29375 52.745,11.92275 52.359,11.77375 L52.359,11.77375 Z M46,37.13475 C45.986,38.74575 45.495,52.54875 33,53.25175 L33,11.81575 L46,16.82575 L46,37.13475 Z M18,35.71475 L18,16.82575 L31,11.81575 L31,53.24675 C18.158,52.45075 18,36.41375 18,35.71475 L18,35.71475 Z M31.641,9.42575 L16.641,15.20575 C16.255,15.35475 16,15.72475 16,16.13875 L16,35.71475 C16,36.51375 16.182,55.28575 32,55.28575 C38.384,55.28575 43.16,52.34975 45.813,46.79675 C47.854,42.52275 47.993,38.01175 48,37.14275 L48,16.13875 C48,15.72475 47.745,15.35475 47.359,15.20575 L32.359,9.42575 C32.129,9.33675 31.871,9.33675 31.641,9.42575 L31.641,9.42575 Z" id="Security-Identity-Compliance_Category-Icon_64_Squid"></path>
+        </g>
+    </g>
+</svg>

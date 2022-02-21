@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="88px" height="88px" viewBox="0 0 88 88" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Icon-Architecture-Category/64/AWS-Cost-Management_64</title>
+    <defs>
+        <linearGradient x1="0%" y1="100%" x2="100%" y2="0%" id="linearGradient-1">
+            <stop stop-color="#1B660F" offset="0%"></stop>
+            <stop stop-color="#6CAE3E" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Icon-Architecture-Category/64/AWS-Cost-Management_64" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <rect id="Rectangle" fill="url(#linearGradient-1)" x="4" y="4" width="80" height="80"></rect>
+        <rect id="#879196-Border-Copy-2" stroke="#879196" stroke-width="2" x="1" y="1" width="86" height="86"></rect>
+        <g id="Icon-Category/64/Cost-Management_64" transform="translate(12.000000, 12.000000)" fill="#FFFFFF">
+            <path d="M28,55 L35,55 L35,53 L28,53 L28,55 Z M16,55 L23,55 L23,53 L16,53 L16,55 Z M28,49 L35,49 L35,47 L28,47 L28,49 Z M16,49 L23,49 L23,47 L16,47 L16,49 Z M28,41 L35,41 L35,39 L28,39 L28,41 Z M16,41 L23,41 L23,39 L16,39 L16,41 Z M42,53 L46,53 L46,41 L42,41 L42,53 Z M47,39 L41,39 C40.447,39 40,39.448 40,40 L40,54 C40,54.552 40.447,55 41,55 L47,55 C47.553,55 48,54.552 48,54 L48,40 C48,39.448 47.553,39 47,39 L47,39 Z M17,34 L46,34 L46,27 L17,27 L17,34 Z M16,25 C15.447,25 15,25.448 15,26 L15,35 C15,35.552 15.447,36 16,36 L47,36 C47.553,36 48,35.552 48,35 L48,26 C48,25.448 47.553,25 47,25 L16,25 Z M53,58 L11,58 L11,19 L22,19 L22,21 C22,21.552 22.447,22 23,22 L41,22 C41.553,22 42,21.552 42,21 L42,19 L53,19 L53,58 Z M22.88,6 L35,6 C37.458,6 40,7.496 40,10 L40,17 L40,19 L40,20 L24,20 L24,19 L24,17 L24,10 C24,8.559 23.641,7.112 22.88,6 L22.88,6 Z M16.5,12 L16.5,9.959 C16.5,6.47 17.764,6 19,6 C21.783,6 22,9.062 22,10 L22,12 L16.5,12 Z M54,17 L42,17 L42,10 C42,6.244 38.44,4 35,4 L19,4 C16.947,4 14.5,5.034 14.5,9.959 L14.5,13 C14.5,13.552 14.947,14 15.5,14 L22,14 L22,17 L10,17 C9.447,17 9,17.448 9,18 L9,59 C9,59.552 9.447,60 10,60 L54,60 C54.553,60 55,59.552 55,59 L55,18 C55,17.448 54.553,17 54,17 L54,17 Z" id="Fill-3"></path>
+        </g>
+    </g>
+</svg>

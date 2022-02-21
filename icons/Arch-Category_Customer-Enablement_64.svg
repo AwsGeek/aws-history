@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="88px" height="88px" viewBox="0 0 88 88" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Icon-Architecture-Category/64/Customer-Enablement_64</title>
+    <defs>
+        <linearGradient x1="0%" y1="100%" x2="100%" y2="0%" id="linearGradient-1">
+            <stop stop-color="#2E27AD" offset="0%"></stop>
+            <stop stop-color="#527FFF" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Icon-Architecture-Category/64/Customer-Enablement_64" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <rect id="Rectangle" fill="url(#linearGradient-1)" x="4" y="4" width="80" height="80"></rect>
+        <rect id="#879196-Border-Copy-7" stroke="#879196" stroke-width="2" x="1" y="1" width="86" height="86"></rect>
+        <g id="Icon-Category/64/Customer-Enablement_64" transform="translate(12.000000, 12.000000)" fill="#FFFFFF">
+            <path d="M57,46.232 L47.111,51.282 C46.45,42.78 41.919,35.843 35.965,33.74 C38.99,32.288 41.089,29.203 41.089,25.629 C41.089,20.667 37.052,16.629 32.089,16.629 C27.126,16.629 23.089,20.667 23.089,25.629 C23.089,29.229 25.218,32.333 28.278,33.771 C22.307,35.914 17.868,42.84 17.275,51.48 L7,46.232 L7,18.013 L32,5.246 L57,18.013 L57,46.232 Z M32.089,32.629 C28.229,32.629 25.089,29.489 25.089,25.629 C25.089,21.77 28.229,18.629 32.089,18.629 C35.948,18.629 39.089,21.77 39.089,25.629 C39.089,29.489 35.948,32.629 32.089,32.629 L32.089,32.629 Z M32,59 L19.227,52.476 C19.58,42.665 25.187,35.064 32.197,35.064 C39.09,35.064 44.73,42.689 45.156,52.281 L32,59 Z M32,3 L5,16.789 L5,47.457 L32,61.246 L59,47.457 L59,16.789 L32,3 Z" id="Fill-5"></path>
+        </g>
+    </g>
+</svg>
