@@ -165,7 +165,7 @@
             "date":"10/1/2015",
             "link":"https://aws.amazon.com/about-aws/whats-new/2015/10/introducing-amazon-elasticsearch-service/"
          },
-         "icon":"icons/Arch_Amazon-Elasticsearch-Service_64.svg"
+         "icon":"icons/Arch_Amazon-OpenSearch-Service_64.svg"
       },
       {
          "name":"Amazon Quicksight",
@@ -231,7 +231,7 @@
             "date":"5/30/2019",
             "link":"https://aws.amazon.com/about-aws/whats-new/2019/05/amazon_managed_streaming_for_apache_kafka_amazon_msk_is_now_generally_available/"
          },
-         "icon":"icons/Arch_Amazon-Managed-Streaming-for-Kafka_64.svg"
+         "icon":"icons/Arch_Amazon-Managed-Streaming-for-Apache-Kafka_64.svg"
       },
       {
          "name":"Amazon Appflow",
@@ -376,7 +376,7 @@
             "date":"11/30/2017",
             "link":"https://aws.amazon.com/about-aws/whats-new/2017/11/alexa-for-business-is-now-generally-released/"
          },
-         "icon":"icons/Arch_Alexa-for-Business_64.svg"
+         "icon":"icons/Arch_Alexa-For-Business_64.svg"
       },
       {
          "name":"Amazon EC2",
@@ -404,7 +404,7 @@
             "date":"8/13/2020",
             "link":"https://aws.amazon.com/about-aws/whats-new/2020/08/quantum-computing-available-aws-through-amazon-braket/"
          },
-         "icon":"icons/Arch_AWS-Braket_64.svg"
+         "icon":"icons/Arch_Amazon-Braket_64.svg"
       },
       {
          "name":"Amazon Wavelength",
@@ -518,7 +518,7 @@
             "date":"6/5/2018",
             "link":"https://aws.amazon.com/about-aws/whats-new/2018/06/amazon-elastic-container-service-for-kubernetes-eks-now-ga/"
          },
-         "icon":"icons/Arch_Amazon-Elastic-Container-Service-for-Kubernetes_64.svg"
+         "icon":"icons/Arch_Amazon-Elastic-Kubernetes-Service_64.svg"
       },
       {
          "name":"AWS Outposts",
@@ -532,7 +532,7 @@
             "date":"12/3/2019",
             "link":"https://aws.amazon.com/blogs/aws/aws-outposts-now-available-order-your-racks-today/"
          },
-         "icon":"icons/Arch_AWS-Outposts_64.svg"
+         "icon":"icons/Arch_AWS-Outposts-family_64.svg"
       },
       {
          "name":"Amazon Simple Email Service (SES)",
@@ -542,7 +542,7 @@
             "date":"1/25/2011",
             "link":"https://aws.amazon.com/about-aws/whats-new/2011/01/25/introducing-amazon-simple-email-service-beta/"
          },
-         "icon":"icons/Arch_Amazon-Simple-Email-Service-SES_64.svg"
+         "icon":"icons/Arch_Amazon-Simple-Email-Service_64.svg"
       },
       {
          "name":"Amazon Mobile Analytics",
@@ -647,7 +647,7 @@
             "date":"9/10/2019",
             "link":"https://aws.amazon.com/blogs/aws/now-available-amazon-quantum-ledger-database-qldb/"
          },
-         "icon":"icons/Arch_Amazon-Quantum-Ledger-Database-QLDB_64.svg"
+         "icon":"icons/Arch_Amazon-Quantum-Ledger-Database_64.svg"
       },
       {
          "name":"Amazon Keyspaces (for Apache Cassandra)",
@@ -661,7 +661,7 @@
             "date":"04/23/2020",
             "link":"https://aws.amazon.com/blogs/aws/new-amazon-keyspaces-for-apache-cassandra-is-now-generally-available/"
          },
-         "icon":"icons/Arch_Amazon-Managed-Apache-Cassandra-Service_64.svg"
+         "icon":"icons/Arch_Amazon-Keyspaces_64.svg"
       },
       {
          "name":"Amazon Timestream",
@@ -685,7 +685,7 @@
             "date":"1/9/2019",
             "link":"https://aws.amazon.com/about-aws/whats-new/2019/01/amazon-documentdb-with-mongodb-compatibility-generally-available/"
          },
-         "icon":"icons/Arch_Amazon-DocumentDB-with-MongoDB-compatibility_64.svg"
+         "icon":"icons/Arch_Amazon-DocumentDB_64.svg"
       },
       {
          "name":"AWS CodeArtifact",
@@ -819,7 +819,7 @@
             "date":"12/1/2016",
             "link":"https://aws.amazon.com/about-aws/whats-new/2016/12/introducing-amazon-appstream-2-0-stream-desktop-applications-from-aws/"
          },
-         "icon":"icons/Arch_Amazon-AppStream-20_64.svg"
+         "icon":"icons/Arch_Amazon-AppStream_64.svg"
       },
       {
          "name":"Amazon WorkLink",
@@ -867,7 +867,7 @@
             "date":"6/7/2017",
             "link":"https://aws.amazon.com/about-aws/whats-new/2017/06/aws-greengrass-is-now-generally-available/"
          },
-         "icon":"icons/Arch_AWS-Greengrass_64.svg"
+         "icon":"icons/Arch_AWS-IoT-Greengrass_64.svg"
       },
       {
          "name":"AWS IoT Device Management",
@@ -887,7 +887,7 @@
             "date":"11/29/2017",
             "link":"https://aws.amazon.com/about-aws/whats-new/2017/11/amazon-freertos-iot-operation-system-for-microcontrollers/"
          },
-         "icon":"icons/Arch_Amazon-FreeRTOS_64.svg"
+         "icon":"icons/Arch_FreeRTOS_64.svg"
       },
       {
          "name":"AWS IoT Analytics",
@@ -1101,7 +1101,7 @@
             "date":"04/02/2020",
             "link":"https://aws.amazon.com/about-aws/whats-new/2020/04/aws-deepcomposer-now-generally-available/"
          },
-         "icon":"icons/Arch_AWS-DeepComposer_primary-bg_64.svg"
+         "icon":"icons/Arch_AWS-DeepComposer_64.svg"
       },
       {
          "name":"Amazon Elastic Inference",
@@ -1139,7 +1139,7 @@
             "date":"12/3/2019",
             "link":"https://aws.amazon.com/blogs/aws/amazon-ec2-update-inf1-instances-with-aws-inferentia-chips-for-high-performance-cost-effective-inferencing/"
          },
-         "icon":"icons/Arch_Amazon-Inferentia_64.svg"
+         "icon":"icons/Arch-Category_Compute_64.svg"
       },
       {
          "name":"AWS DeepRacer",
@@ -1190,7 +1190,8 @@
          "released":{
             "date":"4/22/2020",
             "link":"https://aws.amazon.com/about-aws/whats-new/2020/04/aws-chatbot-now-generally-available/"
-         }
+         },
+         "icon":"icons/Arch_AWS-Chatbot_64.svg"
       },
       {
          "name":"AWS CloudFormation",
@@ -1438,7 +1439,7 @@
             "date":"10/7/2015",
             "link":"https://aws.amazon.com/about-aws/whats-new/2015/10/aws-import-export-snowball/"
          },
-         "icon":"icons/Arch_AWS-Snowball-Family_64.svg"
+         "icon":"icons/Arch_AWS-Snowball_64.svg"
       },
       {
          "name":"AWS Database Migration Service",
@@ -1502,7 +1503,7 @@
             "date":"11/26/2018",
             "link":"https://aws.amazon.com/about-aws/whats-new/2018/11/aws-transfer-for-sftp-fully-managed-sftp-for-s3/"
          },
-         "icon":"icons/Arch_AWS-Transfer-for-SFTP_64.svg"
+         "icon":"icons/Arch_AWS-Transfer-Family_64.svg"
       },
       {
          "name":"AWS Device Farm",
@@ -1604,7 +1605,7 @@
             "date":"8/3/2011",
             "link":"https://aws.amazon.com/about-aws/whats-new/2011/08/03/Announcing-VPC-GA/"
          },
-         "icon":"icons/Arch_Amazon-VPC_64.svg"
+         "icon":"icons/Arch_Amazon-Virtual-Private-Cloud_64.svg"
       },
       {
          "name":"Amazon API Gateway",
@@ -1868,7 +1869,7 @@
             "date":"8/20/2012",
             "link":"https://aws.amazon.com/about-aws/whats-new/2012/08/20/announcing-amazon-glacier/"
          },
-         "icon":"icons/Arch_Amazon-S3-Glacier_64.svg"
+         "icon":"icons/Arch_Amazon-Simple-Storage-Service-Glacier_64.svg"
       },
       {
          "name":"AWS Storage Gateway",
@@ -1896,7 +1897,7 @@
             "date":"6/28/2016",
             "link":"https://aws.amazon.com/about-aws/whats-new/2016/06/amazon-elastic-file-system-efs-is-now-generally-available/"
          },
-         "icon":"icons/Arch_Amazon-Elastic-File-System-EFS_64.svg"
+         "icon":"icons/Arch_Amazon-Elastic-File-System_64.svg"
       },
       {
          "name":"Amazon FSx for Lustre",
@@ -1916,7 +1917,7 @@
             "date":"11/28/2018",
             "link":"https://aws.amazon.com/about-aws/whats-new/2018/11/amazon-fsx-windows/"
          },
-         "icon":"icons/Arch_Amazon-FSx-for-Windows-File-Server_64.svg"
+         "icon":"icons/Arch_Amazon-FSx-for-WFS_64.svg"
       },
       {
          "name":"AWS Backup",
@@ -1936,7 +1937,7 @@
             "date":"7/11/2019",
             "link":"https://aws.amazon.com/about-aws/whats-new/2019/07/introducing-amazon-eventbridge/"
          },
-         "icon":"icons/Arch_Amazon-Event-Bridge_64.svg"
+         "icon":"icons/Arch_Amazon-EventBridge_64.svg"
       }
    ]
 }
