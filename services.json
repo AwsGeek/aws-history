@@ -1973,6 +1973,10 @@
       "name": "Amazon Managed Service for Prometheus",
       "category": "Management & Governance",
       "product": "https://aws.amazon.com/prometheus/",
+      "announced": {
+        "date": "12/15/2020",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2020/12/aws-announces-amazon-managed-service-for-prometheus/"
+      },
       "icon": "icons/Arch_Amazon-Managed-Service-for-Prometheus_64.svg"
     },
     {
@@ -1985,6 +1989,14 @@
       "name": "Amazon Managed Grafana",
       "category": "Management & Governance",
       "product": "https://aws.amazon.com/grafana/",
+      "announced": {
+        "date": "12/15/2020",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2020/12/aws-announces-amazon-managed-service-for-grafana-in-preview/"
+      },
+      "released": {
+        "date": "8/31/2021",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2021/08/amazon-managed-grafana-saml-2-0-grafana-v-8-0/"
+      },
       "icon": "icons/Arch_Amazon-Managed-Service-for-Grafana_64.svg"
     },
     {
