@@ -1950,7 +1950,7 @@
       "icon": "icons/Arch_AWS-Backup_64.svg"
     },
     {
-      "name": "Amazon Event Bridge",
+      "name": "Amazon EventBridge",
       "category": "Application Integration",
       "product": "https://aws.amazon.com/eventbridge/",
       "released": {
@@ -2043,18 +2043,20 @@
       "name": "Amazon Managed Workflows for Apache Airflow (MWAA)",
       "category": "Application Integration",
       "product": "https://aws.amazon.com/managed-workflows-for-apache-airflow/",
+      "announced": {
+        "date": "11/24/2020",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2020/11/introducing-amazon-managed-workflows-for-apache-airflow-mwaa/"
+      },
       "icon": "icons/Arch_Amazon-Managed-Workflows-for-Apache-Airflow_64.svg"
-    },
-    {
-      "name": "Amazon EventBridge",
-      "category": "Application Integration",
-      "product": "https://aws.amazon.com/eventbridge/",
-      "icon": "icons/Arch_Amazon-EventBridge_64.svg"
     },
     {
       "name": "Amazon AppFlow",
       "category": "Application Integration",
       "product": "https://aws.amazon.com/appflow/",
+      "announced": {
+        "date": "4/22/2020",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2020/04/introducing-amazon-appflow/"
+      },
       "icon": "icons/Arch_Amazon-AppFlow_64.svg"
     },
     {
