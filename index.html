@@ -161,9 +161,13 @@
     });    
     $( "#col-released" ).click(function(event) {
         sortServices("#col-released", function(a, b) {
-            adate = a.released ? a.released.date : a.announced.date;
-            bdate = b.released ? b.released.date : b.announced.date;
-            return (Date.parse(adate) < Date.parse(bdate) ? -1 : 1) * order;
+            if a.announced {
+                adate = a.released ? a.released.date : a.announced.date;
+                bdate = b.released ? b.released.date : b.announced.date;
+                return (Date.parse(adate) < Date.parse(bdate) ? -1 : 1) * order;
+            } else {
+                return 1
+            }
         });
     });    
     function formatDate(date) {
