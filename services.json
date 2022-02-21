@@ -24,6 +24,10 @@
             "color":"#FF5252", 
             "icon":"icons/Arch-Category_Business-Applications_64.svg"
          },
+         "Containers":  {
+            "color":"#FF9900",
+            "icon":"icons/Arch-Category_Containers_64.svg"
+         },
          "Compute":  {
             "color":"#FF9900",
             "icon":"icons/Arch-Category_Compute_64.svg"
@@ -43,6 +47,10 @@
          "End User Computing":  {
             "color":"#56C0A7", 
             "icon":"icons/Arch-Category_End-User-Computing_64.svg"
+         },
+         "Front-End Web & Mobile":  {
+            "color":"#FF5252", 
+            "icon":"icons/Arch-Category_Mobile_64.svg"
          },
          "Game Tech":  {
             "color":"#A166FF", 
@@ -68,13 +76,13 @@
             "color":"#56C0A7", 
             "icon":"icons/Arch-Category_Migration-and-Transfer_64.svg"
          },
-         "Mobile":  {
-            "color":"#FF5252", 
-            "icon":"icons/Arch-Category_Mobile_64.svg"
-         },
          "Networking & Content Delivery":  {
             "color":"#A166FF", 
             "icon":"icons/Arch-Category_Networking-and-Content-Delivery_64.svg"
+         },
+         "Quantum Technologies":  {
+            "color":"#FF9900", 
+            "icon":"icons/Arch-Category_Quantum-Technologies_64.svg"
          },
          "Robotics":  {
             "color":"#FF5252", 
@@ -88,6 +96,10 @@
             "color":"#FF5252", 
             "icon":"icons/Arch-Category_Security-Identity-and-Compliance_64.svg"
          },
+         "Serverless":  {
+            "color":"#A166FF", 
+            "icon":"icons/Arch-Category_Serverless_64.svg"
+         }
          "Storage":  {
             "color":"#6CAE3E", 
             "icon":"icons/Arch-Category_Storage_64.svg"
@@ -546,7 +558,7 @@
       },
       {
          "name":"Amazon Mobile Analytics",
-         "category":"Mobile",
+         "category":"Front-End Web & Mobile",
          "product":"https://aws.amazon.com/mobileanalytics/",
          "released":{
             "date":"7/10/2014",
@@ -1507,7 +1519,7 @@
       },
       {
          "name":"AWS Device Farm",
-         "category":"Mobile",
+         "category":"Front-End Web & Mobile",
          "product":"https://aws.amazon.com/device-farm/",
          "released":{
             "date":"7/9/2015",
@@ -1517,7 +1529,7 @@
       },
       {
          "name":"Amazon Pinpoint",
-         "category":"Mobile",
+         "category":"Front-End Web & Mobile",
          "product":"https://aws.amazon.com/pinpoint/",
          "released":{
             "date":"12/1/2016",
@@ -1527,7 +1539,7 @@
       },
       {
          "name":"AWS Amplify",
-         "category":"Mobile",
+         "category":"Front-End Web & Mobile",
          "product":"https://aws.amazon.com/amplify/",
          "released":{
             "date":"11/21/2017",
@@ -1537,7 +1549,7 @@
       },
       {
          "name":"AWS AppSync",
-         "category":"Mobile",
+         "category":"Front-End Web & Mobile",
          "product":"https://aws.amazon.com/appsync/",
          "announced":{
             "date":"11/28/2017",
