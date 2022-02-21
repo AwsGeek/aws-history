@@ -2033,6 +2033,10 @@
       "name": "AWS Resilience Hub",
       "category": "Management & Governance",
       "product": "https://aws.amazon.com/resilience-hub/",
+      "announced": {
+        "date": "11/10/2021",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2021/11/aws-resilience-hub-general-availability/"
+      },
       "icon": "icons/Arch_AWS-Resilience-Hub_64.svg"
     },
     {
