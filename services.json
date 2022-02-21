@@ -2094,7 +2094,7 @@
     {
       "name": "AWS App2Container",
       "category": "Containers",
-      "product": "https://aws.amazon.com/app2container/",
+      "product": "https://aws.amazon.com/app2container/"
     },
     {
       "name": "Red Hat OpenShift Service on AWS",
@@ -2111,7 +2111,7 @@
     {
       "name": "AWS Copilot",
       "category": "Containers",
-      "product": "https://aws.amazon.com/containers/copilot/",
+      "product": "https://aws.amazon.com/containers/copilot/"
     },
     {
       "name": "Amazon Elastic Container Service (ECS)",
@@ -2128,7 +2128,7 @@
     {
       "name": "AWS Partner Device Catalog",
       "category": "Internet of Things",
-      "product": "https://devices.amazonaws.com/",
+      "product": "https://devices.amazonaws.com/"
     },
     {
       "name": "AWS IoT FleetWise (Preview)",
@@ -2145,7 +2145,7 @@
     {
       "name": "AWS IoT EduKit",
       "category": "Internet of Things",
-      "product": "https://aws.amazon.com/iot/edukit/",
+      "product": "https://aws.amazon.com/iot/edukit/"
     },
     {
       "name": "AWS IoT RoboRunner (Preview)",
@@ -2222,7 +2222,7 @@
     {
       "name": "Reserved Instance (RI) Reporting",
       "category": "Cloud Financial Management",
-      "product": "https://aws.amazon.com/aws-cost-management/reserved-instance-reporting/",
+      "product": "https://aws.amazon.com/aws-cost-management/reserved-instance-reporting/"
     },
     {
       "name": "AWS App Runner",
@@ -2347,7 +2347,7 @@
     {
       "name": "AWS Inferentia",
       "category": "Machine Learning",
-      "product": "https://aws.amazon.com/machine-learning/inferentia/",
+      "product": "https://aws.amazon.com/machine-learning/inferentia/"
     },
     {
       "name": "AWS Panorama",
@@ -2388,7 +2388,7 @@
     {
       "name": "PyTorch on AWS",
       "category": "Machine Learning",
-      "product": "https://aws.amazon.com/pytorch/",
+      "product": "https://aws.amazon.com/pytorch/"
     },
     {
       "name": "Amazon Lookout for Equipment",
