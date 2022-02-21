@@ -111,7 +111,7 @@
             "date":"8/20/2008",
             "link":"https://aws.amazon.com/about-aws/whats-new/2008/08/20/amazon-elastic-block-store-now-available/"
          },
-         "icon":"icons/Arch_Amazon-Elastic-Block-Store-EBS_64.svg"
+         "icon":"icons/Arch_Amazon-Elastic-Block-Store_64.svg"
       },
       {
          "name":"Amazon EMR",
@@ -254,7 +254,7 @@
             "date":"7/11/2006",
             "link":"https://aws.amazon.com/about-aws/whats-new/2006/07/11/amazon-simple-queue-service-amazon-sqs-now-generally-available/"
          },
-         "icon":"icons/Arch_Amazon-Simple-Queue-Service-SQS_64.svg"
+         "icon":"icons/Arch_Amazon-Simple-Queue-Service_64.svg"
       },
       {
          "name":"Amazon Simple Notification Service (SNS)",
@@ -264,7 +264,7 @@
             "date":"4/7/2010",
             "link":"https://aws.amazon.com/about-aws/whats-new/2010/04/07/announcing-amazon-simple-notification-service/"
          },
-         "icon":"icons/Arch_Amazon-Simple-Notification-Service-SNS_64.svg"
+         "icon":"icons/Arch_Amazon-Simple-Notification-Service_64.svg"
       },
       {
          "name":"AWS Simple Workflow",
@@ -1858,7 +1858,7 @@
             "date":"3/13/2006",
             "link":"https://aws.amazon.com/about-aws/whats-new/2006/03/13/announcing-amazon-s3---simple-storage-service/"
          },
-         "icon":"icons/Arch_Amazon-Simple-Storage-Service-S3_64.svg"
+         "icon":"icons/Arch_Amazon-Simple-Storage-Service_64.svg"
       },
       {
          "name":"Amazon S3 Glacier",
