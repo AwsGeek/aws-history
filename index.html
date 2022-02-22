@@ -116,11 +116,9 @@
 </body>
 <script>
     var services = [];
-    var categories = {};
     $(document).ready(function() {
         $.get( "services.json", function( data ) {
-            services = data.services;
-            categories = data.categories;
+            services = data;
             services.forEach(function (service) {
                 console.log(service.name)
                 // Extract the prefix
@@ -130,8 +128,6 @@
                 service.name = service.name.replace(/^AWS|^Amazon/, "").trim();
                 // If announced date is empty, copy from released date
                 service.announced = service.announced ? service.announced : service.released;
-                // Use the category icon if necessary
-                service.icon = service.icon ? service.icon : categories[service.category].icon;
             });
             $( "#col-released" ).click();
         }, "json" );
