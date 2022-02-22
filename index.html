@@ -156,13 +156,13 @@
     });    
     $( "#col-announced" ).click(function(event) {
         sortServices("#col-announced", function(a, b) {
-            return (Date.parse(a.announced.date) < Date.parse(b.announced.date) ? -1 : 1) * order;
+            return (Date.parse(a.announce_date) < Date.parse(b.announce_date) ? -1 : 1) * order;
         });
     });    
     $( "#col-released" ).click(function(event) {
         sortServices("#col-released", function(a, b) {
-            adate = a.released ? a.released.date : (a.announced ? a.announced.date : '1/1/2222');
-            bdate = b.released ? b.released.date : (b.announced ? b.announced.date : '1/1/2222');
+            adate = a.release_date ? a.release_date : (a.announce_date ? a.announce_date : '1/1/2222');
+            bdate = b.release_date ? b.release_date : (b.announce_date ? b.announce_date : '1/1/2222');
             return (Date.parse(adate) < Date.parse(bdate) ? -1 : 1) * order;
         });
     });    
@@ -172,21 +172,25 @@
     function replaceTable() {
         $( "#services tbody" ).empty();
         services.forEach(function (service) {
-                
-            announced = service.announced ? service.announced : service.released;
-            $announced = announced ? $('<a>',{
+
+            announce_date = service.announce_date ? service.announce_date : service.release_date;
+            announce_link = service.announce_link ? service.announce_link : service.release_link;
+            $announced = announce_date ? $('<a>',{
                 target: "_blank",
-                text: formatDate(announced.date),
-                href: announced.link,
-                onclick: "trackOutboundLink('" + announced.link + "'); return false;"
+                text: formatDate(announce_date),
+                href: announce_link,
+                onclick: "trackOutboundLink('" + announce_link + "'); return false;"
             }) : "";            
-            released = service.released ? service.released : "";
-            $released = released ? $('<a>',{
+
+            release_date = service.release_date ? service.release_date : "";
+            release_link = service.release_link ? service.release_link : "";
+            $released = release_date ? $('<a>',{
                 target: "_blank",
-                text: formatDate(released.date),
-                href: released.link,
-                onclick: "trackOutboundLink('" + released.link + "'); return false;"
+                text: formatDate(release_date),
+                href: release_link,
+                onclick: "trackOutboundLink('" + release_link + "'); return false;"
             }) : "";
+			
             $productlink = $('<a>',{
                 target: "_blank",
                 text: service.name,
@@ -194,7 +198,7 @@
                 onclick: "trackOutboundLink('" + service.product + "'); return false;"
             });
             console.log('  ' + service.category);
-            var $tr = $("<tr style='background-color: " + categories[service.category].color + "aa'>").append(
+            var $tr = $("<tr style='background-color: " + service.color + "aa'>").append(
                 $('<td class="icon">').prepend("<img src='" + service.icon + "' width='40' height='40' >"),
                 $('<td class="prefix">').html(service.prefix),
                 $('<td class="service">').html($productlink), 
@@ -207,3 +211,4 @@
     }
 </script>
 </html>
+
